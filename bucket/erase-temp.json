@@ -1,0 +1,25 @@
+{
+    "homepage": "https://www.nodesoft.com/erasetemp",
+    "description": "A utility that automatically deletes old temporary files from your computer",
+    "license": {
+        "identifier": "Freeware",
+        "url": "https://www.nodesoft.com/erasetemp"
+    },
+    "version": "3.5.3.3",
+    "url": "https://www.nodesoft.com/erasetemp/download#/dl.7z",
+    "hash": "CDD0354FF758E9D4623111629FEA4A8C6DACBDA340D08FAD0FCD5F72BC12A51B",
+    "bin": "EraseTemp.exe",
+    "shortcuts": [
+        [
+            "EraseTemp.exe",
+            "EraseTemp"
+        ]
+    ],
+    "checkver": {
+        "url": "https://www.nodesoft.com/erasetemp/download",
+        "xpath": "/html/body/div/div[3]/div/span"
+    },
+    "autoupdate": {
+        "url": "https://www.nodesoft.com/erasetemp/download"
+    }
+}

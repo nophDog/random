@@ -1,0 +1,26 @@
+{
+    "homepage": "https://riot-optimizer.com/",
+    "description": "The image optimizer is lightweight, fast and simple to use, yet powerful for advanced users",
+    "license": {
+        "identifier": "Freeware",
+        "url": "https://riot-optimizer.com/about/"
+    },
+    "version": "0.6.2",
+    "url": "https://www.dropbox.com/s/rpi9v57y1yx4qpd/Riot.zip?dl=1",
+    "hash": "202FC050B98279ADAEB27BC89C0A934F49765069C8D28AC4604ACCE2D7BB9018",
+    "bin": "Riot.exe",
+    "shortcuts": [
+        [
+            "Riot.exe",
+            "Riot"
+        ]
+    ],
+    "extract_dir": "Riot",
+    "checkver": {
+        "url": "https://riot-optimizer.com/download/",
+        "regex": ">Latest\\sversion\\s(\\d.\\d\\.\\d)\\s<"
+    },
+    "autoupdate": {
+        "url": "https://www.dropbox.com/s/rpi9v57y1yx4qpd/Riot.zip?dl=1"
+    }
+}

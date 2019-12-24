@@ -1,0 +1,22 @@
+{
+    "homepage": "https://github.com/differentrain/Remote-Volume-Controller",
+    "description": "Control your windows volume on other device by web browser",
+    "license": {
+        "identifier": "MIT",
+        "url": "https://github.com/differentrain/Remote-Volume-Controller/blob/master/LICENSE"
+    },
+    "version": "1.0.0",
+    "url": "https://github.com/differentrain/Remote-Volume-Controller/releases/download/$version/bin.zip",
+    "hash": "C574DEFA7741FF8930DC47A00420F981D454FC8C2A54B2E03CFCE256F114AB6C",
+    "bin": [["RemoteVolumeController.exe", "RemoteVolumeController"]],
+    "shortcuts": [
+        [
+            "RemoteVolumeController.exe",
+            "Remote Volume Controller"
+        ]],
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/differentrain/Remote-Volume-Controller/releases/download/$version/bin.zip"
+    }
+}
+

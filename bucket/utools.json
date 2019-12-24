@@ -1,0 +1,29 @@
+{
+    "homepage": "https://u.tools/",
+    "description": "uTools 是一个极简、插件化、跨平台的现代桌面软件。通过自由选配丰富的插件，打造你得心应手的工具集合。",
+    "license": "Unknown",
+    "version": "0.8.7-beta",
+    "url": "https://resource.u-tools.cn/currentversion/uTools-0.8.7-beta.exe",
+    "hash": "B13880FF270823BB40D202A3D7D86EBB39AB6F2E4C7AEE62589FDA9E456882B3",
+    "bin": "uTools.exe",
+    "shortcuts": [
+        [
+            "uTools.exe",
+            "uTools"
+        ]
+    ],
+    "pre_install": [
+        "Expand-7zipArchive -Path \"$dir\\$fname\" -DestinationPath \"$dir\\_tmp\"",
+        "Get-ChildItem -Path \"$dir\\_tmp\" -Depth \"2\" -Include \"*.7z\" | Move-Item -Destination \"$dir\\_tmp\"",
+        "Expand-7zipArchive -Path \"$dir\\_tmp\\app-64.7z\" -DestinationPath \"$dir\"",
+        "Remove-Item -Recurse \"$dir\\_tmp\", \"$dir\\$fname\""
+    ],
+    "checkver": {
+        "url": "https://u.tools/download.html",
+        "xpath": "/html/body/div/div[2]/div/div/div/div[1]/div/div/div[2]/h6/span[1]"
+    },
+    "autoupdate": {
+        "url": "https://resource.u-tools.cn/currentversion/uTools-$version.exe#/dl.7z"
+    },
+    "depends": "7zip"
+}

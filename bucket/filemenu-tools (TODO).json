@@ -1,0 +1,29 @@
+{
+    "homepage": "https://www.lopesoft.com/index.php/en/products/filemenutools",
+    "description": "An application which lets you customize the context menu of Windows File Explorer",
+    "license": "MIT License",
+    "version": "0.8.7-beta",
+    "url": "https://www.lopesoft.com/fmtools/FileMenuTools-portable.exe",
+    "hash": "md5:ee695e7591d21ec818efa801c53b78ab",
+    "bin": "",
+    "shortcuts": [
+        [
+            "uTools.exe",
+            "uTools"
+        ]
+    ],
+    "pre_install": [
+        "Expand-7zipArchive -Path \"$dir\\$fname\" -DestinationPath \"$dir\\_tmp\"",
+        "Get-ChildItem -Path \"$dir\\_tmp\" -Depth \"2\" -Include \"*.7z\" | Move-Item -Destination \"$dir\\_tmp\"",
+        "Expand-7zipArchive -Path \"$dir\\_tmp\\app-64.7z\" -DestinationPath \"$dir\"",
+        "Remove-Item -Recurse \"$dir\\_tmp\", \"$dir\\$fname\""
+    ],
+    "checkver": {
+        "url": "https://u.tools/download.html",
+        "xpath": "/html/body/div/div[2]/div/div/div/div[1]/div/div/div[2]/h6/span[1]"
+    },
+    "autoupdate": {
+        "url": "https://resource.u-tools.cn/currentversion/uTools-$version.exe#/dl.7z"
+    },
+    "depends": "7zip"
+}
