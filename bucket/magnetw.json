@@ -1,0 +1,30 @@
+{
+    "homepage": "https://github.com/xiandanin/magnetW",
+    "description": "磁力链接聚合搜索",
+    "license": {
+        "identifier": "GPL",
+        "url": "https://github.com/xiandanin/magnetW/blob/master/LICENSE"
+    },
+    "version": "3.0.0",
+    "url": "https://github.com/xiandanin/magnetW/releases/download/$version/magnetw-$version-win.exe",
+    "hash": "DBCC23234B698741A215D4D2C1384CFB2A093017692F13617582E8F253E6FEE9",
+    "bin": "磁力搜 For magnetW.exe",
+    "shortcuts": [
+        [
+            "磁力搜 For magnetW.exe",
+            "magnetW"
+        ]
+    ],
+    "pre_install": [
+        "Expand-7zipArchive -Path \"$dir\\$fname\" -DestinationPath \"$dir\\_tmp\"",
+        "Get-ChildItem -Path \"$dir\\_tmp\" -Depth \"2\" -Include \"*.7z\" | Move-Item -Destination \"$dir\\_tmp\"",
+        "Expand-7zipArchive -Path \"$dir\\_tmp\\app-64.7z\" -DestinationPath \"$dir\"",
+        "Remove-Item -Recurse \"$dir\\_tmp\", \"$dir\\$fname\""
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/xiandanin/magnetW/releases/download/$version/magnetw-$version-win.exe"
+    },
+    "depends": "7zip"
+}
+
