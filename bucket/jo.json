@@ -1,0 +1,17 @@
+{
+    "homepage": "https://github.com/jpmens/jo",
+    "description": "JSON output from a shell",
+    "license": {
+        "identifier": "Freeware",
+        "url": "https://github.com/jpmens/jo/blob/master/COPYING"
+    },
+    "version": "1.3",
+    "url": "https://github.com/jpmens/jo/releases/download/1.3/jo.exe",
+    "hash": "7C8E30DDE8FB8B305767FF2F230419A0C412D2872E7803135754F896598588AD",
+    "bin": [["jo.exe", "jo"]],
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/jpmens/jo/releases/download/$version/jo.exe"
+    }
+}
+
