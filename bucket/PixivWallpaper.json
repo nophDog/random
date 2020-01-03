@@ -9,6 +9,7 @@
     "url": "https://github.com/SingularityF/PixivWallpaper/releases/download/1.3.5/PixivWallpaper_v1.3.5.zip",
     "hash": "20F6C8EB67EC6F036764C6CCA5C7E0F9E86669DD2C895166BBAEF7F8EF9BBC62",
     "bin": "pixivwallpaperclient.exe",
+    "extract_dir": "PixivWallpaper_v1.3.5",
     "shortcuts": [
         [
             "pixivwallpaperclient.exe",
