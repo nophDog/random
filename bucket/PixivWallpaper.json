@@ -1,0 +1,23 @@
+{
+    "homepage": "https://github.com/SingularityF/PixivWallpaper",
+    "description": "Get anime style wallpapers from daily Pixiv high ranking illustrations",
+    "license": {
+        "identifier": "MIT",
+        "url": "https://github.com/SingularityF/PixivWallpaper/blob/master/LICENSE.md"
+    },
+    "version": "1.3.5",
+    "url": "https://github.com/SingularityF/PixivWallpaper/releases/download/1.3.5/PixivWallpaper_v1.3.5.zip",
+    "hash": "20F6C8EB67EC6F036764C6CCA5C7E0F9E86669DD2C895166BBAEF7F8EF9BBC62",
+    "bin": "pixivwallpaperclient.exe",
+    "shortcuts": [
+        [
+            "pixivwallpaperclient.exe",
+            "pixivwallpaperclient"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/SingularityF/PixivWallpaper/releases/download/$version/PixivWallpaper_v$version.zip"
+    }
+}
+
