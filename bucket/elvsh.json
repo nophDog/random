@@ -1,17 +1,17 @@
 {
-    "homepage": "elv.sh",
-    "description": "JSON output from a shell",
+    "homepage": "https://elv.sh",
+    "description": "A friendly interactive shell and an expressive programming language",
     "license": {
-        "identifier": "Freeware",
-        "url": "https://github.com/jpmens/jo/blob/master/COPYING"
+        "identifier": "BSD-2",
+        "url": "https://github.com/elves/elvish/blob/master/LICENSE"
     },
-    "version": "1.3",
-    "url": "https://github.com/jpmens/jo/releases/download/1.3/jo.exe",
-    "hash": "7C8E30DDE8FB8B305767FF2F230419A0C412D2872E7803135754F896598588AD",
-    "bin": [["jo.exe", "jo"]],
+    "version": "0.13",
+    "url": "https://dl.elv.sh/windows-amd64/elvish-v0.13.zip",
+    "hash": "8325E3F651C0A65608412EF45BCF408090340E60D419B4E1DA95294C22126EAF",
+    "bin": [["elvish-v0.13.exe", "elvish"]],
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/jpmens/jo/releases/download/$version/jo.exe"
+        "url": "https://github.com/elves/elvish/releases"
     }
 }
 
