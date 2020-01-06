@@ -1,0 +1,17 @@
+{
+    "homepage": "https://elv.sh",
+    "description": "A friendly interactive shell and an expressive programming language",
+    "license": {
+        "identifier": "BSD-2",
+        "url": "https://github.com/elves/elvish/blob/master/LICENSE"
+    },
+    "version": "0.13",
+    "url": "https://dl.elv.sh/windows-amd64/elvish-v0.13.zip",
+    "hash": "8325E3F651C0A65608412EF45BCF408090340E60D419B4E1DA95294C22126EAF",
+    "bin": [["elvish-v0.13.exe", "elvish"]],
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/elves/elvish/releases"
+    }
+}
+
