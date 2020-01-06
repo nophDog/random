@@ -30,7 +30,6 @@
             "mp2"
         ]
     ],
-    "extract_dir": "MusicPlayer2",
     "checkver": "github",
     "autoupdate": {
         "architecture": {
