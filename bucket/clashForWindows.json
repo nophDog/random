@@ -4,7 +4,7 @@
     "identifier": "Unknown",
     "version": "0.8.9",
     "url": "https://github.com/Fndroid/clash_for_windows_pkg/releases/download/0.8.9/Clash.for.Windows-0.8.9-win.7z",
-    "hash": "88382CA9370C6A61E764D5C6F5C142FEE0FBB0486FCE73FC34D329C93C9F05B1",
+    "hash": "8206E9C612EF9D7FCD58C1A084657DB5DA02B291443263D7F0D05F235FA6A91E",
     "bin": [
         [
             "Clash for Windows.exe",
