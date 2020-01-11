@@ -1,0 +1,24 @@
+{
+    "homepage": "https://xdown.org/",
+    "description": "免费无广告的 idm /torrent 合成体",
+    "license": "Freeware",
+    "version": "1.0.2.5",
+    "url": "https://cn-dl.xdown.org:2053/xdown-1.0.2.5.zip",
+    "hash": "8B82586643E7134C8817F96A022B2368E835C7E1FCCEF3FF99C72A9D2EBCD175",
+    "bin": "XDown.exe",
+    "extract_dir": "xdown",
+    "shortcuts": [
+        [
+            "XDown.exe",
+            "XDown"
+        ]
+    ],
+    "checkver": {
+        "url": "https://xdown.org/",
+        "regex": "Latest update version number:(\\d\\.\\d\\.\\d\\.\\d)"
+    },
+    "autoupdate": {
+        "url": "https://cn-dl.xdown.org:2053/xdown-$version.zip"
+    }
+}
+
