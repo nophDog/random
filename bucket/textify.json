@@ -16,8 +16,8 @@
         ]
     ],
     "pre_install": [
-        "Expand-7zipArchive -Path \"$dir\\$fname\" -DestinationPath \"$dir\"",
-        "Remove-Item -Recurse \"$dir\\$PLUGINSDIR\""
+        "Expand-7zipArchive -Path \"$dir\\$fname\" -DestinationPath \"$dir\\_tmp\"",
+        "Remove-Item -Recurse \"$dir\\_tmp\\$PLUGINSDIR\""
     ],
     "checkver": "github",
     "autoupdate": {
