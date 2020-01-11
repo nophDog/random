@@ -16,7 +16,7 @@
         ]
     ],
     "post_install": [
-        "Remove-Item -Recurse \"$dir\\$PLUGINSDIR\"",
+        "Remove-Item -Recurse -Force \"$dir\\$PLUGINSDIR\"",
         "Remove-Item -Path \"$dir\\uninstall.exe\""
     ],
     "checkver": "github",
