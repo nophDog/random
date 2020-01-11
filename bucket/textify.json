@@ -1,0 +1,30 @@
+{
+    "homepage": "https://github.com/m417z/Textify",
+    "description": "A small tool which allows to copy text from dialogs and controls which don’t allow it otherwise",
+    "license": {
+        "identifier": "GPL",
+        "url": "https://github.com/m417z/Textify/blob/master/LICENSE"
+    },
+    "version": "1.8",
+    "url": "https://rammichael.com/downloads/textify_setup.exe",
+    "hash": "45ED7853DAB311C1FB7C9CCA3186A41494C253326216C94711B13C36286B8CF8",
+    "bin": "Textify.exe",
+    "shortcuts": [
+        [
+            "Textify.exe",
+            "Textify"
+        ]
+    ],
+    "pre_install": [
+        "Expand-7zipArchive -Path \"$dir\\$fname\" -DestinationPath \"$dir\\_tmp\"",
+        "Get-ChildItem -Path \"$dir\\_tmp\" -Depth \"2\" -Include \"*.7z\" | Move-Item -Destination \"$dir\\_tmp\"",
+        "Expand-7zipArchive -Path \"$dir\\_tmp\\app-64.7z\" -DestinationPath \"$dir\"",
+        "Remove-Item -Recurse \"$dir\\_tmp\", \"$dir\\$fname\""
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/m417z/Textify/releases"
+    },
+    "depends": "7zip"
+}
+
