@@ -15,10 +15,6 @@
             "Textify"
         ]
     ],
-    "pre_install": [
-        "Remove-Item -Recurse \"$dir\\$PLUGINSDIR\"",
-        "Remove-Item -Path \"$dir\\uninstall.exe\""
-    ],
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/m417z/Textify/releases"
