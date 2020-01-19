@@ -1,0 +1,42 @@
+{
+    "homepage": "https://github.com/cteamx/Thief-Book",
+    "description": "Downloader for website LIBGEN.IS",
+    "license": "Unknown",
+    "version": "3.2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/cteamx/Thief-Book/releases/download/3.2.0/thief-book-3.2.0-win64.zip",
+            "hash": "8DD02C5A2517D808B2A0E6E65A491B2DC48B45994132E4086B235E05715F7199",
+            "extract_dir": "thief-book-3.2.0-win64"
+        },
+        "32bit": {
+            "url": "https://github.com/cteamx/Thief-Book/releases/download/3.2.0/thief-book-3.2.0-win32.zip",
+            "hash": "0568D899B27F7594CEA6F7F364DFC0F09E9D37C80603E350FBF1809188A3FA3E",
+            "extract_dir": "thief-book-3.2.0-win32"
+        }
+    },
+    "shortcuts": [
+        [
+            "thief-book.exe",
+            "thief-book"
+        ]
+    ],
+    "bin": [
+        [
+            "thief-book.exe",
+            "thief-book"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/cteamx/Thief-Book/releases/download/$version/thief-book-$version-win64.zip"
+            },
+            "32bit": {
+                "url": "https://github.com/cteamx/Thief-Book/releases/download/$version/thief-book-$version-win32.zip"
+            }
+        }
+    }
+}
+
