@@ -1,0 +1,28 @@
+{
+    "homepage": "https://github.com/mbdavid/LiteDB.Studio",
+    "description": "A GUI tool for viewing and editing documents for LiteDB",
+    "license": {
+        "identifier": "MIT",
+        "url": "https://github.com/mbdavid/LiteDB.Studio/blob/master/LICENSE"
+    },
+    "version": "0.5.2",
+    "url": "https://github.com/mbdavid/LiteDB.Studio/releases/download/v0.5.2/LiteDB.Studio.exe",
+    "hash": "41EB16114899813B4E13AC9715757BFE685E310A78848EFDE3FAAC6EFCBC5AFE",
+    "shortcuts": [
+        [
+            "LiteDB.Studio.exe",
+            "LiteDB Studio"
+        ]
+    ],
+    "bin": [
+        [
+            "LiteDB.Studio.exe",
+            "liteStudio"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": "https://github.com/mbdavid/LiteDB.Studio/releases/download/v$version/LiteDB.Studio.exe"
+        }
+    }
+}
+
