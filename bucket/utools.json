@@ -1,29 +1,53 @@
 {
     "homepage": "https://u.tools/",
-    "description": "uTools 是一个极简、插件化、跨平台的现代桌面软件。通过自由选配丰富的插件，打造你得心应手的工具集合。",
+    "description": "Your productive tools set and launcher.",
     "license": "Unknown",
-    "version": "0.8.7-beta",
-    "url": "https://resource.u-tools.cn/currentversion/uTools-0.8.7-beta.exe",
-    "hash": "B13880FF270823BB40D202A3D7D86EBB39AB6F2E4C7AEE62589FDA9E456882B3",
-    "bin": "uTools.exe",
+    "version": "0.8.9-beta",
+    "architecture": {
+        "64bit": {
+            "url": "https://resource.u-tools.cn/currentversion/uTools-0.8.9-beta.exe#/dl.7z",
+            "hash": "sha512:31d5bed67ed6e3efa49c17be3b758d63d25f9c315a68f88b5d11194280ef62db2e6a4bded411544cca37fc83f95234e5c9e26f068a2935937786f704dd9c681b",
+            "installer": {
+                "script": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR/app-64.7z\" \"$dir\""
+            }
+        },
+        "32bit": {
+            "url": "https://resource.u-tools.cn/currentversion/uTools-0.8.9-beta-ia32.exe#/dl.7z",
+            "hash": "sha512:621391eb9702a01b480f6bbe24bbf241135e3da5d9fb703f5ca1fa9c80c1d847fbf41513dd23a8af26b161935ba47e9996636c434b2021d531c53e5d29f01ab4",
+            "installer": {
+                "script": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR/app-32.7z\" \"$dir\""
+            }
+        }
+    },
+    "post_install": "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\Uninstall uTools.exe\" -Force -Recurse",
     "shortcuts": [
         [
             "uTools.exe",
             "uTools"
         ]
     ],
-    "pre_install": [
-        "Expand-7zipArchive -Path \"$dir\\$fname\" -DestinationPath \"$dir\\_tmp\"",
-        "Get-ChildItem -Path \"$dir\\_tmp\" -Depth \"2\" -Include \"*.7z\" | Move-Item -Destination \"$dir\\_tmp\"",
-        "Expand-7zipArchive -Path \"$dir\\_tmp\\app-64.7z\" -DestinationPath \"$dir\"",
-        "Remove-Item -Recurse \"$dir\\_tmp\", \"$dir\\$fname\""
-    ],
     "checkver": {
-        "url": "https://u.tools/download.html",
-        "xpath": "/html/body/div/div[2]/div/div/div/div[1]/div/div/div[2]/h6/span[1]"
+        "url": "https://resource.u-tools.cn/currentversion/latest.yml?",
+        "regex": "uTools-([\\w.-]+).exe"
     },
     "autoupdate": {
-        "url": "https://resource.u-tools.cn/currentversion/uTools-$version.exe#/dl.7z"
-    },
-    "depends": "7zip"
+        "architecture": {
+            "64bit": {
+                "url": "https://resource.u-tools.cn/currentversion/uTools-$version.exe#/dl.7z",
+                "hash": {
+                    "url": "https://resource.u-tools.cn/currentversion/latest.yml?",
+                    "mode": "extract",
+                    "regex": "sha512: $base64"
+                }
+            },
+            "32bit": {
+                "url": "https://resource.u-tools.cn/currentversion/uTools-$version-ia32.exe#/dl.7z",
+                "hash": {
+                    "url": "https://resource.u-tools.cn/currentversion/latest-ia32.yml?",
+                    "mode": "extract",
+                    "regex": "sha512: $base64"
+                }
+            }
+        }
+    }
 }
