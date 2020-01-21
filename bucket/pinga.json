@@ -1,0 +1,27 @@
+{
+    "homepage": "https://css-ig.net/pingo",
+    "description": "GUI of fast web image optimizer",
+    "license": "Freeware",
+    "version": "14 December 2019",
+    "url": "https://css-ig.net/bin/pinga-win64.zip",
+    "hash": "CDFAC5EC8B8C0F71E138475FCA26E057697BC60CA27F9B0BBF00B84E996BE052",
+    "bin": [
+        [
+            "pinga.exe",
+            "pinga"
+        ]
+    ],
+    "shortcuts": [
+        [
+            "pinga.exe",
+            "pinga"
+        ]
+    ],
+    "checkver": {
+        "url": "https://css-ig.net/pingo",
+        "regex": "last\\supdated\\son\\s(\\d+\\s\\w+\\s\\d\\d\\d\\d)"
+    },
+    "autoupdate": "https://css-ig.net/bin/pinga-win64.zip"
+}
+
+
