@@ -1,20 +1,20 @@
 {
     "homepage": "https://github.com/zhongyang219/MusicPlayer2",
-    "description": "一款可以播放常见音频格式的音频播放器。支持歌词显示、歌词卡拉 OK 样式显示、歌词在线下载、歌词编辑、歌曲标签识别、Win10 小娜搜索显示歌词、频谱分析、音效设置、任务栏缩略图按钮、主题颜色等功能。 播放内核为 BASS 音频库 (V2.4)。",
+    "description": "Local music player",
     "license": {
         "identifier": "MIT",
         "url": "https://github.com/zhongyang219/MusicPlayer2/blob/master/LICENSE"
     },
-    "version": "2.67",
+    "version": "2.68",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/zhongyang219/MusicPlayer2/releases/download/V2.67/MusicPlayer2_V2.67_x64.7z",
-            "hash": "9700ED3D4217BDC27E43FDF5F84C57AD6F506A57C9DF8274BAEC190CB2140760",
+            "url": "https://github.com/zhongyang219/MusicPlayer2/releases/download/V2.68/MusicPlayer2_V2.68_x64.7z",
+            "hash": "7A326E27514F7A92C4A74C765B4D462AA63A3D8FE43B4984669636DDB65AC4FF",
             "extract_dir": "MusicPlayer2_x64"
         },
         "32bit": {
-            "url": "https://github.com/zhongyang219/MusicPlayer2/releases/download/V2.67/MusicPlayer2_V2.67_x86.7z",
-            "hash": "BEBF0C068B41B73A8CE4DF0A7850888456C2B7156007355F32EBC4E04EE334D3",
+            "url": "https://github.com/zhongyang219/MusicPlayer2/releases/download/V2.68/MusicPlayer2_V2.68_x86.7z",
+            "hash": "E4559EBFF5BF03D2D352019134A1700B44A2837383D2194DEF1599547220FD3C",
             "extract_dir": "MusicPlayer2"
         }
     },
