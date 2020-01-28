@@ -9,13 +9,21 @@
         [
             "FileMenuTools.exe",
             "FileMenuTools"
+        ],
+        [
+            "Register FileMenuTools.exe",
+            "Register FileMenuTools"
+        ],
+        [
+            "Unregister FileMenuTools.exe",
+            "Unregister FileMenuTools"
         ]
     ],
     "pre_install": [
         "Expand-7zipArchive -Path \"$dir\\$fname\" -DestinationPath \"$dir\""
     ],
     "post_install": [
-        "Remove-Item -Path \"$dir\\`$PLUGINSDIR\" -Recurse -Force"
+        "Remove-Item -Path \"$dir\\`$PLUGINSDIR\", \"$dir\\filemenu-tools\" -Recurse -Force"
     ],
     "checkver": {
         "url": "https://www.lopesoft.com/index.php/en/download/filemenu-tools#",
@@ -26,3 +34,4 @@
     },
     "depends": "7zip"
 }
+
