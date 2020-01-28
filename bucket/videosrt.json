@@ -5,7 +5,7 @@
         "identifier": "MIT",
         "url": "https://github.com/wxbool/video-srt-windows/blob/master/LICENSE"
     },
-    "description": "这是一个可以识别视频语音自动生成字幕 SRT 文件的开源软件工具",
+    "description": "An open source tool for generating SRT subtitle files by recognizing audios in videos",
     "url": "https://github.com/wxbool/video-srt-windows/releases/download/0.2.0/video-srt-gui-0.2.0-x64.zip",
     "hash": "9CA874726FF90645BA99897EA6C7490BB0A35A64863D75EB2D180483ED3E0A5C",
     "bin": "videosrt.exe",

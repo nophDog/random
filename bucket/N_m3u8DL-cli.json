@@ -1,6 +1,6 @@
 {
     "homepage": "https://github.com/nilaoda/N_m3u8DL-CLI",
-    "description": "[.NET] m3u8 downloader 开源的命令行 m3u8 下载器，支持 AES-128 解密，多线程，断点续传，自定义请求头等",
+    "description": "Open source m3u8 downloader",
     "license": {
         "identifier": "MIT",
         "url": "https://github.com/nilaoda/N_m3u8DL-CLI/blob/master/LICENSE"
