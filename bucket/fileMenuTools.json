@@ -1,0 +1,28 @@
+{
+    "homepage": "https://www.lopesoft.com/index.php/en/products/filemenutools",
+    "description": "An application which lets you customize the context menu of Windows File Explorer",
+    "license": "Unknown",
+    "version": "7.7",
+    "url": "https://www.lopesoft.com/index.php/en/download/filemenu-tools?download=2:filemenutools-portable",
+    "hash": "md5:ee695e7591d21ec818efa801c53b78ab",
+    "shortcuts": [
+        [
+            "FileMenuTools.exe",
+            "FileMenuTools"
+        ]
+    ],
+    "pre_install": [
+        "Expand-7zipArchive -Path \"$dir\\$fname\" -DestinationPath \"$dir\""
+    ],
+    "post_install": [
+        "Remove-Item -Path \"$dir\\`$PLUGINSDIR\" -Recurse -Force"
+    ],
+    "checkver": {
+        "url": "https://www.lopesoft.com/index.php/en/download/filemenu-tools#",
+        "xpath": "FileMenu Tools Portable (\\d\\.\\d) \\(x86 \\/ x64\\)"
+    },
+    "autoupdate": {
+        "url": "https://www.lopesoft.com/index.php/en/download/filemenu-tools?download=2:filemenutools-portable"
+    },
+    "depends": "7zip"
+}
