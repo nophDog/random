@@ -5,11 +5,11 @@
     "version": "2019-12-25",
     "architecture": {
         "64bit": {
-            "url": "ftp://127.0.0.1/Productivity/RunningCheeseFirefox.7z",
+            "url": "http://123.56.110.31/Repo/RunningCheeseFirefox.7z",
             "hash": "0E8037E594E92C59D91B0144441087AFB215566E9C4257C227A7B3669693A16D"
         },
         "32bit": {
-            "url": "ftp://127.0.0.1/Productivity/RunningCheeseFirefox_32bit.7z",
+            "url": "http://123.56.110.31/Repo/RunningCheeseFirefox_32bit.7z",
             "hash": "D1FB20A16352D7641AC2D528F5F0E2F28C29CA26FC8BD0CD6A543894785E0566"
         }
     },
