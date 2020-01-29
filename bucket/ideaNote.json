@@ -1,0 +1,35 @@
+{
+    "homepage": "https://www.ideanote.cc",
+    "description": "Cross-platform notes taking tool",
+    "license": "Unknown",
+    "version": "1.2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://ideanote-public.oss-cn-hongkong.aliyuncs.com/desktop/Ideanote-1.2.0.exe",
+            "pre_install": [
+                "Expand-7zipArchive -Path \"$dir\\`$PLUGINSDIR\\app-64.7z\" -DestinationPath \"$dir\"",
+                "Get-ChildItem -Path \"$dir\\`$PLUGINSDIR\" -File -Filter \"*dll\" | Move-Item -Destination \"$dir\"",
+                "Remove-Item -Path \"$dir\\`$PLUGINSDIR\" -Recurse -Force",
+                "Remove-Item -Path \"$dir\\Uninstall Ideanote.exe\" -Force"
+            ]
+        },
+        "32bit": {
+            "url": "https://ideanote-public.oss-cn-hongkong.aliyuncs.com/desktop/Ideanote-1.2.0.exe",
+            "pre_install": [
+                "Expand-7zipArchive -Path \"$dir\\`$PLUGINSDIR\\app-32.7z\" -DestinationPath \"$dir\"",
+                "Get-ChildItem -Path \"$dir\\`$PLUGINSDIR\" -File -Filter \"*dll\" | Move-Item -Destination \"$dir\"",
+                "Remove-Item -Path \"$dir\\`$PLUGINSDIR\" -Recurse -Force",
+                "Remove-Item -Path \"$dir\\Uninstall Ideanote.exe\" -Force"
+            ]
+        }
+    },
+    "bin": [
+        [
+            "flowerss-bot.exe",
+            "flowerss-bot"
+        ]
+    ],
+    "checkver": "github"
+}
+
+
