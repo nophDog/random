@@ -1,0 +1,27 @@
+{
+    "homepage": "https://www.olivevideoeditor.org",
+    "description": "A free non-linear video editor aiming to provide a fully-featured alternative to high-end professional video editing software",
+    "license": "Freeware",
+    "version": "0.1.0 Alpha",
+    "architecture": {
+        "64bit": {
+            "url": "https://www.olivevideoeditor.org/dl/Olive-1e3cf53-Windows-x86_64.zip",
+            "hash": "md5:2208a9650ad8d7d935e0cd12bfa1d4c8"
+        },
+        "32bit": {
+            "url": "https://www.olivevideoeditor.org/dl/Olive-1e3cf53-Windows-i686.zip",
+            "hash": "md5:363aa7e644ca84e482a53daa20c2a611"
+        }
+    },
+    "extract_dir": "olive",
+    "shortcuts": [
+        [
+            "olive-editor.exe",
+            "olive-editor"
+        ]
+    ],
+    "checkver": {
+        "url": "https://www.olivevideoeditor.org/download.php",
+        "regex": "Olive version: (.+)"
+    }
+}
