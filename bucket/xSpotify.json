@@ -9,6 +9,10 @@
     "url": "https://github.com/meik97/XSpotify/releases/download/1.1/XSpotify.rar",
     "hash": "E93E40A311557162EC3B7FC9A0410974287B53F4B2F43F7013BECE1703C3777E",
     "extract_dir": "XSpotify",
+    "post_install": [
+        "If (Test-Path -Path \"$env:APPDATA\\Spotify\") {Copy-Item -Path \"$dir\\*\" -Destination \"$env:APPDATA\\Spotify\"} else {Write-Host -Object \"Install Spotify first\" -BackgroundColor Red -ForegroundColor White; exit}",
+        "Invoke-Item -Path \"$env:APPDATA\\Spotify\\XSpotify.exe\""
+    ], 
     "shortcuts": [
         [
             "XSpotify.exe",
@@ -16,6 +20,7 @@
         ]
     ],
     "checkver": "github",
-    "autoupdate": "https://github.com/meik97/XSpotify/releases/download/$version/XSpotify.rar"
+    "autoupdate": "https://github.com/meik97/XSpotify/releases/download/$version/XSpotify.rar",
+    "notes": "This program requires Spotify installed."
 }
 
