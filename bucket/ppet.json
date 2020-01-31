@@ -2,9 +2,9 @@
     "homepage": "https://github.com/majorworld/Pet",
     "description": "Using your keyboard replace the mouse",
     "license": "Unknown",
-    "version": "2020-01-29",
+    "version": "2020-01-30",
     "url": "https://raw.githubusercontent.com/majorworld/Pet/master/Pet.exe",
-    "hash": "B8DFE14586A871322218021BADBE86D93B6BCDA68D01804258B160744927E4F0",
+    "hash": "5E8191E89AC8A658767393F618B8B10CE44F925F4070B6CD9EBDE402917A22B5",
     "shortcuts": [
         [
             "Pet.exe",
