@@ -1,0 +1,16 @@
+{
+    "homepage": "https://www.bt.cn/download/windows.html",
+    "description": "All-in-one websites builder",
+    "license": "Commercial",
+    "version": "6.4",
+    "url": "http://download.bt.cn/win/panel/BtSoft.zip",
+    "hash": "1D95641F7700834CFE30D93CF0AED6E7D71CE07056438672FA84368F428A4DED",
+    "shortcuts": [
+        [
+            "BtSoft.exe",
+            "BtSoft"
+        ]
+    ]
+}
+
+
