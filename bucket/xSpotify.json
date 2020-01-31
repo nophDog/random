@@ -15,7 +15,7 @@
     ], 
     "uninstaller": [
         "$cur = Get-Location",
-        "Set-Location -Path \"$env:APPDATA\Spotify\"",
+        "Set-Location -Path \"$env:APPDATA\\Spotify\"",
         "Remove-Item -Path \"XSpotify.exe\",\"XSpotify.dll\",\"token.exe\" -Force",
         "Remove-Item -Path \"XSongs\" -Recurse -Force",
         "Set-Location $cur"
