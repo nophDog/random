@@ -26,8 +26,8 @@
         "Remove-Item -Path \"$dir\\`$PLUGINSDIR\", \"$dir\\filemenu-tools\" -Recurse -Force"
     ],
     "checkver": {
-        "url": "https://www.lopesoft.com/index.php/en/download/filemenu-tools#",
-        "xpath": "FileMenu Tools Portable (\\d\\.\\d) \\(x86 \\/ x64\\)"
+        "url": "https://www.lopesoft.com/index.php/en/download/filemenu-tools",
+        "regex": "FileMenu Tools ([\\d.]+) \\(x86 / x64\\)"
     },
     "autoupdate": {
         "url": "https://www.lopesoft.com/index.php/en/download/filemenu-tools?download=2:filemenutools-portable"
