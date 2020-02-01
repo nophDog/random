@@ -13,10 +13,7 @@
             "XDown"
         ]
     ],
-    "checkver": {
-        "url": "https://xdown.org/",
-        "regex": "Latest update version number:(\\d\\.\\d\\.\\d\\.\\d)"
-    },
+    "checkver": "Latest update version number:([\\d.]+)",
     "autoupdate": {
         "url": "https://cn-dl.xdown.org:2053/xdown-$version.zip"
     }
