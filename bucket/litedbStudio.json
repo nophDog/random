@@ -21,8 +21,8 @@
         ]
     ],
     "checkver": "github",
-    "autoupdate": "https://github.com/mbdavid/LiteDB.Studio/releases/download/v$version/LiteDB.Studio.exe"
-        }
+    "autoupdate": {
+        "url": "https://github.com/mbdavid/LiteDB.Studio/releases/download/v$version/LiteDB.Studio.exe"
     }
 }
 
