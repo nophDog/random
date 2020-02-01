@@ -6,7 +6,7 @@
         "url": "https://github.com/differentrain/Remote-Volume-Controller/blob/master/LICENSE"
     },
     "version": "1.0.0",
-    "url": "https://github.com/differentrain/Remote-Volume-Controller/releases/download/$version/RemoteVolumeController.zip",
+    "url": "https://github.com/differentrain/Remote-Volume-Controller/releases/download/1.0.0/RemoteVolumeController.zip",
     "hash": "41656917D732A15455C5EC13E550536B8BE05F350241848F81AD0F912654218D",
     "bin": [["RemoteVolumeController.exe", "RemoteVolumeController"]],
     "shortcuts": [
@@ -16,7 +16,7 @@
         ]],
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/differentrain/Remote-Volume-Controller/releases/download/$version/bin.zip"
+        "url": "https://github.com/differentrain/Remote-Volume-Controller/releases/download/$version/RemoteVolumeController.zip"
     }
 }
 
