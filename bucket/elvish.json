@@ -6,12 +6,26 @@
         "url": "https://github.com/elves/elvish/blob/master/LICENSE"
     },
     "version": "0.13",
-    "url": "https://dl.elv.sh/windows-amd64/elvish-v0.13.zip",
-    "hash": "8325E3F651C0A65608412EF45BCF408090340E60D419B4E1DA95294C22126EAF",
+    "architecture": {
+        "64bit": {
+            "url": "https://dl.elv.sh/windows-amd64/elvish-v0.13.zip",
+            "hash": "8325E3F651C0A65608412EF45BCF408090340E60D419B4E1DA95294C22126EAF",
+            "autoupdate": {
+                "url": "https://dl.elv.sh/windows-amd64/elvish-v$version.zip"
+            }
+        },
+        "32bit": {
+            "url": "https://dl.elv.sh/windows-386/elvish-v0.13.zip",
+            "hash": "D4AF9ECA864D99A1B5183413FA761CB9765185BE69ADA804550665669630259A",
+            "autoupdate": {
+                "url": "https://dl.elv.sh/windows-386/elvish-v$version.zip"
+            }
+        }
+    },
     "bin": [["elvish-v0.13.exe", "elvish"]],
-    "checkver": "github",
-    "autoupdate": {
-        "url": "https://github.com/elves/elvish/releases"
+    "checkver": {
+        "url": "https://elv.sh/get",
+        "regex": "(0\\.\\d\\d) \\(Release Note\\)"
     }
 }
 
