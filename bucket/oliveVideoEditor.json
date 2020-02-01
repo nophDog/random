@@ -22,6 +22,6 @@
     ],
     "checkver": {
         "url": "https://www.olivevideoeditor.org/download.php",
-        "regex": "Olive version: (.+)"
+        "regex": "Olive version: ([\\d.]+) Alpha"
     }
 }
