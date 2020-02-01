@@ -28,7 +28,10 @@
             "epp"
         ]
     ],
-    "checkver": "github",
+    "checkver": {
+        "url": "https://explorerplusplus.com",
+        "regex": "Get version (.+) below"
+    },
     "autoupdate": {
         "architecture": {
             "64bit": {
