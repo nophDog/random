@@ -1,5 +1,5 @@
 {
-    "homepage": "explorerplusplus.com",
+    "homepage": "https://explorerplusplus.com",
     "description": "A lightweight and fast file manager for Windows. Get version 1.3.5 below",
     "license": {
         "identifier": "GPL-v3",
@@ -29,8 +29,8 @@
         ]
     ],
     "checkver": {
-        "url": "https://explorerplusplus.com",
-        "regex": "Get version (.+) below"
+        "url": "https://explorerplusplus.com/download",
+        "regex": "<strong>([\\d.]+)</strong>"
     },
     "autoupdate": {
         "architecture": {
