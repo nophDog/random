@@ -15,10 +15,7 @@
             "EraseTemp"
         ]
     ],
-    "checkver": {
-        "url": "https://www.nodesoft.com/erasetemp/download",
-        "xpath": "/html/body/div/div[3]/div/span"
-    },
+    "checkver": "Erase Temp ([\\d.]+)",
     "autoupdate": {
         "url": "https://www.nodesoft.com/erasetemp/download"
     }
