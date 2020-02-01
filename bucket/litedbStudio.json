@@ -5,9 +5,9 @@
         "identifier": "MIT",
         "url": "https://github.com/mbdavid/LiteDB.Studio/blob/master/LICENSE"
     },
-    "version": "0.5.2",
-    "url": "https://github.com/mbdavid/LiteDB.Studio/releases/download/v0.5.2/LiteDB.Studio.exe",
-    "hash": "41EB16114899813B4E13AC9715757BFE685E310A78848EFDE3FAAC6EFCBC5AFE",
+    "version": "1.0.0",
+    "url": "https://github.com/mbdavid/LiteDB.Studio/releases/download/v1.0.0/LiteDB.Studio.exe",
+    "hash": "30DBEA6132FD646A5304AFED0298A7AE598B7E6786DE9D5118699EFC5FF71B7B",
     "shortcuts": [
         [
             "LiteDB.Studio.exe",
