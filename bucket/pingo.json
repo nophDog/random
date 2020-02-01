@@ -11,10 +11,7 @@
             "pingo"
         ]
     ],
-    "checkver": {
-        "url": "https://css-ig.net/pingo",
-        "regex": "last\\supdated\\son\\s(\\d+\\s\\w+\\s\\d\\d\\d\\d)"
-    },
+    "checkver": "<strong>(.+)</strong>",
     "autoupdate": "https://css-ig.net/bin/pingo-win64.zip"
 }
 
