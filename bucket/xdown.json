@@ -3,7 +3,7 @@
     "description": "An ads-free idm/torrent varieta",
     "license": "Freeware",
     "version": "1.0.2.5",
-    "url": "https://cn-dl.xdown.org:2053/xdown-1.0.2.5.zip",
+    "url": "https://dl.xdown.org/xdown-1.0.2.5.zip",
     "hash": "8B82586643E7134C8817F96A022B2368E835C7E1FCCEF3FF99C72A9D2EBCD175",
     "bin": "XDown.exe",
     "extract_dir": "xdown",
@@ -15,7 +15,7 @@
     ],
     "checkver": "Latest update version number:([\\d.]+)",
     "autoupdate": {
-        "url": "https://cn-dl.xdown.org:2053/xdown-$version.zip"
+        "url": "https://dl.xdown.org/xdown-$version.zip"
     }
 }
 
