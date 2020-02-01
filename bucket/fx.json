@@ -1,5 +1,5 @@
 {
-    "homepage": "http://fx.wtf",
+    "homepage": "https://github.com/antonmedv/fx",
     "description": "A command-line tool and terminal JSON viewer",
     "license": {
         "identifier": "MIT",
