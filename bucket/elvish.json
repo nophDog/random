@@ -25,7 +25,7 @@
     "bin": [["elvish-v0.13.exe", "elvish"]],
     "checkver": {
         "url": "https://elv.sh/get",
-        "regex": "(0\\.\\d\\d) \\(Release Note\\)"
+        "regex": "([\\d.]+) \\(Release Note\\)"
     }
 }
 
