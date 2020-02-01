@@ -24,8 +24,7 @@
     },
     "bin": [["elvish-v0.13.exe", "elvish"]],
     "checkver": {
-        "url": "https://elv.sh/get",
-        "regex": "([\\d.]+) \\(Release Note\\)"
+        "github": "https://github.com/elves/elvish"
     }
 }
 
