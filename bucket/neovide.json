@@ -1,0 +1,21 @@
+{
+    "homepage": "https://github.com/Kethku/neovide",
+    "description": "No Nonsense Neovim Client in Rust",
+    "license": {
+        "identifier": "MIT",
+        "url": "https://github.com/Kethku/neovide/blob/master/LICENSE"
+    },
+    "version": "2.0",
+    "url": "https://github.com/Kethku/neovide/releases/download/0.4.0/neovide.exe",
+    "hash": "E2AB3FA89E3C541E79DB833949908198D1F486F9BA9C3F907E13320E55A8B486",
+    "shortcuts": [
+        [
+            "neovide.exe",
+            "neovide"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": "https://github.com/Kethku/neovide/releases/download/$version/neovide.exe"
+}
+
+
