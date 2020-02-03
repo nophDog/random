@@ -1,21 +1,50 @@
 {
     "homepage": "https://github.com/Kethku/neovide",
+    "version": "0.4.0",
     "description": "No Nonsense Neovim Client in Rust",
     "license": {
         "identifier": "MIT",
         "url": "https://github.com/Kethku/neovide/blob/master/LICENSE"
     },
-    "version": "0.4.0",
-    "url": "https://github.com/Kethku/neovide/releases/download/0.4.0/neovide.exe",
-    "hash": "E2AB3FA89E3C541E79DB833949908198D1F486F9BA9C3F907E13320E55A8B486",
-	"installer": [
-		"\"if (Test-Path -Path $env:SCOOP\\apps\\neovim -PathType Container\") {Move-Item -Path $dir\\$file -Destination $env:SCOOP\\apps\\neovim} else {Write-Host -Object \"Please install neovim first\" -ForegroundColor Red -BackgroundColor White}; exit\""
-	],
-	"uninstaller": [
-		"\"if (Test-Path -Path $env:SCOOP\\apps\\neovim -PathType Container\") {Remove-Item -Path $dir\\$file -Destination $env:SCOOP\\apps\\neovim\\neovide.exe -Force} else {Write-Host -Object \"Program neovide doesn't exist\" -ForegroundColor Red -BackgroundColor White}; exit\""
-	],
-    "checkver": "github",
-    "autoupdate": "https://github.com/Kethku/neovide/releases/download/$version/neovide.exe",
-	"notes": "Require neovim to be installed"
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/neovim/neovim/releases/download/v0.4.3/nvim-win64.zip",
+            "hash": "549fd985e3e6207dc3d52d17fb2bc7957adc264f20b525fc7e62f8dc8c597931"
+        },
+        "32bit": {
+            "url": "https://github.com/neovim/neovim/releases/download/v0.4.3/nvim-win32.zip",
+            "hash": "4f63f55697afaf4d9f82204768fd7ad3e98cc554f2745afd4a160d50a63d1025"
+        }
+    },
+    "extract_dir": "Neovim",
+    "post_install": [
+        "Invoke-WebRequest -Uri \"https://github.com/Kethku/neovide/releases/download/0.4.0/neovide.exe\" -OutFile \"$env:SCOOP\\apps\\neovim\\current\\bin\\neovide.exe\""
+    ],
+    "bin": [
+        "bin\\nvim.exe",
+        "bin\\nvim-qt.exe"
+    ],
+    "shortcuts": [
+        [
+            "bin\\nvim-qt.exe",
+            "Neovim"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/neovim/neovim"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/neovim/neovim/releases/download/v$version/nvim-win64.zip"
+            },
+            "32bit": {
+                "url": "https://github.com/neovim/neovim/releases/download/v$version/nvim-win32.zip"
+            }
+        }
+    },
+    "suggest": {
+        "vcredist": "extras/vcredist2015"
+    }
 }
 
