@@ -8,14 +8,14 @@
     "version": "0.4.0",
     "url": "https://github.com/Kethku/neovide/releases/download/0.4.0/neovide.exe",
     "hash": "E2AB3FA89E3C541E79DB833949908198D1F486F9BA9C3F907E13320E55A8B486",
-    "shortcuts": [
-        [
-            "neovide.exe",
-            "neovide"
-        ]
-    ],
+	"installer": [
+		"\"if (Test-Path -Path $env:SCOOP\\apps\\neovim -PathType Container\") {Move-Item -Path $dir\\$file -Destination $env:SCOOP\\apps\\neovim} else {Write-Host -Object \"Please install neovim first\" -ForegroundColor Red -BackgroundColor White}; exit\""
+	],
+	"uninstaller": [
+		"\"if (Test-Path -Path $env:SCOOP\\apps\\neovim -PathType Container\") {Remove-Item -Path $dir\\$file -Destination $env:SCOOP\\apps\\neovim\\neovide.exe -Force} else {Write-Host -Object \"Program neovide doesn't exist\" -ForegroundColor Red -BackgroundColor White}; exit\""
+	],
     "checkver": "github",
-    "autoupdate": "https://github.com/Kethku/neovide/releases/download/$version/neovide.exe"
+    "autoupdate": "https://github.com/Kethku/neovide/releases/download/$version/neovide.exe",
+	"notes": "Require neovim to be installed"
 }
-
 
