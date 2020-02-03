@@ -1,6 +1,6 @@
 {
     "homepage": "https://github.com/Kethku/neovide",
-    "version": "0.4.0",
+    "version": "0.4.3",
     "description": "No Nonsense Neovim Client in Rust",
     "license": {
         "identifier": "MIT",
