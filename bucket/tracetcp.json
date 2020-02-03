@@ -1,0 +1,17 @@
+{
+    "homepage": "https://github.com/0xcafed00d/tracetcp",
+    "description": "Traceroute utility that uses tcp syn packets to trace network routes",
+    "license": "zlib",
+    "version": "1.0.3",
+    "url": "https://github.com/0xcafed00d/tracetcp/releases/download/v1.0.3/tracetcp_v1.0.3.zip",
+    "hash": "413C7ACB5171A32AEE2D32115E6A4B10B956C3390921AA6C35F75BE1E47433E4",
+    "extract_dir": "tracetcp_v1.0.3",
+    "bin": [
+        [
+            "tracetcp.exe",
+            "tracetcp"
+        ]
+    ]
+}
+
+
