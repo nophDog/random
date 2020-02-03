@@ -17,18 +17,21 @@
         }
     },
     "extract_dir": "Neovim",
-    "post_install": [
-        "Invoke-WebRequest -Uri \"https://github.com/Kethku/neovide/releases/download/0.4.0/neovide.exe\" -OutFile \"$env:SCOOP\\apps\\neovim\\current\\bin\\neovide.exe\""
+    "pre_install": [
+        "Invoke-WebRequest -Uri \"https://github.com/Kethku/neovide/releases/download/0.4.0/neovide.exe\" -OutFile \"$dir\\neovide.exe\""
     ],
     "bin": [
-        "bin\\nvim.exe",
-        "bin\\nvim-qt.exe"
+        "bin\\nvim.exe"
     ],
     "shortcuts": [
         [
             "bin\\nvim-qt.exe",
             "Neovim"
-        ]
+        ],
+		[
+			"neovide.exe",
+			"Neovide"
+		]
     ],
     "checkver": {
         "github": "https://github.com/neovim/neovim"
