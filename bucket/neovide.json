@@ -1,6 +1,6 @@
 {
     "homepage": "https://github.com/Kethku/neovide",
-    "version": "0.4.3",
+    "version": "0.4.0",
     "description": "No Nonsense Neovim Client in Rust",
     "license": {
         "identifier": "MIT",
@@ -33,19 +33,8 @@
 			"Neovide"
 		]
     ],
-    "checkver": {
-        "github": "https://github.com/neovim/neovim"
-    },
-    "autoupdate": {
-        "architecture": {
-            "64bit": {
-                "url": "https://github.com/neovim/neovim/releases/download/v$version/nvim-win64.zip"
-            },
-            "32bit": {
-                "url": "https://github.com/neovim/neovim/releases/download/v$version/nvim-win32.zip"
-            }
-        }
-    },
+    "checkver": "github",
+    "autoupdate": "https://github.com/Kethku/neovide/releases/download/$version/neovide.exe",
     "suggest": {
         "vcredist": "extras/vcredist2015"
     }
