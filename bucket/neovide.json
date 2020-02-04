@@ -24,10 +24,6 @@
         "bin\\nvim.exe"
     ],
     "shortcuts": [
-        [
-            "bin\\nvim-qt.exe",
-            "Neovim"
-        ],
 		[
 			"neovide.exe",
 			"Neovide"
