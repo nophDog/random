@@ -1,6 +1,9 @@
-# scoop-bucket
+<p>&nbsp;</p>
+<p align="center"><a href="https://github.com/nophDog/random/tree/master/bucket"><img src="https://img.shields.io/badge/manifests-36-brightgreen" alt="image" style="max-width:100%;"></a></p>
+<p>&nbsp;</p>
 
-💦 Some programs which are not collected in the official scoop buckets ✅
+# scoop-bucket
+💦 Some programs which are may not collected in the official scoop buckets ✅
 
 ```powershell
 scoop bucket add random https://github.com/nophDog/random
