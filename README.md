@@ -37,7 +37,7 @@ scoop bucket add random https://github.com/nophDog/random
 | [onTopReplica](https://github.com/LorenzCK/OnTopReplica) | A real-time always-on-top “replica” of a window of your choice (on Windows). | `3.5.1` | `scoop install onTopReplica` |
 | [pet](https://github.com/knqyf263/pet) | Simple command-line snippet manager, written in Go | `0.3.6` | `scoop install pet` |
 | [picgo](https://github.com/Molunerfinn/PicGo) | A tool of image hosting client | `2.1.2` | `scoop install picgo` |
-| [pinga](https://css-ig.net/pingo) | GUI of fast web image optimizer | `14 December 2019` | `scoop install pinga` |
+| [pinga](https://css-ig.net/pingo) | GUI for pingo | `14 December 2019` | `scoop install pinga` |
 | [pingo](https://css-ig.net/pingo) | Fast web image optimizer | `14 December 2019` | `scoop install pingo` |
 | [pixivWallpaper](https://github.com/SingularityF/PixivWallpaper) | Get anime style wallpapers from daily Pixiv high ranking illustrations | `1.3.5` | `scoop install pixivWallpaper` |
 | [ppet](https://github.com/majorworld/Pet) | Using your keyboard replace the mouse | `2020-01-31` | `scoop install ppet` |
