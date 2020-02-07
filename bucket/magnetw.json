@@ -5,9 +5,9 @@
         "identifier": "GPL",
         "url": "https://github.com/xiandanin/magnetW/blob/master/LICENSE"
     },
-    "version": "3.0.0",
-    "url": "https://github.com/xiandanin/magnetW/releases/download/3.0.0/magnetw-3.0.0-win.exe",
-    "hash": "DBCC23234B698741A215D4D2C1384CFB2A093017692F13617582E8F253E6FEE9",
+    "version": "3.1.1",
+    "url": "https://github.com/xiandanin/magnetW/releases/download/3.1.1/magnetw-3.1.1-win.exe",
+    "hash": "14592d87fd48e66656f27d643ce709cf04cc2786268fffdd8921de8e0812bc27",
     "bin": "磁力搜 For magnetW.exe",
     "shortcuts": [
         [
@@ -27,4 +27,3 @@
     },
     "depends": "7zip"
 }
-
