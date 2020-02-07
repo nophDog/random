@@ -6,7 +6,7 @@
 		"url": "https://github.com/yatli/fvim/blob/master/LICENSE"
 	},
 	"url": "https://github.com/yatli/fvim/releases/download/v0.2-186-g30d61fa/fvim-win-x64.zip",
-    "version": "0.2-186-g30d61fa",
+    "version": "0.2",
     "hash": "C34491276C026DDDC9F00707F3A1A8A1B62624E5FE95693B6E62C728C349C566",
     "shortcuts": [
         [
