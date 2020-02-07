@@ -5,10 +5,15 @@
         "identifier": "MIT",
         "url": "https://github.com/nilaoda/N_m3u8DL-CLI/blob/master/LICENSE"
     },
-    "version": "2.4.5",
-    "url": "https://github.com/nilaoda/N_m3u8DL-CLI/releases/download/$version/N_m3u8DL-CLI_v$version.exe",
-    "hash": "8048F2960D0DDDEA88807E5669C1EE9F667C8DE7CC0F0CC427180AACCE0FC325",
-    "bin": [["N_m3u8DL-CLI_v2.4.5.exe", "N_m3u8DL-CLI"]],
+    "version": "2.4.8",
+    "url": "https://github.com/nilaoda/N_m3u8DL-CLI/releases/download/2.4.8/N_m3u8DL-CLI_v2.4.8.exe",
+    "hash": "1bb20cb0a7fc5edc80db101f1995b43832fee5d3aca4260667a71180384d4b9a",
+    "bin": [
+        [
+            "N_m3u8DL-CLI_v2.4.5.exe",
+            "N_m3u8DL-CLI"
+        ]
+    ],
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/nilaoda/N_m3u8DL-CLI/releases/download/$version/N_m3u8DL-CLI_v$version.exe"
