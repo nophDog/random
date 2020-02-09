@@ -3,8 +3,8 @@
     "description": "A Windows GUI based on Clash",
     "identifier": "Unknown",
     "version": "0.8.11",
-    "url": "https://github.com/Fndroid/clash_for_windows_pkg/releases/download/0.8.11/sha256sum",
-    "hash": "4c2d6c842da71c2215cce12230cc3cd12b1f8c35c319bd17f85635420a2be797",
+    "url": "https://github.com/Fndroid/clash_for_windows_pkg/releases/download/0.8.11/Clash.for.Windows-0.8.11-win.7z",
+    "hash": "ac4fe08bb0e58fb577a19d8c46088f1afd958d4b6c54f65bcbe00e0b5f0055cd",
     "bin": [
         [
             "Clash for Windows.exe",
