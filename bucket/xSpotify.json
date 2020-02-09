@@ -1,19 +1,18 @@
 {
-    "homepage": "https://github.com/meik97/XSpotify",
-    "description": "A modified Spotify client with DRM bypass",
-    "license": {
-        "identifier": "MIT",
-        "url": "https://github.com/meik97/XSpotify/blob/master/LICENSE"
-    },
-    "version": "1.1",
-    "url": "https://github.com/meik97/XSpotify/releases/download/1.1/XSpotify.rar",
-    "hash": "E93E40A311557162EC3B7FC9A0410974287B53F4B2F43F7013BECE1703C3777E",
-    "extract_dir": "XSpotify",
-    "post_install": [
-        "If (Test-Path -Path \"$env:APPDATA\\Spotify\") {Copy-Item -Path \"$dir\\*\" -Destination \"$env:APPDATA\\Spotify\"} else {Write-Host -Object \"Install Spotify first\" -BackgroundColor Red -ForegroundColor White; exit}"
-    ], 
-    "checkver": "github",
-    "autoupdate": "https://github.com/meik97/XSpotify/releases/download/$version/XSpotify.rar",
-    "notes": "This program requires Spotify installed."
+  "homepage": "https://github.com/meik97/XSpotify",
+  "description": "A modified Spotify client with DRM bypass",
+  "license": {
+    "identifier": "MIT",
+    "url": "https://github.com/meik97/XSpotify/blob/master/LICENSE"
+  },
+  "version": "1.2",
+  "url": "https://github.com/meik97/XSpotify/releases/download/1.2/XSpotify.rar",
+  "hash": "541D7EA889E1BA702062AF89FB25D11898187EF3E97375C7831596A784D2994A",
+  "extract_dir": "XSpotify",
+  "post_install": [
+    "If (Test-Path -Path \"$env:APPDATA\\Spotify\") {Copy-Item -Path \"$dir\\*\" -Destination \"$env:APPDATA\\Spotify\"} else {Write-Host -Object \"Install Spotify first\" -BackgroundColor Red -ForegroundColor White; exit}"
+  ],
+  "checkver": "github",
+  "autoupdate": "https://github.com/meik97/XSpotify/releases/download/$version/XSpotify.rar",
+  "notes": "This program requires Spotify installed."
 }
-
