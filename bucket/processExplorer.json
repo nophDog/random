@@ -2,7 +2,7 @@
   "homepage": "https://docs.microsoft.com/en-us/sysinternals/downloads/process-explorer",
   "description": "Process Explorer shows you information about which handles and DLLs processes have opened or loaded.",
   "identifier": "Freeware",
-  "version": "December 18, 2019",
+  "version": "December-18-2019",
   "url": "https://download.sysinternals.com/files/ProcessExplorer.zip",
   "hash": "5818F8DF2AFDDE87163F26900DC4086998BD37792C040654BC61C44EBAC38626",
   "architecture": {
@@ -24,7 +24,8 @@
     }
   },
   "checkver": {
-    "regex": "Published: (\\w+ \\d+, \\d{4})"
+    "regex": "Published: (\\w+) (\\d+), (\\d{4})",
+	"replace": "${1}-${2}-${3}"
   },
   "autoupdate": {
     "url": "https://download.sysinternals.com/files/ProcessExplorer.zip"
