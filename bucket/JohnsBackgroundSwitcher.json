@@ -15,7 +15,6 @@
         "Expand-7zipArchive -Path \"$dir\\$fname\" -DestinationPath \"$dir\""
     ],
     "post_install": [
-        "Remove-Item -Path \"$dir\\`$PLUGINSDIR\", \"$dir\\filemenu-tools\" -Recurse -Force",
 		"Get-ChildItem -Path \"$dir\" -Directory | Remove-Item -Force -Recurse"
     ],
     "checkver": {
