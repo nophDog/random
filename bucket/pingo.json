@@ -12,6 +12,8 @@
         ]
     ],
     "checkver": "<strong>(.+)</strong>",
-    "autoupdate": "https://css-ig.net/bin/pingo-win64.zip"
+    "autoupdate": {
+		"url": "https://css-ig.net/bin/pingo-win64.zip"
+	}
 }
 
