@@ -1,39 +1,38 @@
 {
-    "homepage": "https://docs.microsoft.com/en-us/sysinternals/downloads/autoruns",
-    "description": "Manage your startups in one place",
-    "license": "Freeware",
-    "version": "13.96",
-    "url": "https://download.sysinternals.com/files/Autoruns.zip",
-    "hash": "FE16235B91A0D9AEC0CCCE88B0024070D82576A574227A3DFFEB3A53498D2331",
-	"architecture": {
-		"64bit": {
-			"shortcuts": [
-				[
-					"Autoruns64.exe",
-					"Autoruns"
-				],
-				[
-					"autorunsc64.exe",
-					"autorunsc"
-				]
-			]
-		},
-		"32bit": {
-			"shortcuts": [
-				[
-					"Autoruns.exe",
-					"Autoruns"
-				],
-				[
-					"autorunsc.exe",
-					"autorunsc"
-				]
-			]
-		}
-	},
-    "checkver": "Autoruns for Windows v([\\d.]+)</h1>",
-    "autoupdate": {
-        "url": "https://download.sysinternals.com/files/Autoruns.zip"
+  "homepage": "https://docs.microsoft.com/en-us/sysinternals/downloads/autoruns",
+  "description": "Manage your startups in one place",
+  "license": "Freeware",
+  "version": "13.96",
+  "url": "https://download.sysinternals.com/files/Autoruns.zip",
+  "hash": "FE16235B91A0D9AEC0CCCE88B0024070D82576A574227A3DFFEB3A53498D2331",
+  "architecture": {
+    "64bit": {
+      "shortcuts": [
+        [
+          "Autoruns64.exe",
+          "Autoruns"
+        ],
+        [
+          "autorunsc64.exe",
+          "autorunsc"
+        ]
+      ]
+    },
+    "32bit": {
+      "shortcuts": [
+        [
+          "Autoruns.exe",
+          "Autoruns"
+        ],
+        [
+          "autorunsc.exe",
+          "autorunsc"
+        ]
+      ]
     }
+  },
+  "checkver": "Autoruns for Windows v([\\d.]+)</h1>",
+  "autoupdate": {
+    "url": "https://download.sysinternals.com/files/Autoruns.zip"
+  }
 }
-
