@@ -2,9 +2,9 @@
     "homepage": "https://css-ig.net/pingo",
     "description": "Fast web image optimizer",
     "license": "Freeware",
-    "version": "13 February 2020",
+    "version": "18 February 2020",
     "url": "https://css-ig.net/bin/pingo-win64.zip",
-    "hash": "3d6f255d3b346648f1377cc6993645228b51db3e41d70521999ade7721a375e5",
+    "hash": "3017eb688877072bf693496fc08710216fec25cce215370c7c9ed0220fc6c301",
     "bin": [
         [
             "pingo.exe",
