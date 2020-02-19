@@ -2,9 +2,9 @@
     "homepage": "https://css-ig.net/pingo",
     "description": "GUI for pingo",
     "license": "Freeware",
-    "version": "13 February 2020",
+    "version": "18 February 2020",
     "url": "https://css-ig.net/bin/pinga-win64.zip",
-    "hash": "07dbbd19ec6610f1f9ec02245ba777aa26cc1fdd64615d890920c8798dcea14c",
+    "hash": "a1d711ab16289a13704387a8669a33dcb29221f6251050a96aacdfcf71042bc8",
     "bin": [
         [
             "pinga.exe",
