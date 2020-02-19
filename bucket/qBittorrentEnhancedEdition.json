@@ -19,6 +19,12 @@
       "qbittorrent"
     ]
   ],
+  "pre_install": [
+    "Expand-7zipArchive -Path \"$dir\\$fname\" -DestinationPath \"$dir\""
+  ],
+  "post_install": [
+    "Remove-Item -Path \"$dir\\`$PLUGINSDIR\" -Recurse -Force"
+  ],
   "checkver": "github",
   "autoupdate": {
     "architecture": {
