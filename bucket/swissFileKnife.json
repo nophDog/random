@@ -1,0 +1,20 @@
+{
+	"homepage": "http://stahlworks.com/dev/swiss-file-knife.html",
+	"description": "A Command Line Tools Collection",
+	"license": "BSD",
+	"version": "1.9.6.2",
+	"url": "http://stahlworks.com/dev/sfk/sfk.exe",
+	"hash": "028B1F116109FA0CB22487BA2A1EA947FBDFA586CFE7E95747BA12030A6BC137",
+	"bin": [
+		[
+			"sfx.exe",
+			"sfx"
+		]
+	],
+	"checkver": {
+		"regex": "Release ([.\\d]+) Base/XD of"
+	},
+	"autoupdate": {
+		"url": "http://stahlworks.com/dev/swiss-file-knife.html"
+	}
+}
