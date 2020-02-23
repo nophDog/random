@@ -5,7 +5,7 @@
 	"version": "1.9.6.2",
 	"url": "http://stahlworks.com/dev/sfk/sfk.exe",
 	"hash": "028B1F116109FA0CB22487BA2A1EA947FBDFA586CFE7E95747BA12030A6BC137",
-	"bin": [["sfx.exe","sfx"]],
+	"bin": "sfx.exe",
 	"checkver": {
 		"regex": "Release ([.\\d]+) Base/XD of"
 	},
