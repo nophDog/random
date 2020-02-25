@@ -21,12 +21,6 @@
             "chfs"
         ]
     ],
-    "shortcuts": [
-        [
-            "chfs.exe",
-            "chfs"
-        ]
-    ],
     "checkver": {
         "url": "https://iscute.cn/chfs",
         "regex": "chfs-windows-x64-([\\d.]+)\\.zip"
