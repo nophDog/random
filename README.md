@@ -31,6 +31,8 @@ scoop bucket add random https://github.com/nophDog/random
 | [ideaNote](https://www.ideanote.cc) | Cross-platform notes taking tool | `1.2.0` | `scoop install ideaNote` |
 | [jo](https://github.com/jpmens/jo) | JSON output from a shell | `1.3` | `scoop install jo` |
 | [JohnsBackgroundSwitcher](https://johnsad.ventures/software/backgroundswitcher) | Periodically changes the background image on your Windows computer to something awesome | `5.2` | `scoop install JohnsBackgroundSwitcher` |
+| [kate](kate-editor.org) | A multi-document editor which helps you get an edge in editing | `19.12.2-793` | `scoop install kate` |
+| [kwMusic]() |  | `` | `scoop install kwMusic` |
 | [libgenDesktop](https://github.com/libgenapps/LibgenDesktop) | Downloader for website LIBGEN.IS | `1.3.5` | `scoop install libgenDesktop` |
 | [litedbStudio](https://github.com/mbdavid/LiteDB.Studio) | A GUI tool for viewing and editing documents for LiteDB | `1.0.1` | `scoop install litedbStudio` |
 | [magnetw](https://github.com/xiandanin/magnetW) | Magnet resources search engine | `3.1.1` | `scoop install magnetw` |
@@ -50,6 +52,7 @@ scoop bucket add random https://github.com/nophDog/random
 | [remoteVolumeController](https://github.com/differentrain/Remote-Volume-Controller) | Control your windows volume on other device by web browser | `1.02` | `scoop install remoteVolumeController` |
 | [riotOptimizer](https://riot-optimizer.com/) | The image optimizer is lightweight, fast and simple to use, yet powerful for advanced users | `0.6.2` | `scoop install riotOptimizer` |
 | [runningCheeseFirefox](https://firefox.runningcheese.com) | A Graceful and Powerful Customized Firefox | `2020-02-11` | `scoop install runningCheeseFirefox` |
+| [swissFileKnife](http://stahlworks.com/dev/swiss-file-knife.html) | A Command Line Tools Collection | `1.9.6.2` | `scoop install swissFileKnife` |
 | [thiefBook](https://github.com/cteamx/Thief-Book) | Downloader for website LIBGEN.IS | `3.2.0` | `scoop install thiefBook` |
 | [tracetcp](https://github.com/0xcafed00d/tracetcp) | Traceroute utility that uses tcp syn packets to trace network routes | `1.0.3` | `scoop install tracetcp` |
 | [typeAndRun](https://typeandrun.software.informer.com) | A hot-key enabled console which allows you to start any applications | `4.7` | `scoop install typeAndRun` |
