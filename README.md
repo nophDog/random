@@ -1,5 +1,5 @@
 # the RANDOM
-<a href="https://github.com/nophDog/random/tree/master/bucket"><img src="https://img.shields.io/badge/manifests-45-brightgreen" alt="image" style="max-width:100%;"></a>
+<a href="https://github.com/nophDog/random/tree/master/bucket"><img src="https://img.shields.io/badge/manifests-44-brightgreen" alt="image" style="max-width:100%;"></a>
 <a href="https://github.com/nophDog/random/tree/master/bucket"><img src="https://img.shields.io/badge/quality-99%25-red" alt="image" style="max-width:100%;"></a>
 <br>
 <br>
@@ -38,7 +38,6 @@ scoop bucket add random https://github.com/nophDog/random
 | [magnetw](https://github.com/xiandanin/magnetW) | Magnet resources search engine | `3.1.1` | `scoop install magnetw` |
 | [musicPlayer2](https://github.com/zhongyang219/MusicPlayer2) | Local music player | `2.68` | `scoop install musicPlayer2` |
 | [neovide](https://github.com/Kethku/neovide) | No Nonsense Neovim Client in Rust | `0.4.0` | `scoop install neovide` |
-| [oliveVideoEditor](https://www.olivevideoeditor.org) | A free non-linear video editor aiming to provide a fully-featured alternative to high-end professional video editing software | `0.1.0` | `scoop install oliveVideoEditor` |
 | [onTopReplica](https://github.com/LorenzCK/OnTopReplica) | A real-time always-on-top “replica” of a window of your choice (on Windows). | `3.5.1` | `scoop install onTopReplica` |
 | [pet](https://github.com/knqyf263/pet) | Simple command-line snippet manager, written in Go | `0.3.6` | `scoop install pet` |
 | [picgo](https://github.com/Molunerfinn/PicGo) | A tool of image hosting client | `2.2.2` | `scoop install picgo` |
@@ -63,3 +62,4 @@ scoop bucket add random https://github.com/nophDog/random
 
 ### Removed
 - N_m3u8DL-cli
+- oliveVideoEditor
