@@ -1,0 +1,28 @@
+{
+    "homepage": "www.nyam.pe.kr",
+    "version": "1.1.1",
+    "license": "Freeware",
+    "description": "Freeware Image & Animation Viewer for Windows",
+    "architecture": {
+        "64bit": {
+            "url": "http://www.nyam.pe.kr/dev/imagine/download/x64/Imagine_1.1.1_x64_Unicode.zip",
+            "hash": "0A334BF8AC3F23DF46DE87378A8D725292BFD71C453BFA4039BF448AE5A59ADB",
+            "shortcuts": [
+                [
+                    "Imagine64.exe",
+                    "Imagine"
+                ]
+            ]
+        },
+        "32bit": {
+            "url": "http://www.nyam.pe.kr/dev/imagine/download/unicode/Imagine_1.1.1_Unicode.zip",
+            "hash": "4575D80D99160D9AFA38809076A2A33E616284C6A0991F224601317ABC643560",
+            "shortcuts": [
+                [
+                    "Imagine.exe",
+                    "Imagine"
+                ]
+            ]
+        }
+    }
+}
