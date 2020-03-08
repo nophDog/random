@@ -11,6 +11,9 @@
             "Clash for Windows"
         ]
     ],
+    "pre_install": [
+        "Get-Process -Name 'Clash for Windows' -ErrorAction Ignore | Stop-Process"
+    ],
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/Fndroid/clash_for_windows_pkg/releases/download/$version/Clash.for.Windows-$version-win.7z"
