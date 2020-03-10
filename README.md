@@ -1,5 +1,5 @@
 # the RANDOM
-<a href="https://github.com/nophDog/random/tree/master/bucket"><img src="https://img.shields.io/badge/manifests-44-brightgreen" alt="image" style="max-width:100%;"></a>
+<a href="https://github.com/nophDog/random/tree/master/bucket"><img src="https://img.shields.io/badge/manifests-50-brightgreen" alt="image" style="max-width:100%;"></a>
 <a href="https://github.com/nophDog/random/tree/master/bucket"><img src="https://img.shields.io/badge/quality-99%25-red" alt="image" style="max-width:100%;"></a>
 <br>
 <br>
@@ -15,11 +15,13 @@ scoop bucket add random https://github.com/nophDog/random
 
 | App | Description | Version | Install Command |
 |-----|-------------|---------|-----------------|
+| [aeroGlassGUI](https://www.glass8.eu) | Experience native look of Aero Glass interface on Windows 8.x+ | `1.5.3` | `scoop install aeroGlassGUI` |
+| [aoMeiPartAssist](https://www.disktool.cn/feature.html) | Free partition management tool | `8.3` | `scoop install aoMeiPartAssist` |
 | [autoruns](https://docs.microsoft.com/en-us/sysinternals/downloads/autoruns) | Manage your startups in one place | `13.96` | `scoop install autoruns` |
 | [bigJPG](https://bigjpg.com) | AI Image Enlarger | `Unknown` | `scoop install bigJPG` |
 | [browsingHistoryView](https://www.nirsoft.net/utils/browsing_history_view.html) | Review and export your browsing historys | `2.30` | `scoop install browsingHistoryView` |
 | [chfs](https://iscute.cn/chfs) | A free HTTP file server solution | `2.0` | `scoop install chfs` |
-| [clashForWindows](https://github.com/Fndroid/clash_for_windows_pkg) | A Windows GUI based on Clash | `0.8.11` | `scoop install clashForWindows` |
+| [clashForWindows](https://github.com/Fndroid/clash_for_windows_pkg) | A Windows GUI based on Clash | `0.9.0` | `scoop install clashForWindows` |
 | [easyDarwin](https://github.com/EasyDarwin/EasyDarwin) | Open source streaming server | `8.1.0` | `scoop install easyDarwin` |
 | [elvish](https://elv.sh) | A friendly interactive shell and an expressive programming language | `0.13` | `scoop install elvish` |
 | [eraseTemp](https://www.nodesoft.com/erasetemp) | A utility that automatically deletes old temporary files from your computer | `3.5.3.3` | `scoop install eraseTemp` |
@@ -29,6 +31,7 @@ scoop bucket add random https://github.com/nophDog/random
 | [fvim](https://github.com/yatli/fvim) | Cross platform Neovim front-end UI, built with F# + Avalonia | `0.2` | `scoop install fvim` |
 | [hfs](https://www.rejetto.com) | It's file sharing, it's webserver, it's open source, it's free, it's guaranteed to contain no malware | `2.3m` | `scoop install hfs` |
 | [ideaNote](https://www.ideanote.cc) | Cross-platform notes taking tool | `1.2.0` | `scoop install ideaNote` |
+| [imagine](www.nyam.pe.kr) | Freeware Image & Animation Viewer for Windows | `1.1.1` | `scoop install imagine` |
 | [jo](https://github.com/jpmens/jo) | JSON output from a shell | `1.3` | `scoop install jo` |
 | [JohnsBackgroundSwitcher](https://johnsad.ventures/software/backgroundswitcher) | Periodically changes the background image on your Windows computer to something awesome | `5.2` | `scoop install JohnsBackgroundSwitcher` |
 | [kate](kate-editor.org) | A multi-document editor which helps you get an edge in editing | `19.12.2-793` | `scoop install kate` |
@@ -52,8 +55,11 @@ scoop bucket add random https://github.com/nophDog/random
 | [riotOptimizer](https://riot-optimizer.com/) | The image optimizer is lightweight, fast and simple to use, yet powerful for advanced users | `0.6.2` | `scoop install riotOptimizer` |
 | [runningCheeseFirefox](https://firefox.runningcheese.com) | A Graceful and Powerful Customized Firefox | `2020-02-11` | `scoop install runningCheeseFirefox` |
 | [swissFileKnife](http://stahlworks.com/dev/swiss-file-knife.html) | A Command Line Tools Collection | `1.9.6.2` | `scoop install swissFileKnife` |
+| [theWorldBrowser](http://www.theworld.cn/) | A simple but powerful browser based on Chromium | `7.0.0.108` | `scoop install theWorldBrowser` |
 | [thiefBook](https://github.com/cteamx/Thief-Book) | Downloader for website LIBGEN.IS | `3.2.0` | `scoop install thiefBook` |
+| [thumbnailAndIconCacheRebuilder](https://www.thewindowsclub.com/icon-cache-rebuilder-for-windows-10) | A portable freeware that will purge, clear and delete your Thumbnail and Icon Cache in a click | `1.0.0` | `scoop install thumbnailAndIconCacheRebuilder` |
 | [tracetcp](https://github.com/0xcafed00d/tracetcp) | Traceroute utility that uses tcp syn packets to trace network routes | `1.0.3` | `scoop install tracetcp` |
+| [tweakTC](http://totalcmd.net/plugring/tweaktc.html) | TweakTC is designed for advanced configuration of Total Commander (more than 65 options) without manual editing its INI files (usually wincmd.ini and wcx_ftp.ini) | `3.9.3` | `scoop install tweakTC` |
 | [typeAndRun](https://typeandrun.software.informer.com) | A hot-key enabled console which allows you to start any applications | `4.7` | `scoop install typeAndRun` |
 | [utools](https://u.tools/) | Your productive tools set and launcher. | `0.8.9-beta` | `scoop install utools` |
 | [videosrt](https://github.com/wxbool/video-srt-windows) | An open source tool for generating SRT subtitle files by recognizing audios in videos | `0.2.6` | `scoop install videosrt` |
