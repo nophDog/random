@@ -8,7 +8,7 @@
   "pre_install": [
     "Expand-7zipArchive -Path \"$dir\\$fname\" -Destination \"$dir\\_tmp\"",
     "Expand-7zipArchive -Path \"$dir\\$_tmp\\chrome.7z\" -Destination \"$dir\"",
-    "Move-Item -Path \"$dir\\Chrome-bin\" -Destination \"$dir\""
+    "Move-Item -Path \"$dir\\Chrome-bin\\*\" -Destination \"$dir\""
   ],
   "shortcuts": [
     [
