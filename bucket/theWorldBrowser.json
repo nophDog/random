@@ -1,0 +1,19 @@
+{
+  "homepage": "http://www.theworld.cn/",
+  "description": "A simple but powerful browser based on Chromium",
+  "license": "Freeware",
+  "version": "7.0.0.108",
+  "url": "http://download.theworld.cn/ver/TWInst_7.0.0.108.exe",
+  "hash": "F02A8CCDE914D7371C09DBA30F2F1A082CCDB1736A1097DAA47FAE487E3000DE",
+  "pre_install": [
+    "Expand-7zipArchive -Path \"$dir\\$fname\" -Destination \"$dir\\_tmp\"",
+    "Expand-7zipArchive -Path \"$dir\\$_tmp\\chrome.7z\" -Destination \"$dir\"",
+    "Move-Item -Path \"$dir\\Chrome-bin\" -Destination \"$dir\""
+  ],
+  "shortcuts": [
+    [
+      "theworld.exe",
+      "theWorld"
+    ]
+  ]
+}
