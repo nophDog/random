@@ -24,5 +24,9 @@
                 ]
             ]
         }
+    },
+    "checkver": {
+		"url": "http://www.nyam.pe.kr/dev/imagine/",
+		"regex": "<strong data-lang-id=\"main_program\">Main Program</strong> <span class=\"label label-default\">v([\\d.]+)</span>"
     }
 }
