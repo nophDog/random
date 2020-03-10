@@ -1,0 +1,14 @@
+{
+  "homepage": "http://totalcmd.net/plugring/tweaktc.html",
+  "description": "TweakTC is designed for advanced configuration of Total Commander (more than 65 options) without manual editing its INI files (usually wincmd.ini and wcx_ftp.ini)",
+  "license": "Freeware",
+  "version": "3.9.3",
+  "url": "http://totalcmd.net/download.php?id=tweaktc",
+  "hash": "DB7C0FD8207042D4832B614F6A8D7E191733CD4F835BDD8CD6DECF8349DC4AC7",
+  "shortcuts": [
+    [
+        "TweakTC.exe",
+        "TweakTC"
+    ]
+  ]
+}
