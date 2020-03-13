@@ -5,7 +5,7 @@
     "description": "Communication app which focuses on office collaboration",
     "url": "https://dldir1.qq.com/qqfile/qq/TIM2.3.2/21173/TIM2.3.2.21173.exe#/dl.7z",
     "hash": "0FAFDC98D7FA2C9D8B07FDCF327C462FF19E5FA38333A19892745DE9C64186D9",
-    "shortcuts: [
+    "shortcuts": [
 		[
 			"Files/Bin/TIM.exe",
 			"Tim"
