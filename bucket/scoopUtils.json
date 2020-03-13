@@ -1,0 +1,8 @@
+{
+    "version": "1.0",
+    "url": "https://raw.githubusercontent.com/nophDog/Wserver/master/Scripts/Automation/ScoopUtils.ps1",
+    "post_install": [
+		"$scoopUtils = (Resolve-Path -Path $dir\\$fname).Path",
+		"\"`n`n. $scoopUtils\" | Out-File -Path $profile -Append -Force"
+    ]
+}
