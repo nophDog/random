@@ -5,9 +5,13 @@
 		"$scoopUtils = (Resolve-Path -Path $dir\\$fname).Path",
 		"\"`n`n. $scoopUtils\" | Out-File -Path $profile -Append -Force"
     ],
-    "uninstaller": [
-		"$installer = (Get-Content -Path $profile | Select-String -Pattern 'scoopUtils\\.ps1').Line",
-		"Get-Content -Path $profile | Where-Object { $_ -ne $installer} | out-File -Path $profile",
-		"Write-Host \"Script uninstalled successfully\""
-    ]
+    "uninstaller": {
+		"script": 
+			[
+				"$installer = (Get-Content -Path $profile | Select-String -Pattern 'scoopUtils\\.ps1').Line",
+				"Get-Content -Path $profile | Where-Object { $_ -ne $installer} | out-File -Path $profile",
+				"Write-Host \"Script uninstalled successfully\""
+			]
+    }
+    
 }
