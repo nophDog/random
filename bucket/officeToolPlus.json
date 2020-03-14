@@ -11,5 +11,12 @@
             "Office Tool Plus.exe",
             "Office Tool Plus"
         ]
-    ]
+    ],
+    "checkver": {
+		"url": "https://otp.landian.vip/zh-cn/",
+		"regex": "最新版本：([\\d.]+)　下载大小"
+    },
+    "autoupdate": {
+		"url": "https://download.coolhub.top/Office%20Tool%20v$version.zip"
+    }
 }
