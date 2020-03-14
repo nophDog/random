@@ -1,0 +1,14 @@
+{
+    "homepage": "http://m.majorgeeks.com/files/details/logyx_pack.html",
+    "description": "A portable collection of 150 different logic games to test your brain with adjustable options to make them suitable for almost any age player",
+    "license": "Freeware",
+    "version": "17.62",
+    "url": "https://files1.majorgeeks.com/240e481dff818f66c3d1a3d0a52e1dcfb19b4470/games/LogyxPack.zip",
+    "hash": "F4CF8D61A66E91734233A884D8C9F85EC29A7657F4DFC5965DAA545C78EA8A56",
+    "shortcuts": [
+        [
+            "LogyxPack.exe",
+            "Logyx Pack"
+        ]
+    ]
+}
