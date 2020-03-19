@@ -1,0 +1,14 @@
+{
+    "homepage": "https://github.com/cuiliang/KeyboardTest",
+    "description": "A simple Keyboard tester",
+    "license": "Unknown",
+    "version": "1.0.7",
+    "url": "https://github.com/cuiliang/KeyboardTest/raw/master/KeyboardTest/bin/Debug/KeyboardTest.exe",
+    "hash": "896FE1D6B0654ED1D5B027E0AB09C8A68373CB5018E2AC69B4AF5C72E89BD681",
+    "shortcuts": [
+        [
+            "KeyboardTest.exe",
+            "Keyboard Test"
+        ]
+    ]
+}
