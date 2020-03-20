@@ -6,7 +6,7 @@
     "url": "http://www.dcmembers.com/skwire/wp-content/uploads/sites/5/apps/files_2_folder/Files2Folder.zip",
     "hash": "2C440CBEB9CBB7F1436DD70BD66FEA577592BDD081C3FA26B1F300C67265A3D8",
     "persist": "config.ini",
-    "installer" : [
+    "pre_install": [
         "$dir\\Files2Folder.exe -s"
     ],
     "uninstaller": [
