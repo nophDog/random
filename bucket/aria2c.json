@@ -4,7 +4,7 @@
     "license": "Unknown",
     "version": "1.35.0-1",
     "url": "http://aria2c.com/archiver/aria2.zip",
-    "hash": "EF525E5D1C73BE5564D33AB9CB283BDFEEB77170EAC54423AE9F08FE1555D92A",
+    "hash": "19c2967a309c02ea08ac9e098b6f53675fd100c9c4cb87d4a6f412703bef071b",
     "bin": [
         [
             "aria2c.exe",
