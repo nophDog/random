@@ -1,0 +1,15 @@
+{
+    "homepage": "https://github.com/pandolia/easy-service",
+    "description": "Easy tool help you create Windows service",
+    "version": "20200311",
+    "license": "Unknown",
+    "url": "https://github.com/pandolia/easy-service/archive/master.zip",
+    "hash": "8239E8C76FACADC1507E2D44248AF57987063F9F9ED06251453FBCB5F98F54F6",
+    "extract_dir": "easy-service-master",
+    "bin": [
+        [
+            "bin/svc.exe",
+            "svc"
+        ]
+    ]
+}
