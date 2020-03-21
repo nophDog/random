@@ -6,6 +6,6 @@
 		"\"`n`n. $scoopUtils\" | Out-File -Path $profile -Append -Force"
     ],
     "notes": [
-		"Please delete the source line in your $PROFILE manually after uninstalling'
+		"Please delete the source line in your $PROFILE manually after uninstalling"
     ]
 }
