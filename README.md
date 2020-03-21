@@ -39,7 +39,7 @@ scoop bucket add random https://github.com/nophDog/random
 | [JohnsBackgroundSwitcher](https://johnsad.ventures/software/backgroundswitcher) | Periodically changes the background image on your Windows computer to something awesome | `5.2` | `scoop install JohnsBackgroundSwitcher` |
 | [kate](kate-editor.org) | A multi-document editor which helps you get an edge in editing | `19.12.2-793` | `scoop install kate` |
 | [keyboardTest](https://github.com/cuiliang/KeyboardTest) | A simple Keyboard tester | `1.0.7` | `scoop install keyboardTest` |
-| [kwMusic]() |  | `` | `scoop install kwMusic` |
+| [kwMusic](https://kuwo.cn) |  | Online stream music service for mainly Chinese | `scoop install kwMusic` |
 | [libgenDesktop](https://github.com/libgenapps/LibgenDesktop) | Downloader for website LIBGEN.IS | `1.3.5` | `scoop install libgenDesktop` |
 | [litedbStudio](https://github.com/mbdavid/LiteDB.Studio) | A GUI tool for viewing and editing documents for LiteDB | `1.0.1` | `scoop install litedbStudio` |
 | [logyxPack](http://m.majorgeeks.com/files/details/logyx_pack.html) | A portable collection of 150 different logic games to test your brain with adjustable options to make them suitable for almost any age player | `17.62` | `scoop install logyxPack` |
