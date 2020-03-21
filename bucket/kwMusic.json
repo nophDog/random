@@ -3,8 +3,8 @@
     "description": "Online stream music service for mainly Chinese",
     "license": "Unknown",
     "version": "20200316",
-    "url": "http://60.174.135.182:88/down.kuwo.cn/mbox/kwmusic_web_1_bds_20200316.exe",
-    "hash": "AA15543CE1EB797767005A231FA0B33BF2D89D18E12910285E552BE0E5F1D3E4",
+    "url": "http://60.174.135.182:88/down.kuwo.cn/mbox/kwmusic_web_1_bds_20200316.exe#dl.7z",
+    "hash": "930b80f1ccdadf8a4ac498c79bcafc1f97e58d4540d0a7c21393da9bf4bda2ba",
     "shortcuts": [
         [
             "KwMusic.exe",
