@@ -1,0 +1,22 @@
+{
+    "homepage": "https://www.woobx.cn",
+    "description": "Utilities collection",
+    "version": "0.1.0",
+    "license": "Unknown",
+    "architecture": {
+        "64bit": {
+            "url": "http://123.56.110.31/Repo/oneWoodBox_0.1.0_32bit.zip",
+            "hash": "E9CC14E30BAE2CF8DDFF8546BB4F8BA7462D64A4F6D2D8D8AC8C3D76A69D6E9A"
+        },
+        "32bit": {
+            "url": "http://123.56.110.31/Repo/oneWoodBox_0.1.0_64bit.zip",
+            "hash": "97BF1FB232A21857500CF4C20C4ACA22420776F0AC054D08492169686DB2D5FF"
+        }
+    },
+    "shortcuts": [
+        [
+            "一个木函工具箱.exe",
+            "OneWoodBox"
+        ]
+    ]
+}
