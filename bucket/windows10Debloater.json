@@ -1,0 +1,15 @@
+{
+    "homepage": "https://github.com/Sycnex/Windows10Debloater",
+    "description": "Script/Utility/Application to debloat Windows 10",
+    "license": "Freeware",
+    "version": "20200315",
+    "url": "https://github.com/Sycnex/Windows10Debloater/archive/master.zip",
+    "hash": "0DE6AF610CA808E269BC3414BDCF14408411E52169271E0AEC4E1CC5D1E42C1A",
+    "extract_dir": "Windows10Debloater-master",
+    "bin": [
+        [
+            "Windows10DebloaterGUI.ps1",
+            "Windows10DebloaterGUI"
+        ]
+    ]
+}
