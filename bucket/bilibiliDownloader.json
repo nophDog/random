@@ -1,0 +1,14 @@
+{
+    "homepage": "https://www.bilibili.com",
+    "description": "Yet another Bilibili downloader",
+    "version": "3.0",
+    "license": "Unknown",
+    "url": "https://qtranslate2.appspot.com/QTranslate.6.7.5.zip",
+    "hash": "F1D61E5B5FD3423BF16E93DDBDE7734A8F69F9D965D9CF51D857CCE7AD9CC3AD",
+    "shortcuts": [
+        [
+            "BiliBili视频下载工具 3.0.exe",
+            "BiliBili 视频下载工具"
+        ]
+    ]
+}
