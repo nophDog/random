@@ -1,0 +1,19 @@
+{
+    "homepage": "https://github.com/LorenzCK/OnTopReplica",
+    "description": "A real-time always-on-top “replica” of a window of your choice (on Windows).",
+    "license": {
+        "identifier": "MS-RL",
+        "url": "https://github.com/LorenzCK/OnTopReplica/blob/master/LICENSE"
+    },
+    "version": "3.5.1",
+    "url": "http://123.56.110.31/Repo/OnTopReplica_3.5.1.msi",
+    "hash": "0D2EF6B391C40B641C2C1CE69AD803FB82813960782426E3205B3BB30DCBF46B",
+    "shortcuts": [
+		[
+			"OnTopReplica.exe",
+			"OnTopReplica"
+		]
+    ]
+}
+
+
