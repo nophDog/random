@@ -1,0 +1,15 @@
+{
+    "homepage": "https://www.dcmembers.com/skrommel/download/ghoster",
+    "description": "Dims all windows except the active one",
+    "license": "Unknown",
+    "version": "1.2",
+    "url": "https://www.dcmembers.com/skrommel/download/ghoster/?wpdmdl=299&refresh=5e7a10bd07f831585057981",
+    "hash": "F347C26FF97895E59BBA2F1D3320A220E46977FFCEC335E4D93BEA7DB0D2947C",
+    "extract_dir": "Ghoster",
+    "shortcuts": [
+        [
+            "Ghoster.exe",
+            "Ghoster"
+        ]
+    ]
+}
