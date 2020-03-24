@@ -1,0 +1,14 @@
+{
+    "homepage": "https://www.deskangel.com",
+    "description": "Display the Caps Lock status in Windows system notification area",
+    "license": "Freeware",
+    "version": "1.0.0",
+    "url": "https://www.deskangel.com/download/CapsLock.zip",
+    "hash": "14BE5BEA1510315B45C687047A5F35D62F1040E421F1647B8272BC0CE7A8DCFB",
+    "shortcuts": [
+        [
+            "CapsLock.exe",
+            "CapsLock"
+        ]
+    ]
+}
