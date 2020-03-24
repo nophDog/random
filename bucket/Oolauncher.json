@@ -1,0 +1,15 @@
+{
+    "homepage": "http://www.deskangel.com/?target=oolauncher",
+    "description": "Take over and arrange the applications launching while Windows starting up",
+    "license": "Freeware",
+    "version": "1.0.0.6",
+    "url": "https://oolauncher.deskangel.com/data/oolauncher.zip",
+    "hash": "450AB217937BE3A65CD86BF04732135495766755E95C2EE7593F2B563442D05D",
+    "extract_dir": "Oolauncher",
+    "shortcuts": [
+        [
+            "Oolauncher.exe",
+            "Oolauncher"
+        ]
+    ]
+}
