@@ -1,0 +1,15 @@
+{
+    "homepage": "https://www.deskangel.com/?target=deskangel",
+    "description": "A powerful tool to help daily works by extending the mouse and keyboard functions",
+    "license": "Freeware",
+    "version": "2.2.3.1",
+    "url": "https://www.deskangel.com/deskangel/data/deskangel.zip",
+    "hash": "68D1C748B20F7EE12A62FF391995DF215278EB9FAFDB62B91DBE48E12E943226",
+    "extract_dir": "deskangel",
+    "shortcuts": [
+        [
+            "deskangel.exe",
+            "deskangel"
+        ]
+    ]
+}
