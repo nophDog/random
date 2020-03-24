@@ -1,0 +1,15 @@
+{
+    "homepage": "https://www.deskangel.com",
+    "description": "A handy tool to start application by keyboard",
+    "license": "Freeware",
+    "version": "1.0.0",
+    "url": "https://www.deskangel.com/download/minirun.7z",
+    "hash": "DE664FCAF5B7C1D1655F8DF3091E0C4152FB93073133356A4BF32ECF9BCD121A",
+    "extract_dir": "minirun",
+    "shortcuts": [
+        [
+            "minirun.exe",
+            "minirun"
+        ]
+    ]
+}
