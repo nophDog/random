@@ -1,0 +1,14 @@
+{
+    "homepage": "https://www.appinn.com/music-163-downloader",
+    "description": "Yet another Netease music downloader",
+    "license": "Unknown",
+    "version": "1.7",
+    "url": "http://123.56.110.31/Repo/163Downloader_1.7.zip",
+    "hash": "F05A3FCE418F1E60592629FB42AF7844F6626DE0053D4AF5E73EF18275B949E9",
+    "shortcuts": [
+        [
+            "网易云音乐下载器_v1.7.exe",
+            "网易云音乐下载器"
+        ]
+    ]
+}
