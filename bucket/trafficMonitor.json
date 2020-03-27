@@ -1,0 +1,24 @@
+{
+  "homepage": "https://github.com/zhongyang219/TrafficMonitor",
+  "description": "Display traffic speed in taskbar",
+  "license": "996",
+  "version": "1.78",
+  "architecture": {
+      "64bit": {
+          "url": "https://github.com/zhongyang219/TrafficMonitor/releases/download/V1.78/TrafficMonitor_V1.78_x64.7z",
+          "hash": "CE16A79CA8B8BED2B50C2E33A3415E58EF50481677DCA1024305D4214F864610"
+      },
+      "32bit": {
+          "url": "https://github.com/zhongyang219/TrafficMonitor/releases/download/V1.78/TrafficMonitor_V1.78_x86.7z",
+          "hash": "D5C5BBF7D9B8C0A7A6052F0C0622664E1BF832D6B685A22E1CAEF70B56ACBCA6"
+      }
+  },
+  "extract_dir": "TrafficMonitor",
+  "shortcuts": [
+    [
+      "TrafficMonitor.exe",
+      "TrafficMonitor"
+    ]
+  ],
+  "checkver": "github"
+}
