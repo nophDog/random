@@ -1,0 +1,14 @@
+{
+    "homepage": "https://www.appinn.com/uac-whitelist-tools",
+    "description": "A tool to manager UAC of specific program",
+    "license": "Unknown",
+    "version": "1.3",
+    "url": "http://123.56.110.31/Utility/UAC_whiteList_1.3.zip",
+    "hash": "E033299B1383E899FD60336EB26DCB0CBF8CBC7DA6437CF41091EDFF68FF1553",
+    "shortcuts": [
+        [
+            "UAC白名单小工具.exe",
+            "UAC 白名单小工具"
+        ]
+    ]
+}
