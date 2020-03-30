@@ -13,7 +13,7 @@ scoop bucket add random https://github.com/nophDog/random
 
 ### Apps
 
-| App | Description | Version | Install Command |
+| Name | Version | Description | License |
 |-----|-------------|---------|-----------------|
 | [aeroGlassGUI](https://www.glass8.eu) | 1.5.3 | Experience native look of Aero Glass interface on Windows 8.x+ | Freeware |
 | [aoMeiPartAssist](https://www.disktool.cn/feature.html) | 8.3 | Free partition management tool | Unknown |
