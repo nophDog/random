@@ -34,7 +34,7 @@ scoop bucket add random https://github.com/nophDog/random
 | [fileMenuTools](https://www.lopesoft.com/index.php/en/products/filemenutools) | 7.7 | An application which lets you customize the context menu of Windows File Explorer | Unknown |
 | [files2Folder](http://www.dcmembers.com/skwire/download/files-2-folder) | 1.1.7 | A right-click shell extension that will automatically create a folder based on the selected filename and move that file into that folder | Freeware |
 | [flowerssBot](https://github.com/indes/flowerss-bot) | 0.5.3 | A telegram bot for rss reader | MIT |
-| [fvim](https://github.com/yatli/fvim) | 0.2 | Cross platform Neovim front-end UI, built with F# + Avalonia | MIT} |
+| [fvim](https://github.com/yatli/fvim) | 0.2 | Cross platform Neovim front-end UI, built with F# + Avalonia | MIT |
 | [ghoster](https://www.dcmembers.com/skrommel/download/ghoster) | 1.2 | Dims all windows except the active one | Unknown |
 | [hfs](https://www.rejetto.com) | 2.3m | It's file sharing, it's webserver, it's open source, it's free, it's guaranteed to contain no malware | Freeware |
 | [ideaNote](https://www.ideanote.cc) | 1.2.0 | Cross-platform notes taking tool | Unknown |
@@ -80,7 +80,7 @@ scoop bucket add random https://github.com/nophDog/random
 | [typeAndRun](https://typeandrun.software.informer.com) | 4.7 | A hot-key enabled console which allows you to start any applications | Unknown |
 | [UACWhiteList](https://www.appinn.com/uac-whitelist-tools) | 1.3 | A tool to manager UAC of specific program | Unknown |
 | [utools](https://u.tools/) | 0.8.9-beta | Your productive tools set and launcher. | Unknown |
-| [videosrt](https://github.com/wxbool/video-srt-windows) | 0.2.8 | An open source tool for generating SRT subtitle files by recognizing audios in videos | MIT} |
+| [videosrt](https://github.com/wxbool/video-srt-windows) | 0.2.8 | An open source tool for generating SRT subtitle files by recognizing audios in videos | MIT |
 | [win10StartMenuBeautifier](https://mp.weixin.qq.com/s/t9IJKABJhA3kdiMSTlJZ1Q) | 3.9 | A tool to help customize your start menu tiles | Unknown |
 | [windows10Debloater](https://github.com/Sycnex/Windows10Debloater) | 20200315 | Script/Utility/Application to debloat Windows 10 | Freeware |
 | [xdown](https://xdown.org/) | 1.0.2.9 | An ads-free idm/torrent varieta | Freeware |
