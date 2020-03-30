@@ -1,5 +1,5 @@
 # the RANDOM
-<a href="https://github.com/nophDog/random/tree/master/bucket"><img src="https://img.shields.io/badge/manifests-59-brightgreen" alt="image" style="max-width:100%;"></a>
+<a href="https://github.com/nophDog/random/tree/master/bucket"><img src="https://img.shields.io/badge/manifests-70-brightgreen" alt="image" style="max-width:100%;"></a>
 <a href="https://github.com/nophDog/random/tree/master/bucket"><img src="https://img.shields.io/badge/quality-99%25-red" alt="image" style="max-width:100%;"></a>
 <br>
 <br>
@@ -15,65 +15,76 @@ scoop bucket add random https://github.com/nophDog/random
 
 | App | Description | Version | Install Command |
 |-----|-------------|---------|-----------------|
-| [aeroGlassGUI](https://www.glass8.eu) | Experience native look of Aero Glass interface on Windows 8.x+ | `1.5.3` | `scoop install aeroGlassGUI` |
-| [aoMeiPartAssist](https://www.disktool.cn/feature.html) | Free partition management tool | `8.3` | `scoop install aoMeiPartAssist` |
-| [aria2c](http://aria2c.com) | Lightweight multi-protocol & multi-source command-line download utility | `1.35.0-1` | `scoop install aria2c` |
-| [autoruns](https://docs.microsoft.com/en-us/sysinternals/downloads/autoruns) | Manage your startups in one place | `13.96` | `scoop install autoruns` |
-| [bigJPG](https://bigjpg.com) | AI Image Enlarger | `Unknown` | `scoop install bigJPG` |
-| [browsingHistoryView](https://www.nirsoft.net/utils/browsing_history_view.html) | Review and export your browsing historys | `2.30` | `scoop install browsingHistoryView` |
-| [chfs](https://iscute.cn/chfs) | A free HTTP file server solution | `2.0` | `scoop install chfs` |
-| [clashForWindows](https://github.com/Fndroid/clash_for_windows_pkg) | A Windows GUI based on Clash | `0.9.2` | `scoop install clashForWindows` |
-| [easyDarwin](https://github.com/EasyDarwin/EasyDarwin) | Open source streaming server | `8.1.0` | `scoop install easyDarwin` |
-| [easyService](https://github.com/pandolia/easy-service) | Easy tool help you create Windows service | `20200311` | `scoop install easyService` |
-| [elvish](https://elv.sh) | A friendly interactive shell and an expressive programming language | `0.13` | `scoop install elvish` |
-| [eraseTemp](https://www.nodesoft.com/erasetemp) | A utility that automatically deletes old temporary files from your computer | `3.5.3.3` | `scoop install eraseTemp` |
-| [explorerPlusPlus](https://explorerplusplus.com) | A lightweight and fast file manager for Windows. Get version 1.3.5 below | `1.3.5` | `scoop install explorerPlusPlus` |
-| [fileMenuTools](https://www.lopesoft.com/index.php/en/products/filemenutools) | An application which lets you customize the context menu of Windows File Explorer | `7.7` | `scoop install fileMenuTools` |
-| [files2Folder](http://www.dcmembers.com/skwire/download/files-2-folder) | A right-click shell extension that will automatically create a folder based on the selected filename and move that file into that folder | `1.1.7` | `scoop install files2Folder` |
-| [flowerssBot](https://github.com/indes/flowerss-bot) | A telegram bot for rss reader | `0.5.3` | `scoop install flowerssBot` |
-| [fvim](https://github.com/yatli/fvim) | Cross platform Neovim front-end UI, built with F# + Avalonia | `0.2` | `scoop install fvim` |
-| [hfs](https://www.rejetto.com) | It's file sharing, it's webserver, it's open source, it's free, it's guaranteed to contain no malware | `2.3m` | `scoop install hfs` |
-| [ideaNote](https://www.ideanote.cc) | Cross-platform notes taking tool | `1.2.0` | `scoop install ideaNote` |
-| [imagine](www.nyam.pe.kr) | Freeware Image & Animation Viewer for Windows | `1.1.1` | `scoop install imagine` |
-| [jo](https://github.com/jpmens/jo) | JSON output from a shell | `1.3` | `scoop install jo` |
-| [JohnsBackgroundSwitcher](https://johnsad.ventures/software/backgroundswitcher) | Periodically changes the background image on your Windows computer to something awesome | `5.2` | `scoop install JohnsBackgroundSwitcher` |
-| [kate](kate-editor.org) | A multi-document editor which helps you get an edge in editing | `19.12.2-793` | `scoop install kate` |
-| [keyboardTest](https://github.com/cuiliang/KeyboardTest) | A simple Keyboard tester | `1.0.7` | `scoop install keyboardTest` |
-| [kwMusic](https://kuwo.cn) |  | Online stream music service for mainly Chinese | `scoop install kwMusic` |
-| [libgenDesktop](https://github.com/libgenapps/LibgenDesktop) | Downloader for website LIBGEN.IS | `1.3.5` | `scoop install libgenDesktop` |
-| [litedbStudio](https://github.com/mbdavid/LiteDB.Studio) | A GUI tool for viewing and editing documents for LiteDB | `1.0.1` | `scoop install litedbStudio` |
-| [logyxPack](http://m.majorgeeks.com/files/details/logyx_pack.html) | A portable collection of 150 different logic games to test your brain with adjustable options to make them suitable for almost any age player | `17.62` | `scoop install logyxPack` |
-| [magnetw](https://github.com/xiandanin/magnetW) | Magnet resources search engine | `3.1.1` | `scoop install magnetw` |
-| [musicPlayer2](https://github.com/zhongyang219/MusicPlayer2) | Local music player | `2.68` | `scoop install musicPlayer2` |
-| [neovide](https://github.com/Kethku/neovide) | No Nonsense Neovim Client in Rust | `0.4.0` | `scoop install neovide` |
-| [officeToolPlus](https://otp.landian.vip) | Office deployment tool | `7.5` | `scoop install officeToolPlus` |
-| [oneWoodBox](https://www.woobx.cn) | Utilities collection | `0.1.0` | `scoop install oneWoodBox` |
-| [onTopReplica](https://github.com/LorenzCK/OnTopReplica) | A real-time always-on-top “replica” of a window of your choice (on Windows). | `3.5.1` | `scoop install onTopReplica` |
-| [pet](https://github.com/knqyf263/pet) | Simple command-line snippet manager, written in Go | `0.3.6` | `scoop install pet` |
-| [picgo](https://github.com/Molunerfinn/PicGo) | A tool of image hosting client | `2.2.2` | `scoop install picgo` |
-| [pinga](https://css-ig.net/pingo) | GUI for pingo | `3 March 2020` | `scoop install pinga` |
-| [pingo](https://css-ig.net/pingo) | Fast web image optimizer | `3 March 2020` | `scoop install pingo` |
-| [pixivWallpaper](https://github.com/SingularityF/PixivWallpaper) | Get anime style wallpapers from daily Pixiv high ranking illustrations | `1.3.5` | `scoop install pixivWallpaper` |
-| [ppet](https://github.com/majorworld/Pet) | Using your keyboard replace the mouse | `2020-01-31` | `scoop install ppet` |
-| [processExplorer](https://docs.microsoft.com/en-us/sysinternals/downloads/process-explorer) | Process Explorer shows you information about which handles and DLLs processes have opened or loaded. | `December-18-2019` | `scoop install processExplorer` |
-| [psScriptPad](https://ironmansoftware.com/psscriptpad) | The tiny, little editor for PowerShell | `Unknown` | `scoop install psScriptPad` |
-| [qBittorrentEnhancedEdition](https://github.com/c0re100/qBittorrent-Enhanced-Edition) | qBittorrent BitTorrent client (Enhanced Edition) | `4.2.1.10` | `scoop install qBittorrentEnhancedEdition` |
-| [remoteVolumeController](https://github.com/differentrain/Remote-Volume-Controller) | Control your windows volume on other device by web browser | `1.02` | `scoop install remoteVolumeController` |
-| [riotOptimizer](https://riot-optimizer.com/) | The image optimizer is lightweight, fast and simple to use, yet powerful for advanced users | `0.6.2` | `scoop install riotOptimizer` |
-| [runningCheeseFirefox](https://firefox.runningcheese.com) | A Graceful and Powerful Customized Firefox | `2020-03-13` | `scoop install runningCheeseFirefox` |
-| [scoopUtils](https://firefox.runningcheese.com) | A Graceful and Powerful Customized Firefox | `2020-03-13` | `scoop install scoopUtils` |
-| [swissFileKnife](http://stahlworks.com/dev/swiss-file-knife.html) | A Command Line Tools Collection | `1.9.6.2` | `scoop install swissFileKnife` |
-| [theWorldBrowser](http://www.theworld.cn/) | A simple but powerful browser based on Chromium | `7.0.0.108` | `scoop install theWorldBrowser` |
-| [thiefBook](https://github.com/cteamx/Thief-Book) | Downloader for website LIBGEN.IS | `3.2.0` | `scoop install thiefBook` |
-| [thumbnailAndIconCacheRebuilder](https://www.thewindowsclub.com/icon-cache-rebuilder-for-windows-10) | A portable freeware that will purge, clear and delete your Thumbnail and Icon Cache in a click | `1.0.0` | `scoop install thumbnailAndIconCacheRebuilder` |
-| [tracetcp](https://github.com/0xcafed00d/tracetcp) | Traceroute utility that uses tcp syn packets to trace network routes | `1.0.3` | `scoop install tracetcp` |
-| [tweakTC](http://totalcmd.net/plugring/tweaktc.html) | TweakTC is designed for advanced configuration of Total Commander (more than 65 options) without manual editing its INI files (usually wincmd.ini and wcx_ftp.ini) | `3.9.3` | `scoop install tweakTC` |
-| [typeAndRun](https://typeandrun.software.informer.com) | A hot-key enabled console which allows you to start any applications | `4.7` | `scoop install typeAndRun` |
-| [utools](https://u.tools/) | Your productive tools set and launcher. | `0.8.9-beta` | `scoop install utools` |
-| [videosrt](https://github.com/wxbool/video-srt-windows) | An open source tool for generating SRT subtitle files by recognizing audios in videos | `0.2.6` | `scoop install videosrt` |
-| [windows10Debloater](https://github.com/Sycnex/Windows10Debloater) | Script/Utility/Application to debloat Windows 10 | `20200315` | `scoop install windows10Debloater` |
-| [xdown](https://xdown.org/) | An ads-free idm/torrent varieta | `1.0.2.9` | `scoop install xdown` |
-| [xSpotify](https://github.com/meik97/XSpotify) | A modified Spotify client with DRM bypass | `1.2` | `scoop install xSpotify` |
+| [aeroGlassGUI](https://www.glass8.eu) | 1.5.3 | Experience native look of Aero Glass interface on Windows 8.x+ | Freeware |
+| [aoMeiPartAssist](https://www.disktool.cn/feature.html) | 8.3 | Free partition management tool | Unknown |
+| [aria2c](http://aria2c.com) | 1.35.0-1 | Lightweight multi-protocol & multi-source command-line download utility | Unknown |
+| [autoruns](https://docs.microsoft.com/en-us/sysinternals/downloads/autoruns) | 13.96 | Manage your startups in one place | Freeware |
+| [bigJPG](https://bigjpg.com) | Unknown | AI Image Enlarger | Unknown |
+| [bilibiliDownloader](https://www.bilibili.com) | 3.0 | Yet another Bilibili downloader | Unknown |
+| [browsingHistoryView](https://www.nirsoft.net/utils/browsing_history_view.html) | 2.30 | Review and export your browsing historys | Freeware |
+| [capslock](https://www.deskangel.com) | 1.0.0 | Display the Caps Lock status in Windows system notification area | Freeware |
+| [chfs](https://iscute.cn/chfs) | 2.0 | A free HTTP file server solution | Freeware |
+| [clashForWindows](https://github.com/Fndroid/clash_for_windows_pkg) | 0.9.3 | A Windows GUI based on Clash |  |
+| [deskAngel](https://www.deskangel.com/?target=deskangel) | 2.2.3.1 | A powerful tool to help daily works by extending the mouse and keyboard functions | Freeware |
+| [easyDarwin](https://github.com/EasyDarwin/EasyDarwin) | 8.1.0 | Open source streaming server | Unknown |
+| [easyService](https://github.com/pandolia/easy-service) | 20200311 | Easy tool help you create Windows service | Unknown |
+| [elvish](https://elv.sh) | 0.13 | A friendly interactive shell and an expressive programming language | BSD-2 |
+| [eraseTemp](https://www.nodesoft.com/erasetemp) | 3.5.3.3 | A utility that automatically deletes old temporary files from your computer | Freeware |
+| [explorerPlusPlus](https://explorerplusplus.com) | 1.3.5 | A lightweight and fast file manager for Windows. Get version 1.3.5 below | GPL-v3 |
+| [fileMenuTools](https://www.lopesoft.com/index.php/en/products/filemenutools) | 7.7 | An application which lets you customize the context menu of Windows File Explorer | Unknown |
+| [files2Folder](http://www.dcmembers.com/skwire/download/files-2-folder) | 1.1.7 | A right-click shell extension that will automatically create a folder based on the selected filename and move that file into that folder | Freeware |
+| [flowerssBot](https://github.com/indes/flowerss-bot) | 0.5.3 | A telegram bot for rss reader | MIT |
+| [fvim](https://github.com/yatli/fvim) | 0.2 | Cross platform Neovim front-end UI, built with F# + Avalonia | MIT} |
+| [ghoster](https://www.dcmembers.com/skrommel/download/ghoster) | 1.2 | Dims all windows except the active one | Unknown |
+| [hfs](https://www.rejetto.com) | 2.3m | It's file sharing, it's webserver, it's open source, it's free, it's guaranteed to contain no malware | Freeware |
+| [ideaNote](https://www.ideanote.cc) | 1.2.0 | Cross-platform notes taking tool | Unknown |
+| [imagine](www.nyam.pe.kr) | 1.1.1 | Freeware Image & Animation Viewer for Windows | Freeware |
+| [jo](https://github.com/jpmens/jo) | 1.3 | JSON output from a shell | Freeware |
+| [JohnsBackgroundSwitcher](https://johnsad.ventures/software/backgroundswitcher) | 5.2 | Periodically changes the background image on your Windows computer to something awesome | Unknown |
+| [kate](kate-editor.org) | 19.12.2-793 | A multi-document editor which helps you get an edge in editing | Open Source |
+| [keyboardTest](https://github.com/cuiliang/KeyboardTest) | 1.0.7 | A simple Keyboard tester | Unknown |
+| [kwMusic](https://kuwo.cn) | 20200316 | Online stream music service for mainly Chinese | Unknown |
+| [libgenDesktop](https://github.com/libgenapps/LibgenDesktop) | 1.3.5 | Downloader for website LIBGEN.IS | Unknown |
+| [litedbStudio](https://github.com/mbdavid/LiteDB.Studio) | 1.0.1 | A GUI tool for viewing and editing documents for LiteDB | MIT |
+| [logyxPack](http://m.majorgeeks.com/files/details/logyx_pack.html) | 17.62 | A portable collection of 150 different logic games to test your brain with adjustable options to make them suitable for almost any age player | Freeware |
+| [magnetw](https://github.com/xiandanin/magnetW) | 3.1.1 | Magnet resources search engine | GPL |
+| [minirun](https://www.deskangel.com) | 1.0.0 | A handy tool to start application by keyboard | Freeware |
+| [musicPlayer2](https://github.com/zhongyang219/MusicPlayer2) | 2.68 | Local music player | MIT |
+| [neovide](https://github.com/Kethku/neovide) | 0.4.0 | No Nonsense Neovim Client in Rust | MIT |
+| [neteaseDownloader](https://www.appinn.com/music-163-downloader) | 1.7 | Yet another Netease music downloader | Unknown |
+| [officeToolPlus](https://otp.landian.vip) | 7.5 | Office deployment tool | Unknown |
+| [oneWoodBox](https://www.woobx.cn) | 0.1.0 | Utilities collection | Unknown |
+| [onTopReplica](https://github.com/LorenzCK/OnTopReplica) | 3.5.1 | A real-time always-on-top “replica” of a window of your choice (on Windows). | MS-RL |
+| [Oolauncher](http://www.deskangel.com/?target=oolauncher) | 1.0.0.6 | Take over and arrange the applications launching while Windows starting up | Freeware |
+| [pdown](https://github.com/pdown2020/pdown) | 1.0.19.142 | High speed downloader for Baidu Cloud | MIT |
+| [pet](https://github.com/knqyf263/pet) | 0.3.6 | Simple command-line snippet manager, written in Go | Unknown |
+| [picgo](https://github.com/Molunerfinn/PicGo) | 2.2.2 | A tool of image hosting client | 996ICU |
+| [pinga](https://css-ig.net/pingo) | 21 March 2020 | GUI for pingo | Freeware |
+| [pingo](https://css-ig.net/pingo) | 21 March 2020 | Fast web image optimizer | Freeware |
+| [pixivWallpaper](https://github.com/SingularityF/PixivWallpaper) | 1.3.5 | Get anime style wallpapers from daily Pixiv high ranking illustrations | MIT |
+| [ppet](https://github.com/majorworld/Pet) | 2020-01-31 | Using your keyboard replace the mouse | Unknown |
+| [processExplorer](https://docs.microsoft.com/en-us/sysinternals/downloads/process-explorer) | December-18-2019 | Process Explorer shows you information about which handles and DLLs processes have opened or loaded. |  |
+| [psScriptPad](https://ironmansoftware.com/psscriptpad) | Unknown | The tiny, little editor for PowerShell | Commercial |
+| [q10](http://www.baara.com/q10) | 1.2.21 | A simple but powerful text editor designed and built with writers in mind | Freeware |
+| [qBittorrentEnhancedEdition](https://github.com/c0re100/qBittorrent-Enhanced-Edition) | 4.2.1.10 | qBittorrent BitTorrent client (Enhanced Edition) | GPL-2.0-only |
+| [remoteVolumeController](https://github.com/differentrain/Remote-Volume-Controller) | 1.02 | Control your windows volume on other device by web browser | MIT |
+| [riotOptimizer](https://riot-optimizer.com/) | 0.6.2 | The image optimizer is lightweight, fast and simple to use, yet powerful for advanced users | Freeware |
+| [runningCheeseFirefox](https://firefox.runningcheese.com) | 2020-03-13 | A Graceful and Powerful Customized Firefox | Freeware |
+| [scoopUtils]() | 1.0 |  |  |
+| [swissFileKnife](http://stahlworks.com/dev/swiss-file-knife.html) | 1.9.6.2 | A Command Line Tools Collection | BSD |
+| [theWorldBrowser](http://www.theworld.cn/) | 7.0.0.108 | A simple but powerful browser based on Chromium | Freeware |
+| [thiefBook](https://github.com/cteamx/Thief-Book) | 3.2.0 | Downloader for website LIBGEN.IS | Unknown |
+| [thumbnailAndIconCacheRebuilder](https://www.thewindowsclub.com/icon-cache-rebuilder-for-windows-10) | 1.0.0 | A portable freeware that will purge, clear and delete your Thumbnail and Icon Cache in a click | Freeware |
+| [tracetcp](https://github.com/0xcafed00d/tracetcp) | 1.0.3 | Traceroute utility that uses tcp syn packets to trace network routes | zlib |
+| [tweakTC](http://totalcmd.net/plugring/tweaktc.html) | 3.9.3 | TweakTC is designed for advanced configuration of Total Commander (more than 65 options) without manual editing its INI files (usually wincmd.ini and wcx_ftp.ini) | Freeware |
+| [typeAndRun](https://typeandrun.software.informer.com) | 4.7 | A hot-key enabled console which allows you to start any applications | Unknown |
+| [UACWhiteList](https://www.appinn.com/uac-whitelist-tools) | 1.3 | A tool to manager UAC of specific program | Unknown |
+| [utools](https://u.tools/) | 0.8.9-beta | Your productive tools set and launcher. | Unknown |
+| [videosrt](https://github.com/wxbool/video-srt-windows) | 0.2.8 | An open source tool for generating SRT subtitle files by recognizing audios in videos | MIT} |
+| [win10StartMenuBeautifier](https://mp.weixin.qq.com/s/t9IJKABJhA3kdiMSTlJZ1Q) | 3.9 | A tool to help customize your start menu tiles | Unknown |
+| [windows10Debloater](https://github.com/Sycnex/Windows10Debloater) | 20200315 | Script/Utility/Application to debloat Windows 10 | Freeware |
+| [xdown](https://xdown.org/) | 1.0.2.9 | An ads-free idm/torrent varieta | Freeware |
+| [xSpotify](https://github.com/meik97/XSpotify) | 1.2 | A modified Spotify client with DRM bypass | MIT |
 
 ### Removed
 - N_m3u8DL-cli
