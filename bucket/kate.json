@@ -1,7 +1,7 @@
 {
 	"homepage": "kate-editor.org",
 	"description": "A multi-document editor which helps you get an edge in editing",
-	"license": "Open Source",
+	"license": "Freeware",
 	"version": "19.12.2-793",
 	"url": "https://build-artifacts.kde.org/binary-factory/Kate_Release_win64/lastSuccessfulBuild/kate-19.12.2-793-windows-msvc2017_64-cl.7z",
 	"hash": "F948500B2C45C5AC9EEF6F42CABDB13FD7D51912A34D5D55AB025BA9EDC2CBB1",
