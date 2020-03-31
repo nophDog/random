@@ -11,7 +11,7 @@ scoop bucket add random https://github.com/nophDog/random
 
 ## List of package
 
-### Apps
+### [Apps](https://github.com/nophDog/random)
 
 | Name | Version | Description | License |
 |-----|-------------|---------|-----------------|
@@ -41,7 +41,7 @@ scoop bucket add random https://github.com/nophDog/random
 | [imagine](www.nyam.pe.kr) | 1.1.1 | Freeware Image & Animation Viewer for Windows | Freeware |
 | [jo](https://github.com/jpmens/jo) | 1.3 | JSON output from a shell | Freeware |
 | [JohnsBackgroundSwitcher](https://johnsad.ventures/software/backgroundswitcher) | 5.2 | Periodically changes the background image on your Windows computer to something awesome |  |
-| [kate](kate-editor.org) | 19.12.2-793 | A multi-document editor which helps you get an edge in editing | Open Source |
+| [kate](kate-editor.org) | 19.12.2-793 | A multi-document editor which helps you get an edge in editing | Freeware |
 | [keyboardTest](https://github.com/cuiliang/KeyboardTest) | 1.0.7 | A simple Keyboard tester |  |
 | [kwMusic](https://kuwo.cn) | 20200316 | Online stream music service for mainly Chinese |  |
 | [libgenDesktop](https://github.com/libgenapps/LibgenDesktop) | 1.3.5 | Downloader for website LIBGEN.IS |  |
