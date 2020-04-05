@@ -1,0 +1,14 @@
+{
+    "homepage": "https://archive.codeplex.com/?p=trackfolderchanges",
+    "description": "Displays in real time a tree with the list of created/deleted/changed files in a specific directory and its subdirectories",
+    "license": "Ms-RL",
+    "version": "1.1",
+    "url": "https://codeplexarchive.blob.core.windows.net/archive/projects/trackfolderchanges/trackfolderchanges.zip",
+    "hash": "1FF2C91B79A2234F7B661E936BE274AB5E93A71FA54724AE86D5D5B9A4B6536F",
+    "shortcuts": [
+        [
+            "TrackFolderChanges.exe",
+            "TrackFolderChanges"
+        ]
+    ]
+}
