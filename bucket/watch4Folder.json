@@ -1,0 +1,14 @@
+{
+    "homepage": "http://leelusoft.altervista.org/watch-4-folder.html",
+    "description": "A folder monitoring and automation utility that can monitor up to 4 different folders simultaneously for 12 kinds of events and react for each event with different kind of actions",
+    "license": "Freeware",
+    "version": "2.5.1",
+    "url": "http://leelusoft.altervista.org/alterpages/files/W4F25Free.zip",
+    "hash": "C0D41AB42ADEFB27E73D80F55A64647DCAE5C1337F7F2D52DF3B23EC39520905",
+    "shortcuts": [
+        [
+            "W4F25.exe",
+            "Watch 4 Folder"
+        ]
+    ]
+}
