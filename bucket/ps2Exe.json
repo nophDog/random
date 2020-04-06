@@ -1,0 +1,14 @@
+{
+    "homepage": "https://gallery.technet.microsoft.com/scriptcenter/PS2EXE-GUI-Convert-e7cb69d5",
+    "description": "\"Convert\" PowerShell Scripts to EXE Files with GUI",
+    "license": "MS-LPL",
+    "version": "20200218",
+    "url": "http://123.56.110.31/Repo/PS2EXE-GUI.zip",
+    "hash": "9D89B015C60750BD1BD9D793236F4A844703986309358B22401A54ADEBC87850",
+    "shortcuts": [
+        [
+            "Win-PS2EXE.exe",
+            "Win PS2EXE"
+        ]
+    ]
+}
