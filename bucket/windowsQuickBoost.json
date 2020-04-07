@@ -1,0 +1,14 @@
+{
+    "homepage": "http://leelusoft.altervista.org/windows-quick-boost.html",
+    "description": "A free straightforward and portable (no installation) tweaking application to improve Windows responsivity performance",
+    "license": "Freeware",
+    "version": "1.0",
+    "url": "http://leelusoft.altervista.org/alterpages/files/W10B.zip",
+    "hash": "E2A0D716C8B8CFA8CC1B152CB1518D6EA9F66A98992804F99B10205D002D78EF",
+    "shortcuts": [
+        [
+            "W10B.exe",
+            "Windows Quick Boost"
+        ]
+    ]
+}
