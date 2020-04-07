@@ -1,0 +1,14 @@
+{
+    "homepage": "http://leelusoft.altervista.org/system-time.html",
+    "description": "A free system time information utility for Microsoft Windows platform",
+    "license": "Freeware",
+    "version": "1.0",
+    "url": "http://leelusoft.altervista.org/alterpages/files/SysTime.zip",
+    "hash": "B845FE6B15AD65963C1482905DCA5495C9FAB96D4D7360F78236D15AA023567A",
+    "shortcuts": [
+        [
+            "SysTime.exe",
+            "System Time"
+        ]
+    ]
+}
