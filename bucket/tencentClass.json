@@ -12,6 +12,6 @@
         ]
     ],
     "post_install": [
-        "Remove-Item -Path \"$dir\`$PLUGINSDIR\" -Recurse -Force -ErrorAction Ignore"
+        "Remove-Item -Path \"$dir\\`$PLUGINSDIR\" -Recurse -Force -ErrorAction Ignore"
     ]
 }
