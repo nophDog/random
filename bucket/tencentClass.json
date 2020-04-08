@@ -10,5 +10,8 @@
             "bin/TXEDU.exe",
             "腾讯课堂"
         ]
+    ],
+    "post_install": [
+        "Remove-Item -Path \"$dir\`$PLUGINSDIR\" -Recurse -Force -ErrorAction Ignore"
     ]
 }
