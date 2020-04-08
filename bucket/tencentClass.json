@@ -1,0 +1,14 @@
+{
+    "homepage": "https://ke.qq.com/download/pcapp.html",
+    "description": "Offical client for Tecent Class",
+    "license": "Unknown",
+    "version": "1.5.6.135",
+    "url": "http://pub.idqqimg.com/pc/misc/groupgift/fudao/pc/KeInstall_1.5.6.135_sign.exe#/dl.7z",
+    "hash": "1217F7005F8A8E42EA829D2F3DED4F1D06E8E190F5BDDC08C666735F7A96BE51",
+    "shortcuts": [
+        [
+            "bin/TXEDU.exe",
+            "腾讯课堂"
+        ]
+    ]
+}
