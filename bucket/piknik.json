@@ -1,0 +1,28 @@
+{
+    "homepage": "https://github.com/jedisct1/piknik",
+    "description": "Copy/paste anything over the network",
+    "license": "https://github.com/jedisct1/piknik/blob/master/LICENSE",
+    "version": "0.9.1",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/jedisct1/piknik/releases/download/0.9.1/piknik-win64-0.9.1.zip",
+            "hash": "1E3F232F4035AF2846E99FB92A211EABF5F7CC5DCE131760847C36825B058D16",
+            "bin": [
+                [
+                    "win32/piknik.exe",
+                    "piknik"
+                ]
+            ]
+        },
+        "32bit": {
+            "url": "https://github.com/jedisct1/piknik/releases/download/0.9.1/piknik-win32-0.9.1.zip",
+            "hash": "A47B83FB12CADD4FA89AB82CACD20C36ACF3D10BB4531C2B5D51020A3F58D9C0",
+            "bin": [
+                [
+                    "win64/piknik.exe",
+                    "piknik"
+                ]
+            ]
+        }
+    }
+}
