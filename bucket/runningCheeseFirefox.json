@@ -2,15 +2,15 @@
     "homepage": "https://firefox.runningcheese.com",
     "description": "A Graceful and Powerful Customized Firefox",
     "license": "Freeware",
-    "version": "2020-03-13",
+    "version": "2020-04-08",
     "architecture": {
         "64bit": {
             "url": "http://123.56.110.31/Repo/RunningCheeseFirefox.7z",
-            "hash": "3F582E584F9DDDEBAFE6797F6CE1051DE6BA74FC74F89C60C6B9A0816F84E9E1"
+            "hash": "DA2CB6F3B8D8E68DEF87B4726E8C83A2743B4E1A5B9F88AF3329449C9D0E3635"
         },
         "32bit": {
             "url": "http://123.56.110.31/Repo/RunningCheeseFirefox_32bit.7z",
-            "hash": "3BFF4E5A62A2D25A70431EB79B5F4D692E6907E7093AF64FBAFE27A33F8E0C6F"
+            "hash": "47BFDAEF5FBCA136B938C67EDB5BD04DA8A37596E2E6E695D233467FE708D1C5"
         }
     },
     "bin": [
