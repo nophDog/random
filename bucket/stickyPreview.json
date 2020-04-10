@@ -1,0 +1,14 @@
+{
+    "homepage": "https://www.ntwind.com/software/sticky-previews.html",
+    "description": "A lightweight productivity tool that lets you create live previews of any window or a screen region of your choice",
+    "license": "Unknown",
+    "version": "2.2",
+    "url": "https://www.ntwind.com/download/StickyPreviews_2.2-setup.exe",
+    "hash": "D42D55610323BBD4BA973B1F2C221A2EF9D23C61D3413F6E5BD5542441F75429",
+    "shortcuts": [
+        [
+            "spv64.exe",
+            "Sticky previews"
+        ]
+    ]
+}
