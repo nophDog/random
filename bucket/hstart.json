@@ -11,18 +11,10 @@
       "HstartUI"
     ]
   ],
-  "architecture": {
-    "64bit": {
-      "bin": [
-        "hstart64.exe",
-        "hstart"
-      ]
-    },
-    "32bit": {
-      "bin": [
-        "hstart.exe",
-        "hstart"
-      ]
-    }
-  }
+  "bin": [
+    [
+      "hstart64.exe",
+      "hstart"
+    ]
+  ]
 }
