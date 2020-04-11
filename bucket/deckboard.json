@@ -11,6 +11,11 @@
       "Deckboard"
     ]
   ],
+  "pre_install": [
+        "Expand-7zipArchive -Path \"$dir\\`$PLUGINSDIR\\app-64.7z\" -DestinationPath \"$dir\"",
+        "Remove-Item -Path \"$dir\\`$PLUGINSDIR\" -Recurse -Force",
+        "Remove-Item -Path \"$dir\\Uninstall Deckboard.exe\" -Force"
+  ],
   "checkver": "github",
   "autoupdate": {
     "url": "https://github.com/rivafarabi/deckboard/releases/download/v$version/Deckboard-Setup-$version.exe#/dl.7z"
