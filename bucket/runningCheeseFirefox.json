@@ -25,6 +25,13 @@
             "Firefox"
         ]
     ],
+    "persist": [
+        "Profiles\\V10\\extensions",
+        "Profiles\\V10\\places.sqlite",
+        "Profiles\\V10\\favicons.sqlite",
+        "Profiles\\V10\\search.json.mozlz4",
+        "Profiles\\V10\\browser-extension-data"
+    ],
     "checkver": {
         "url": "https://firefox.runningcheese.com",
         "regex": "更新日期：(\\d\\d\\d\\d-\\d+-\\d+)"
