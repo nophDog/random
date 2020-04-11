@@ -1,0 +1,21 @@
+{
+  "homepage": "https://github.com/rivafarabi/deckboard",
+  "description": "Control your PC with your phone in easy way possible",
+  "license": "Unknown",
+  "version": "1.9.31",
+  "url": "https://github.com/rivafarabi/deckboard/releases/download/v1.9.31/Deckboard-Setup-1.9.31.exe#/dl.7z",
+  "hash": "1E8848F825EB9631575AD183A17ADD3D7ABDA25086EC90DDB7F90D6AE000BE4F",
+  "shortcuts": [
+    [
+      "Deckboard.exe",
+      "Deckboard"
+    ]
+  ],
+  "pre_install": [
+    "Expand-7zipArchive -Path \"$dir\\$fname\" -DestinationPath \"$dir\\_tmp\"",
+    "Get-ChildItem -Path \"$dir\\_tmp\" -Depth \"2\" -Include \"*.7z\" | Move-Item -Destination \"$dir\\_tmp\"",
+    "Expand-7zipArchive -Path \"$dir\\_tmp\\app-64.7z\" -DestinationPath \"$dir\"",
+    "Remove-Item -Recurse \"$dir\\_tmp\", \"$dir\\$fname\"",
+    "Remove-Item \"$dir\\Uninstall Deckboard.exe\" -Force"
+  ]
+}
