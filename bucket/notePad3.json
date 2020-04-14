@@ -17,12 +17,14 @@
     "architecture": {
         "32bit": {
             "pre_install": [
-                "Expand7ZipArchive -Path \"$dir\\Notepad3_$version_x86.zip\" -DestinationPath $dir"
+                "Expand7ZipArchive -Path \"$dir\\Notepad3_$version_x86.zip\" -DestinationPath $dir",
+                "Remove-Item -Path \"$dir\\Notepad3_$version_x64.zip\" -Force"
             ]
         },
         "64bit": {
             "pre_install": [
-                "Expand7ZipArchive -Path \"$dir\\Notepad3_$version_x64.zip\" -DestinationPath $dir"
+                "Expand7ZipArchive -Path \"$dir\\Notepad3_$version_x64.zip\" -DestinationPath $dir",
+                "Remove-Item -Path \"$dir\\Notepad3_$version_x86.zip\" -Force"
             ]
         }
     },
