@@ -1,0 +1,14 @@
+{
+    "homepage": "http://www.pointofix.de",
+    "description": "The virtual highlighter for your screen",
+    "license": "Freeware",
+    "version": "1.8.0",
+    "url": "http://123.56.110.31/Repo/pointofix_1.8.0.zip",
+    "hash": "03F9BED9E35547631BCCAEC4B71AE1D5385A6DE1413F24376BAE5ECE5E8AF7AD",
+    "shortcuts": [
+        [
+            "Pointofix.exe",
+            "Pointofix"
+        ]
+    ]
+}
