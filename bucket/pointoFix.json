@@ -9,6 +9,10 @@
         [
             "Pointofix.exe",
             "Pointofix"
+        ],
+        [
+            "Setlanguage.exe",
+            "Setlanguage"
         ]
     ]
 }
