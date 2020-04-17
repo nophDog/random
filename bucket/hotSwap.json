@@ -1,0 +1,28 @@
+{
+    "homepage": "http://mt-naka.com/hotswap/index_enu.htm",
+    "description": "It does the same thing as you can remove device from Device Manager but it provides much friendly user interface as you remove the removable device from the "Safely Remove Hardware" icon in the notification area. It also ensures that all data are written and flushed to the disk before the device to be hot-swapped, so you can use SATA/eSATA drive as a removable device much alike USB/IEEE1394 drive",
+    "license": "Freeware",
+    "version": "6.3.0.0",
+    "url": "http://mt-naka.com/hotswap/file/HotSwap!%206.3.0.0.ZIP",
+    "hash": "52868F70D507B902BCFA07F67B9E0F12B9FA14FCDEB13FC11FECDE873CD8B7DA",
+    "architecture": {
+        "64bit": {
+            "extract_dir": "64bit",
+            "shortcuts": [
+                [
+                    "HotSwap!.EXE",
+                    "HotSwap"
+                ]
+            ]
+        },
+        "32bit": {
+            "extract_dir": "32bit",
+            "shortcuts": [
+                [
+                    "HotSwap!.EXE",
+                    "HotSwap"
+                ]
+            ]
+        }
+    }
+}
