@@ -1,0 +1,20 @@
+{
+    "homepage": "https://www.dipisoft.com/articles.php?lng=fr&pg=65&mnuid=2211&tconfig=0",
+    "description": "A utility to send email in a GUI or scripting way",
+    "license": "Freeware",
+    "version": "3.2.1",
+    "url": "https://www.dipisoft.com/file/SendMail321_portable.zip",
+    "hash": "4AA06D26E78DB0129E1E46ECFC3E90CA50F4651436BA4BFFA21DFE6EA2087866",
+    "bin": [
+        [
+            "SendMail.exe",
+            "sendemail"
+        ]
+    ],
+    "shortcuts": [
+        [
+            "SendMail.exe",
+            "SendMail.exe"
+        ]
+    ]
+}
