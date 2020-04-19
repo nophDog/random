@@ -5,6 +5,7 @@
     "version": "20200404",
     "url": "https://o.rths.ml/kmeleon/KM76.2-Goanna-20200404.7z",
     "hash": "F0815FEB7A953F0AAB8143D3C7D7216B28A198D3E81A1ECFDE3A0A14DCEC6FB4",
+    "extract_dir": "KM-Goanna",
     "shortcuts": [
         [
             "k-meleon.exe",
