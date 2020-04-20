@@ -1,0 +1,15 @@
+{
+    "homepage": "http://www.optimasc.com/products/fileid",
+    "description": "A command line tool that permits identifying files as well as getting information on directories from their content (thereafter called a resource), and not simply from their file extensions (in the case of files)",
+    "license": "Freeware",
+    "version": "0.6.2",
+    "url": "http://www.optimasc.com/products/fileid/file0.6.2-win32.zip",
+    "hash": "E8102196150DA32CE062020412E967C6EB84409BB8EC2A60E8E61D2158F93D5D",
+    "extract_dir": "file",
+    "bin": [
+        [
+            "bin/file.exe",
+            "file"
+        ]
+    ]
+}
