@@ -1,0 +1,14 @@
+{
+    "homepage": "https://www.zophar.net/nes/smynes.html",
+    "description": "A Nintendo - NES Emulator on the Windows platform",
+    "license": "Freeware",
+    "version": "1.20",
+    "url": "https://www.zophar.net/download_file/2026",
+    "hash": "530D5E502B0556676F518DAC7A2D4F682083F11EC7FAF7D9290482F7FB2FD0FD",
+    "shortcuts": [
+        [
+            "SMYNES.exe",
+            "SMYNES"
+        ]
+    ]
+}
