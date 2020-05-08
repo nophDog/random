@@ -1,0 +1,18 @@
+{
+    "homepage": "https://github.com/cheat/cheat",
+    "description": "Create and view interactive cheatsheets on the command-line",
+    "license": "Christopher Allen Lane",
+    "version": "3.9.0",
+    "url": "https://github.com/cheat/cheat/releases/download/3.9.0/cheat-windows-amd64.exe.zip",
+    "hash": "C2DDF83C4AB558E2F0A31B143DDC30E56D3676EB33E1CAAD155D548C2FD72124",
+    "extract_dir": "dist",
+    "shortcuts": [
+        [
+            "cheat-windows-amd64.exe",
+            "cheat"
+        ]
+    ],
+    "autoupdate": {
+        "url": "https://github.com/cheat/cheat/releases/download/$version/cheat-windows-amd64.exe.zip"
+    }
+}
