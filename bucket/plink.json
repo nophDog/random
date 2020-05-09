@@ -1,0 +1,14 @@
+{
+    "homepage": "https://www.softpedia.com/get/Network-Tools/Telnet-SSH-Clients/Tatham-Plink.shtml",
+    "description": "A command line interface for the PuTTY backends that packs several options for SSH connections, such as dynamic port forwarding and compression",
+    "license": "Freeware",
+    "version": "0.73",
+    "url": "https://the.earth.li/~sgtatham/putty/0.73/w64/plink.exe",
+    "hash": "2AA1BBBE47F04627A8EA4E8718AD21F0D50ADF6A32BA4E6133EE46CE2CD13780",
+    "bin": [
+        [
+            "plink.exe",
+            "plink"
+        ]
+    ]
+}
