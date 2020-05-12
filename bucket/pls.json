@@ -1,0 +1,17 @@
+{
+    "homepage": "https://github.com/chenjiandongx/pls",
+    "description": "Impressive Linux commands cheat sheet cli (Golang)",
+    "license": "MIT",
+    "version": "0.1.2",
+    "url": "https://github.com/chenjiandongx/pls/releases/download/v0.1.2/pls_windows_amd64.exe",
+    "hash": "35EED7D9C28CD639600B4E140710AF246C372A57E9D7C318B822BBA59FC5A84A",
+    "bin": [
+        [
+            "pls_windows_amd64.exe",
+            "pls"
+        ]
+    ],
+	"autoupdate": {
+		"url": "https://github.com/chenjiandongx/pls/releases/download/v$version/pls_windows_amd64.exe"
+	}
+}
