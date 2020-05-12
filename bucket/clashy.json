@@ -1,0 +1,17 @@
+{
+    "homepage": "https://github.com/SpongeNobody/Clashy",
+    "description": "A GUI proxy client for Windows / Mac / Ubuntu Desktop based on Clash and Electron. Windows / Mac / Ubuntu",
+    "license": "Unknown",
+    "version": "0.1.16",
+    "url": "https://github.com/SpongeNobody/Clashy/releases/download/v0.1.16/Clashy.exe",
+    "hash": "5EB52761B521281FC0BE0F5BD7A23C72A930565BF24594DCA297E6375E750A48",
+    "shortcuts": [
+        [
+            "Clashy.exe",
+            "Clashy"
+        ]
+    ],
+    "autoupdate": {
+        "url": "https://github.com/SpongeNobody/Clashy/releases/download/v$version/Clashy.exe"
+    }
+}
