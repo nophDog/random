@@ -1,0 +1,18 @@
+{
+    "homepage": "https://github.com/pyIDM/pyIDM",
+    "description": "python open source alternative to IDM (Internet Download Manager) with multi-connections, high speed engine, based on python, pycurl, youtube_dl, and pysimplegui",
+    "license": "Freeware",
+    "version": "2020.5.10",
+    "url": "https://github.com/pyIDM/PyIDM/releases/download/2020.5.10/PyIDM_2020_5_10.zip",
+    "hash": "047817C39E9686E3A70EDC3AFB67174565B67B31157B89AE93879FE790057E1A",
+	"extract_dir": "PyIDM",
+    "shortcuts": [
+        [
+            "PyIDM.exe",
+            "PyIDM"
+        ]
+    ],
+	"autoupdate": {
+		"url": "https://github.com/pyIDM/PyIDM/releases/download/$version/PyIDM_$majorVersion_$minorVersion_$patchVersion.zip"
+	}
+}
