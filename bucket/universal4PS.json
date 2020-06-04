@@ -1,0 +1,17 @@
+{
+    "homepage": "https://ironmansoftware.com/powershell-universal",
+    "description": "Universal allows you to run jobs, schedule scripts, build web pages, and control access; all under a single pane of beautiful glass",
+    "license": "Commercial",
+    "version": "1.1.1",
+    "url": "https://imsreleases.blob.core.windows.net/universal/production/1.1.1/Universal.win-x64.1.1.1.zip",
+    "hash": "90A98EB55E6FAEE2515A5C69FB649F1785D90617FAC4FE2C66C71DC172EF992C",
+    "bin": [
+        [
+            "Universal.Server.exe",
+            "Universal"
+        ]
+    ],
+	"autoupdate": {
+		"url": "https://imsreleases.blob.core.windows.net/universal/production/$version/Universal.win-x64.$version.zip"
+	}
+}
