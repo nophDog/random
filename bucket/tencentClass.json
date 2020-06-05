@@ -13,5 +13,8 @@
     ],
     "post_install": [
         "Remove-Item -Path \"$dir\\`$PLUGINSDIR\" -Recurse -Force -ErrorAction Ignore"
+    ],
+    "notes": [
+        "We don't persist your QQMusic data, they are still storaged in '%LOCALAPPDATA%\\Tencent\\TXEdu'."
     ]
 }
