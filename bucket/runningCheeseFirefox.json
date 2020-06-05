@@ -2,7 +2,7 @@
     "homepage": "https://firefox.runningcheese.com",
     "description": "A Graceful and Powerful Customized Firefox",
     "license": "Freeware",
-    "version": "2020-04-08",
+    "version": "2020-05-11",
     "architecture": {
         "64bit": {
             "url": "http://123.56.110.31/Repo/RunningCheeseFirefox.7z",
