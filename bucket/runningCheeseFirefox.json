@@ -5,11 +5,11 @@
     "version": "2020-05-11",
     "architecture": {
         "64bit": {
-            "url": "http://123.56.110.31/Repo/RunningCheeseFirefox.7z",
+            "url": "https://scoop.myportable.fun/Repo/RunningCheeseFirefox.7z",
             "hash": "06A74D8365CDCA9BAC1290EEE29825C12A3E6D9F07B4C24BA3CF939BF30541DD"
         },
         "32bit": {
-            "url": "http://123.56.110.31/Repo/RunningCheeseFirefox_32bit.7z",
+            "url": "https://scoop.myportable.fun/Repo/RunningCheeseFirefox_32bit.7z",
             "hash": "DC80735A4E3CB6DB09A5414277562C353389324E708730EB3BE7A22879DBB9A9"
         }
     },
