@@ -5,9 +5,9 @@
         "identifier": "GPL-v3",
         "url": "https://github.com/PureWriter/desktop/blob/master/LICENSE"
     },
-    "version": "0.2",
-    "url": "https://github.com/PureWriter/desktop/releases/download/0.2/PureWriter-0.2-Windows-x64.7z",
-    "hash": "FB51B8C63F6A74B6A5BB3F2322ED72E6142A24184BD26324A738A0DFE223A8F6",
+    "version": "0.2.2",
+    "url": "https://github.com/PureWriter/desktop/releases/download/0.2.2/PureWriter-0.2.2-Windows-x64.7z",
+    "hash": "557b6fd71fe9f9836b8cbedbfe1197d390e5790b48ea3b9f4f3dbde1a338b3dc",
     "extract_dir": "Pure Writer",
     "shortcuts": [
         [
@@ -16,8 +16,8 @@
         ]
     ],
     "checkver": {
-		"github": "https://github.com/PureWriter/desktop"
-	},
+        "github": "https://github.com/PureWriter/desktop"
+    },
     "autoupdate": {
         "url": "https://github.com/PureWriter/desktop/releases/download/$version/PureWriter-$version-Windows-x64.7z"
     }
