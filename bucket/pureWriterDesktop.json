@@ -16,8 +16,8 @@
         ]
     ],
     "checkver": {
-        "github": "https://writer.drakeet.com/desktop"
-    },
+		"github": "https://github.com/PureWriter/desktop"
+	},
     "autoupdate": {
         "url": "https://github.com/PureWriter/desktop/releases/download/$version/PureWriter-$version-Windows-x64.7z"
     }
