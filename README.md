@@ -83,9 +83,9 @@ scoop bucket add random https://github.com/nophDog/random
 | [win10StartMenuBeautifier](https://mp.weixin.qq.com/s/t9IJKABJhA3kdiMSTlJZ1Q) | 3.9 | A tool to help customize your start menu tiles |  |
 | [windows10Debloater](https://github.com/Sycnex/Windows10Debloater) | 20200315 | Script/Utility/Application to debloat Windows 10 | Freeware |
 | [xdown](https://xdown.org/) | 1.0.2.9 | An ads-free idm/torrent varieta | Freeware |
-| [xSpotify](https://github.com/meik97/XSpotify) | 1.2 | A modified Spotify client with DRM bypass | MIT |
 
-### Removed
-- kate
+### Removed (ordered)
 - N_m3u8DL-cli
 - oliveVideoEditor
+- kate
+- xSpotify
