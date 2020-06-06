@@ -1,0 +1,26 @@
+{
+    "homepage": "https://otp.landian.vip",
+    "description": "Office deployment tool lite",
+    "license": "Unknown",
+    "version": "7.6",
+    "url": "https://download.coolhub.top/Office-Tool-v7.6-without-component.zip",
+    "hash": "2F12CE1DF967E72B527E0CF19CE8055B9C237CAFA29B4F6062A382ED6D0A191C",
+    "extract_dir": "Office Tool",
+    "shortcuts": [
+        [
+            "Office Tool Plus.exe",
+            "Office Tool Plus"
+        ]
+    ],
+    "checkver": {
+		"url": "https://otp.landian.vip/zh-cn/download.html",
+		"regex": "\"https://download\\.coolhub\\.top/Office-Tool-v(7\\.\\d)-without-component\\.zip\">下载基本版</a>"
+    },
+    "autoupdate": {
+		"url": "https://download.coolhub.top/Office-Tool-v$version-without-component.zip"
+    },
+	"notes": [
+		"ATTENTION: Windows 7 needs Net Framework 4.6.1 installed"
+	]
+}
+
