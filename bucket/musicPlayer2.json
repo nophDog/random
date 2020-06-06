@@ -5,16 +5,16 @@
         "identifier": "MIT",
         "url": "https://github.com/zhongyang219/MusicPlayer2/blob/master/LICENSE"
     },
-    "version": "2.68",
+    "version": "2.69",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/zhongyang219/MusicPlayer2/releases/download/V2.68/MusicPlayer2_V2.68_x64.7z",
-            "hash": "7A326E27514F7A92C4A74C765B4D462AA63A3D8FE43B4984669636DDB65AC4FF",
+            "url": "https://github.com/zhongyang219/MusicPlayer2/releases/download/V2.69/MusicPlayer2_V2.69_x64.7z",
+            "hash": "fadcc80e97e002d7464a8e0585e0333ae1fe804382aef6f210ab5ac15e34c7f9",
             "extract_dir": "MusicPlayer2_x64"
         },
         "32bit": {
-            "url": "https://github.com/zhongyang219/MusicPlayer2/releases/download/V2.68/MusicPlayer2_V2.68_x86.7z",
-            "hash": "E4559EBFF5BF03D2D352019134A1700B44A2837383D2194DEF1599547220FD3C",
+            "url": "https://github.com/zhongyang219/MusicPlayer2/releases/download/V2.69/MusicPlayer2_V2.69_x86.7z",
+            "hash": "b4d203cd2c3a8b1f705070627185540a07aae12136dd78450a53a4d434b538a7",
             "extract_dir": "MusicPlayer2"
         }
     },
