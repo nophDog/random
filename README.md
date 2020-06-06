@@ -41,7 +41,6 @@ scoop bucket add random https://github.com/nophDog/random
 | [imagine](www.nyam.pe.kr) | 1.1.1 | Freeware Image & Animation Viewer for Windows | Freeware |
 | [jo](https://github.com/jpmens/jo) | 1.3 | JSON output from a shell | Freeware |
 | [JohnsBackgroundSwitcher](https://johnsad.ventures/software/backgroundswitcher) | 5.2 | Periodically changes the background image on your Windows computer to something awesome |  |
-| [kate](kate-editor.org) | 19.12.2-793 | A multi-document editor which helps you get an edge in editing | Freeware |
 | [keyboardTest](https://github.com/cuiliang/KeyboardTest) | 1.0.7 | A simple Keyboard tester |  |
 | [kwMusic](https://kuwo.cn) | 20200316 | Online stream music service for mainly Chinese |  |
 | [libgenDesktop](https://github.com/libgenapps/LibgenDesktop) | 1.3.5 | Downloader for website LIBGEN.IS |  |
@@ -87,5 +86,6 @@ scoop bucket add random https://github.com/nophDog/random
 | [xSpotify](https://github.com/meik97/XSpotify) | 1.2 | A modified Spotify client with DRM bypass | MIT |
 
 ### Removed
+- kate
 - N_m3u8DL-cli
 - oliveVideoEditor
