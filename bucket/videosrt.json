@@ -1,13 +1,13 @@
 {
     "homepage": "https://github.com/wxbool/video-srt-windows",
-    "version": "0.2.8",
+    "version": "0.2.9.5",
     "license": {
         "identifier": "MIT",
         "url": "https://github.com/wxbool/video-srt-windows/blob/master/LICENSE"
     },
     "description": "An open source tool for generating SRT subtitle files by recognizing audios in videos",
-    "url": "https://github.com/wxbool/video-srt-windows/releases/download/0.2.8/video-srt-gui-0.2.8-x64.zip",
-    "hash": "34d88cdb4a1b4c65bd44d8309e9b3364e17e4862f58667b36e06b1ca9ae737c5",
+    "url": "https://github.com/wxbool/video-srt-windows/releases/download/0.2.9.5/video-srt-gui-0.2.9.5-x64.zip",
+    "hash": "ab717a4f691ecc6851187356f6ab6f2ec58a35f7b18af9ff66adabcbe694af6e",
     "bin": "videosrt.exe",
     "shortcuts": [
         [
