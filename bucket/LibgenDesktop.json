@@ -2,15 +2,15 @@
     "homepage": "https://github.com/libgenapps/LibgenDesktop",
     "description": "Downloader for website LIBGEN.IS",
     "license": "Unknown",
-    "version": "1.3.5",
+    "version": "1.4.1",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/libgenapps/LibgenDesktop/releases/download/1.3.5/LibgenDesktop.Portable.64-bit.zip",
-            "hash": "E9B236CD6C11D4ED5D601DDEA108830B1AB466F6CCD77DF756A80C5167BAA7B2"
+            "url": "https://github.com/libgenapps/LibgenDesktop/releases/download/1.4.1/LibgenDesktop.Portable.64-bit.zip",
+            "hash": "3560006aa20d9be09b6b37cf818364e3b7e0862313a15eb7ce3e8840b2af7c47"
         },
         "32bit": {
-            "url": "https://github.com/libgenapps/LibgenDesktop/releases/download/1.3.5/LibgenDesktop.Portable.32-bit.zip",
-            "hash": "DE616772E83D85457C6CE46E434124102D11C02A0C12EEEE6802B21DAD6EBBBD"
+            "url": "https://github.com/libgenapps/LibgenDesktop/releases/download/1.4.1/LibgenDesktop.Portable.32-bit.zip",
+            "hash": "2142efa5924cc0d47dc5751cd88892ca4e7dc1beb919c11739f562e94fe05c59"
         }
     },
     "shortcuts": [
