@@ -6,7 +6,7 @@
         "url": "https://www.nodesoft.com/erasetemp"
     },
     "version": "3.5.3.3",
-    "url": "http://123.56.110.31/Repo/erasetemp_3.5.3.3.zip",
+    "url": "https://scoop.myportable.fun/Repo/erasetemp_3.5.3.3.zip",
     "hash": "CDD0354FF758E9D4623111629FEA4A8C6DACBDA340D08FAD0FCD5F72BC12A51B",
     "bin": "EraseTemp.exe",
     "shortcuts": [

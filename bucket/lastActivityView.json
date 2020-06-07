@@ -3,7 +3,7 @@
     "description": "Collects information from various sources on a running system, and displays a log of actions made by the user and events occurred on this computer",
     "license": "Freeware",
     "version": "1.35",
-    "url": "http://123.56.110.31/Repo/lastActivityView_1.35.zip",
+    "url": "https://scoop.myportable.fun/Repo/lastActivityView_1.35.zip",
     "hash": "A668CFC978F76E081ABD941D4AC1445CEF3AD0C3E809F492BF096A5B40BCB831",
     "bin": "LastActivityView.exe",
     "shortcuts": [
