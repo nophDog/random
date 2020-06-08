@@ -1,8 +1,8 @@
 {
   "homepage": "https://www.glass8.eu",
- "description": "Experience native look of Aero Glass interface on Windows 8.x+",
+  "description": "Experience native look of Aero Glass interface on Windows 8.x+",
   "license": "Freeware",
-  "version": "1.5.3",
+  "version": "1.5.13",
   "url": "https://www.glass8.eu/files/AeroGlassGUI.7z",
   "hash": "7E37C8027F570FC7A1F99D5241F1974EC25CFE3D901D8F133CEB65242600FFDB",
   "shortcuts": [
@@ -12,7 +12,14 @@
     ]
   ],
   "notes": [
-      "Win8+ use only",
-      "And Aero Glass for Windows needs installed"
-  ]
+    "Win8+ use only 🎁",
+    "ATTENTION: Aero Glass for Windows needs installed"
+  ],
+  "checkver": {
+    "url": "https://www.glass8.eu",
+    "regex": "<div>Current version: <b>([\\d.]+)</b></div>"
+  },
+  "autoupdate": {
+    "url": "https://www.glass8.eu/files/AeroGlassGUI.7z"
+  }
 }

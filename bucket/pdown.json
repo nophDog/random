@@ -10,5 +10,9 @@
             "PDown.exe",
             "PDown"
         ]
-    ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/pdown2020/pdown/releases/download/v$version/PDown.v$version.zip"
+    }
 }

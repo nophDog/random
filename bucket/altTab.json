@@ -10,5 +10,12 @@
             "AltTabTer.exe",
             "AltTabTer"
         ]
-    ]
+    ],
+    "checkver": {
+        "url": "https://www.ntwind.com/software/alttabter.html",
+        "re": "AltTabTer_([\\d.]+)-setup\\.exe"
+    },
+    "autoupdate": {
+        "url": "https://www.ntwind.com/download/AltTabTer_$version-setup.exe#/dl.7z"
+    }
 }

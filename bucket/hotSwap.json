@@ -24,5 +24,12 @@
                 ]
             ]
         }
+    },
+    "checkver": {
+        "url": "http://mt-naka.com/hotswap/index_enu.htm",
+        "re": "The latest version <a href=\"#download\">([\\d.]+)</a>"
+    },
+    "autoupdate": {
+        "url": "http://mt-naka.com/hotswap/file/HotSwap!%20$version.ZIP"
     }
 }

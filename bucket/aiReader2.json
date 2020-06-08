@@ -2,7 +2,7 @@
   "homepage": "https://alreader2.software.informer.com",
   "description": "AlReader2 is an application that allows you to read ebooks",
   "license": "Unknown",
-  "version": "2.5",
+  "version": "2.5.110502",
   "url": "https://download.informer.com/win-1191975368-3aa34327-6907bdaa/alreader2.win32.en.zip",
   "hash": "D5A975F843B97D1CAB56A5E6A8336CDE394DB65405D1D0D684008BD2AB7AE757",
   "extract_dir": "AlReader2.win32.en",
@@ -11,5 +11,9 @@
       "AlReader2.exe",
       "AlReader2"
     ]
-  ]
+  ],
+  "checkver": {
+    "url": "https://alreader2.software.informer.com",
+    "re": "\"softwareVersion\": \"([\\d.]+)\","
+  }
 }

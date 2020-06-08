@@ -7,11 +7,11 @@
     "hash": "2C440CBEB9CBB7F1436DD70BD66FEA577592BDD081C3FA26B1F300C67265A3D8",
     "persist": "config.ini",
     "pre_install": [
-       "Set-Location -Path $dir", 
-	".\\Files2Folder.exe -s"
+        "Set-Location -Path $dir",
+        ".\\Files2Folder.exe -s"
     ],
     "uninstaller": [
-	 "Set-Location -Path $dir",
+        "Set-Location -Path $dir",
         ".\\Files2Folder.exe -su"
     ]
 }

@@ -14,6 +14,6 @@
     ],
     "checkver": {
 		"url": "https://www.disktool.cn/download.html",
-		"regex": "分区助手([\\d.]+)"
+		"regex": "版本：([\\d.]+)"
     }
 }

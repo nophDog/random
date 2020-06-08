@@ -1,0 +1,39 @@
+{
+    "homepage": "https://github.com/go-shiori/shiori",
+    "description": "A syntax-highlighter for git and diff output",
+    "license": "MIT",
+    "version": "1.5.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/go-shiori/shiori/releases/download/v1.5.0/shiori-windows-amd64.exe",
+            "hash": "E2FB0CBFBBF39ED5CC92210E1D99EE0699C9F1E5343C697F8D65DEEF7A56389D",
+            "bin": [
+                [
+                    "shiori-windows-amd64.exe",
+                    "shiori"
+                ]
+            ]
+        },
+        "32bit": {
+            "url": "https://github.com/go-shiori/shiori/releases/download/v1.5.0/shiori-windows-386.exe",
+            "hash": "09D764D61B0B07B392530C429027CA034F387475F688EEB69A8AFF8D7DE7086E",
+            "bin": [
+                [
+                    "shiori-windows-386.exe",
+                    "shiori"
+                ]
+            ]
+        }
+    },
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/go-shiori/shiori/releases/download/v$version/shiori-windows-amd64.exe"
+            },
+            "32bit": {
+                "url": "https://github.com/go-shiori/shiori/releases/download/v$version/shiori-windows-386.exe"
+            }
+        }
+    }
+}

@@ -16,5 +16,12 @@
       "hstart64.exe",
       "hstart"
     ]
-  ]
+  ],
+  "checkver": {
+    "url": "https://www.ntwind.com/software/hstart.html",
+    "re": "Hstart_([\\d.]+)-setup.exe"
+  },
+  "autoupdate": {
+    "url": "https://www.ntwind.com/download/Hstart_$version-setup.exe#/dl.7z"
+  }
 }

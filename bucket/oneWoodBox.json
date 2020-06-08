@@ -18,5 +18,9 @@
             "一个木函工具箱.exe",
             "OneWoodBox"
         ]
-    ]
+    ],
+    "checkver": {
+        "url": "https://www.lanzous.com/b06rm7smd",
+        "re": "一个木函桌面端v([\\d.]+)版"
+    }
 }

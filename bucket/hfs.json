@@ -2,15 +2,22 @@
     "homepage": "https://www.rejetto.com",
     "description": "It's file sharing, it's webserver, it's open source, it's free, it's guaranteed to contain no malware",
     "license": "Freeware",
-    "version": "2.3m",
+    "version": "2.3m300",
     "url": "https://www.rejetto.com/hfs/hfs.exe",
-    "hash": "E678899D7EA9702184167B56655F91A69F8A0BDC9DF65612762252C053C2CD7C",
+    "hash": "e678899d7ea9702184167b56655f91a69f8a0bdc9df65612762252c053c2cd7c",
     "bin": "hfs.exe",
     "shortcuts": [
         [
             "hfs.exe",
             "HFS"
         ]
-    ]
+    ],
+    "checkver": {
+        "url": "https://www.rejetto.com/hfs/?f=dl",
+        "re": "Latest version: <b>(.*)</b><p>Build #(\\d+)",
+        "replace": "${1}${2}"
+    },
+    "autoupdate": {
+        "url": "https://www.rejetto.com/hfs/hfs.exe"
+    }
 }
-

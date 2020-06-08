@@ -12,6 +12,7 @@
             "cheat"
         ]
     ],
+    "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/cheat/cheat/releases/download/$version/cheat-windows-amd64.exe.zip"
     }

@@ -11,7 +11,8 @@
             "lesss"
         ]
     ],
-	"autoupdate": {
-		"url": "https://github.com/jftuga/less-Windows/releases/download/v$version/less.exe"
-	}
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/jftuga/less-Windows/releases/download/v$version/less.exe"
+    }
 }

@@ -11,5 +11,12 @@
             "bin/file.exe",
             "file"
         ]
-    ]
+    ],
+    "checkver": {
+        "url": "http://www.optimasc.com/optimasc.com/products/fileid",
+        "re": "New Version ([\\d.]+) released"
+    },
+    "autoupdate": {
+        "url": "http://www.optimasc.com/products/fileid/file$version-win32.zip"
+    }
 }
