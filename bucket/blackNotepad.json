@@ -4,10 +4,7 @@
     "license": "Unknown",
     "version": "2.0.0.0",
     "url": "https://www.wintools.info/Download/blacknotepad.exe",
-    "hash": {
-        "url": "https://www.wintools.info/index.php/black-notepad",
-        "find": "MD5: (\\w+)</p>"
-    },
+    "hash": "md5:c35dc141366ce26975dc5f5606db1521",
     "shortcuts": [
         [
             "blacknotepad.exe",
@@ -17,5 +14,8 @@
     "checkver": {
         "url": "https://www.wintools.info/index.php/black-notepad",
         "re": "Version: (\\d\\.\\d\\.\\d\\.\\d)"
-    }
+    },
+	"autoupdate": {
+		"url": "https://www.wintools.info/Download/blacknotepad.exe"
+	}
 }
