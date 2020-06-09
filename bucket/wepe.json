@@ -1,0 +1,28 @@
+{
+    "homepage": "http://www.wepe.com.cn",
+    "description": "A free PE tool for Windows",
+    "license": "Unknown",
+    "version": "2.1_beta2",
+    "architecture": {
+        "64bit": {
+            "url": "https://scoop.myportable.fun/Repo/WePE_64_V2.1_beta2.exe",
+            "hash": "C10C264A69770FF12E346A19E12A05E18D1A5C4F58DA316C4979DC3A5DE325DF",
+            "shortcuts": [
+                [
+                    "WePE_64_v2.1_beta2.exe",
+                    "WePe"
+                ]
+            ]
+        },
+        "32bit": {
+            "url": "https://scoop.myportable.fun/Repo/WePE_32_V2.1_beta2.exe",
+            "hash": "5A1BF6F08E94BA1A29CA97E551B5626BFC486BCEE36A509FB85CE5414007CE3F",
+            "shortcuts": [
+                [
+                    "WePE_32.1_beta2.exe",
+                    "WePe"
+                ]
+            ]
+        }
+    }
+}
