@@ -1,16 +1,16 @@
 {
     "homepage": "https://www.nirsoft.net/utils/browsing_history_view.html",
-    "version": "2.30",
+    "version": "2.40",
     "license": "Freeware",
     "description": "Review and export your browsing historys",
     "architecture": {
         "64bit": {
             "url": "https://www.nirsoft.net/utils/browsinghistoryview-x64.zip",
-            "hash": "06b146694f9d95e1447e591304b8d90f0932d0040b2b9ed5c8dd14fd673674b4"
+            "hash": "6fc05a35a2a176eec1c14c35dbf5981e30a4b2ded479e9c18b1d1e10b8f4e1b4"
         },
         "32bit": {
             "url": "https://www.nirsoft.net/utils/browsinghistoryview.zip",
-            "hash": "80f2a34df4c6759806c78adfd7991e53fe04c468ad53b8a82d8b9ce71e63d751"
+            "hash": "3030a3481b0c45417da1ab219fe5d53509d4ab617a581ef68054461f316477ec"
         }
     },
     "bin": "BrowsingHistoryView.exe",
@@ -19,5 +19,19 @@
             "BrowsingHistoryView.exe",
             "BrowsingHistoryView"
         ]
-    ]
+    ],
+    "checkver": {
+        "url": "https://www.nirsoft.net/utils/browsing_history_view.html",
+        "re": "Version ([\\d.]+):"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://www.nirsoft.net/utils/browsinghistoryview-x64.zip"
+            },
+            "32bit": {
+                "url": "https://www.nirsoft.net/utils/browsinghistoryview.zip"
+            }
+        }
+    }
 }
