@@ -1,0 +1,21 @@
+{
+    "homepage": "https://www.wintools.info/index.php/black-notepad",
+    "description": "Yet another plain text editor",
+    "license": "Unknown",
+    "version": "2.0.0.0",
+    "url": "https://www.wintools.info/Download/blacknotepad.exe",
+    "hash": {
+        "url": "https://www.wintools.info/index.php/black-notepad",
+        "find": "MD5: (\\w+)</p>"
+    },
+    "shortcuts": [
+        [
+            "blacknotepad.exe",
+            "blacknotepad"
+        ]
+    ],
+    "checkver": {
+        "url": "https://www.wintools.info/index.php/black-notepad",
+        "re": "Version: (\\d\\.\\d\\.\\d\\.\\d)"
+    }
+}
