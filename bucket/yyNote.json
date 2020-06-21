@@ -1,0 +1,22 @@
+{
+    "homepage": "http://www.yynote.cn",
+    "description": "A cross-platform todolist",
+    "license": "Unknown",
+    "version": "2.1.0",
+    "url": "http://pic.6fcsj.com/YYNote.zip",
+    "hash": "F16CE5286521A71542BFB87BBE8DC5B168BBF29A0E56F7C7EEFE38B76DA35EE8",
+	"extract_dir": "YYNote",
+    "shortcuts": [
+        [
+            "YYNote.exe",
+            "YYnote"
+        ]
+    ],
+	"checkver": {
+		"url": "http://www.yynote.cn",
+		"regex": "For Windows</td><td>V([\\d.]+) </td>"
+	},
+	"autoupdate": {
+		"url": "http://pic.6fcsj.com/YYNote.zip"
+	}
+}
