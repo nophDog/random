@@ -2,9 +2,9 @@
     "homepage": "http://kmeleonbrowser.org",
     "description": "K-Meleon is an extremely fast, customizable, lightweight web browser based on the Gecko layout engine developed by Mozilla which is also used by Firefox",
     "license": "Freeware",
-    "version": "20200404",
-    "url": "https://o.rths.ml/kmeleon/KM76.2-Goanna-20200404.7z",
-    "hash": "F0815FEB7A953F0AAB8143D3C7D7216B28A198D3E81A1ECFDE3A0A14DCEC6FB4",
+    "version": "20200613",
+    "url": "https://o.rths.ml/kmeleon/KM76.2-Goanna-20200613.7z",
+    "hash": "f93dec5e9cd3dda0936d2e03577716d4aa1cd429fff1bce23e727cac7ef36036",
     "extract_dir": "KM-Goanna",
     "shortcuts": [
         [
