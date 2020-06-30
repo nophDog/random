@@ -1,0 +1,21 @@
+{
+    "homepage": "https://github.com/ian-hamlin/qrgen",
+    "description": "A simple command line tool to bulk-generate QR Codes from one or more CSV files",
+    "license": {
+		"url": "https://github.com/ian-hamlin/qrgen/blob/master/LICENSE",
+		"identifier": "MIT"
+    },
+    "version": "0.4.0",
+    "url": "https://github.com/ian-hamlin/qrgen/releases/download/0.4.0/x86_64-pc-windows-msvc.zip",
+    "hash": "58080CDAF359462E5D29A4496191F5C6A7235C536DF983130075BF15B4920772",
+    "bin": [
+		[
+			"qrgen.exe",
+			"qrgen"
+		]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+		"url": "https://github.com/ian-hamlin/qrgen/releases/download/$version/x86_64-pc-windows-msvc.zip"
+    }
+}
