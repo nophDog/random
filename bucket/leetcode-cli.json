@@ -1,0 +1,22 @@
+{
+    "homepage": "https://github.com/skygragon/leetcode-cli",
+    "description": "A productive cli tool to enjoy leetcode",
+    "license": {
+		"identifier": "MIT",
+		"url": "https://github.com/skygragon/leetcode-cli/blob/master/LICENSE"
+	},
+    "version": "2.6.2",
+    "url": "https://github.com/skygragon/leetcode-cli/releases/download/2.6.2/leetcode-cli.node10.win32.x64.zip",
+    "hash": "11BDB2B1181FDBBD9DCE6F078C0556F5F49EE028001A96D3DB41001D43FB6C90",
+	"extract_dir": "dist",
+	"bin": [
+        [
+            "leetcode-cli.exe",
+            "leetcode"
+        ]
+    ],
+	"checkver": "github",
+	"autoupdate": {
+		"url": "https://github.com/skygragon/leetcode-cli/releases/download/$version/leetcode-cli.node10.win32.x64.zip"
+	}
+}
