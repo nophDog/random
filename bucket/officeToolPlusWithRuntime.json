@@ -1,0 +1,19 @@
+{
+  "homepage": "otp.landian.vip",
+  "description": "Office deployment tool",
+  "license": "Unknown",
+  "version": "8.1.2.2",
+  "url": "https://github.com/YerongAI/Office-Tool/releases/download/8.1.2.2/Office-Tool-with-runtime-v8.1.zip",
+  "hash": "sha256:356767311602011f2886a3c695f043b2712c497b07399f7f5044bc2d37aacf39",
+  "extract_dir": "Office Tool",
+  "shortcuts": [
+    [
+      "Office Tool Plus.exe",
+      "Office Tool Plus"
+    ]
+  ],
+  "checkver": "github",
+  "autoupdate": {
+    "url": "https://github.com/YerongAI/Office-Tool/releases/download/$version/Office-Tool-with-runtime-v$majorVersion.$minorVersion.zip"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "homepage": "otp.landian.vip",
+  "description": "Office deployment tool",
+  "license": "Unknown",
+  "version": "8.1.2.2",
+  "url": "https://github.com/YerongAI/Office-Tool/releases/download/8.1.2.2/Office-Tool-with-vlmcs-v8.1.zip",
+  "hash": "sha256:eba291b24c72adca6ef111baefb19bb29a66188aa0f9a272fb8f4f86276ec33f",
+  "extract_dir": "Office Tool",
+  "shortcuts": [
+    [
+      "Office Tool Plus.exe",
+      "Office Tool Plus"
+    ]
+  ],
+  "checkver": "github",
+  "autoupdate": {
+    "url": "https://github.com/YerongAI/Office-Tool/releases/download/$version/Office-Tool-with-vlmcs-v$majorVersion.$minorVersion.zip"
+  }
+}
