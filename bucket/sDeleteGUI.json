@@ -1,0 +1,21 @@
+{
+    "homepage": "https://github.com/Tulpep/SDelete-Gui",
+    "description": "Secure delete files with right click. GUI for Sysinternals SDelete tool.",
+    "license": {
+		"identifier": "MIT",
+		"url": "https://github.com/Tulpep/SDelete-Gui/blob/master/LICENSE.txt"
+	},
+    "version": "1.3.4",
+    "url": "https://github.com/Tulpep/SDelete-Gui/releases/download/SDelete-Gui-1.3.4/SDelete-Gui.exe",
+    "hash": "CB483412FA6518EB217CE1C347048E4A8A1014FB59920169F598B8CBE1987B80",
+    "shortcuts": [
+        [
+            "SDelete-Gui.exe",
+            "SDelete-GUI"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/Tulpep/SDelete-Gui/releases/download/SDelete-Gui-$version/SDelete-Gui.exe"
+    }
+}
