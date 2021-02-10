@@ -1,0 +1,18 @@
+{
+    "homepage": "https://github.com/majorworld/Grid",
+    "description": "Quick tool for your mouse.",
+    "license": "Unknown",
+    "version": "3.1.2",
+    "url": "https://github.com/majorworld/Grid/releases/download/3.1.2/Grid.exe",
+    "hash": "8FB0EC2D90B983BC32BBCCF8A31A3D09FFBECE7BDF5E1F5AF855541C74D53098",
+    "shortcuts": [
+        [
+            "Grid.exe",
+            "Grid"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/majorworld/Grid/releases/download/$version/Grid.exe"
+    }
+}
