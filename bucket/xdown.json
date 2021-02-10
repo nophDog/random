@@ -2,9 +2,9 @@
     "homepage": "https://xdown.org/",
     "description": "An ads-free idm/torrent varieta",
     "license": "Freeware",
-    "version": "1.0.2.9",
-    "url": "https://dl.xdown.org/xdown-1.0.2.9.zip",
-    "hash": "0803b9c5393ad26607bffc7247aac02b8fcb3174918d3417e00bdf65a4440856",
+    "version": "2.0.1.4",
+    "url": "http://dl.xdown.org/xdown-2.0.1.4.zip",
+    "hash": "69220431700466DAF34F02B3705BE992639BF6BAEA0A332EA0E89259024498FF",
     "bin": "XDown.exe",
     "extract_dir": "xdown",
     "shortcuts": [
