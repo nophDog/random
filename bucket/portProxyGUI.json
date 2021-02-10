@@ -1,0 +1,36 @@
+{
+    "homepage": https://github.com/zmjack/PortProxyGUI",
+    "description": "A manager of netsh interface portproxy which is to evaluate TCP/IP port redirect on windows.",
+    "license": {
+		"identifier": "MIT",
+		"url": "https://github.com/zmjack/PortProxyGUI/blob/master/LICENSE.md"
+	},
+    "version": "1.0.5",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/zmjack/PortProxyGUI/releases/download/v1.0.5/PortProxyGUI.v1.0.5-Core31.x64.zip",
+            "hash": "F56A4068FFF8F7923B8D8BD7D53ED54AEC75CBD369E815B39F9AA5042A880A18"
+        },
+        "32bit": {
+            "url": "https://github.com/zmjack/PortProxyGUI/releases/download/v1.0.5/PortProxyGUI.v1.0.5-Core31.x86.zip",
+            "hash": "8D366F5E35CB55AE905B34687311633FD2B784E5A66006942826E1541E0EDE4D"
+        }
+    },
+    "shortcuts": [
+        [
+            "PortProxyGUI.exe",
+            "PortProxy GUI"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+        "64bit": {
+            "url": "https://github.com/zmjack/PortProxyGUI/releases/download/v$version/PortProxyGUI.v$version-Core31.x64.zip"
+        },
+        "32bit": {
+            "url": "https://github.com/zmjack/PortProxyGUI/releases/download/v$version/PortProxyGUI.v$version-Core31.x86.zip"
+        }
+    },
+    }
+}
