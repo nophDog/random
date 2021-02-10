@@ -1,0 +1,21 @@
+{
+    "homepage": "https://github.com/moonD4rk/HackBrowserData",
+    "description": "Decrypt passwords/cookies/history/bookmarks from the browser.",
+    "license": {
+		"identifier": "MIT",
+		"url": "https://github.com/moonD4rk/HackBrowserData/blob/master/LICENSE"
+	},
+    "version": "0.3.4",
+    "url": "https://github.com/moonD4rk/HackBrowserData/releases/download/v0.3.4/hack-browser-data-v0.3.4-windows-64bit.zip",
+    "hash": "93d8276129ccc984a4063772029e8db9002dfd82028c24864b5767cd6c7ce17d",
+    "shortcuts": [
+        [
+            "hack-browser-data.exe",
+            "Hack Browser Data"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/moonD4rk/HackBrowserData/releases/download/v$version/hack-browser-data-v$version-windows-64bit.zip"
+    }
+}
