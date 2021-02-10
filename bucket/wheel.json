@@ -1,0 +1,18 @@
+{
+    "homepage": "https://github.com/majorworld/Wheel",
+    "description": "Quick tool for your mouse enhanced version.",
+    "license": "Unknown",
+    "version": "2.1",
+    "url": "https://github.com/majorworld/Wheel/releases/download/2.1/Wheel.exe",
+    "hash": "651934228BA72FB4D23A2146824F8F813834FA640B38EC9E5892A01F705F61B2",
+    "shortcuts": [
+        [
+            "Wheel.exe",
+            "Wheel"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/majorworld/Wheel/releases/download/$version/Wheel.exe"
+    }
+}
