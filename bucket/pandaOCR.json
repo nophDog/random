@@ -1,0 +1,18 @@
+{
+    "homepage": "https://github.com/miaomiaosoft/PandaOCR",
+    "description": "All-in-one versatile OCR tool",
+    "license": "Unknowm",
+    "version": "2.66",
+    "url": "https://github.com/miaomiaosoft/PandaOCR/releases/download/2.66/PandaOCR_2.66.zip",
+    "hash": "05AB7627102B5ED99DB39D6816C53E8E2EC700390937CAFE8CBA4FCAADB91B34",
+    "bin": [
+        [
+            "PandaOCR.exe",
+            "PandaOCR"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/miaomiaosoft/PandaOCR/releases/download/$version/PandaOCR_$version.zip"
+    }
+}
