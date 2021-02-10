@@ -1,0 +1,19 @@
+{
+    "homepage": "https://github.com/pubpub-zz/ppInk",
+    "description": "Fork from Gink",
+    "license": {
+		"identifier": "MIT",
+		"url": "https://github.com/pubpub-zz/ppInk/blob/master/license.txt"
+	},
+    "version": "1.4 alpha 1a",
+    "url": "https://github.com/pubpub-zz/ppInk/releases/download/1.4alpha1a/ppInk.zip",
+    "hash": "747F3B5F1E73C05377C29A1646CB5234EE9900D5A5B5FC70AF962737B05C369E",
+    "extract_dir": "ppInk",
+    "shortcuts": [
+        [
+            "ppInk.exe",
+            "ppInk"
+        ]
+    ],
+    "checkver": "github"
+}
