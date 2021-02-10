@@ -1,0 +1,15 @@
+{
+    "homepage": "https://sourceforge.net/projects/osd-note/?utm_source=www.appinn.com",
+    "description": "A simple OSD (On Screen Display) text editor",
+    "license": "Freeware",
+    "version": "1.1",
+    "url": "https://netix.dl.sourceforge.net/project/osd-note/OSD_note_v1_1.zip",
+    "hash": "18EA76F3EDF280F710E19C031DD520B20290575E310326CAB9EF13C459CCA08F",
+	"extract_dir": "OSD_note",
+    "shortcuts": [
+        [
+            "OSD_note.exe",
+            "OSD_note"
+        ]
+    ]
+}
