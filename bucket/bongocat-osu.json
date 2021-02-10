@@ -1,0 +1,36 @@
+{
+    "homepage": "https://github.com/kuroni/bongocat-osu",
+    "description": "An osu! Bongo Cat overlay",
+    "license": {
+			"identifier": "MIT",
+			"url": "https://github.com/kuroni/bongocat-osu/blob/master/LICENSE"
+	},
+    "version": "1.5.3",
+    "architecture": {
+		"64bit": {
+			"url": "https://github.com/kuroni/bongocat-osu/releases/download/v1.5.3/bongocat-osu_x64.zip",
+			"hash": "2B55B69523162CA27D605E536E0C334E4EE6A79CF58693AA5EFD2BC95FEB8216"
+		},
+		"32bit": {
+			"url": "https://github.com/kuroni/bongocat-osu/releases/download/v1.5.3/bongocat-osu_x86.zip",
+			"hash": "69A2897343D3E4BC65E0F4A611C1EF073FDA109F69D21895B6E9BA8D7F82FE1C"
+		}
+  },
+	"shortcuts": [
+		[
+			"bongo.exe",
+			"bongoCat"
+		]
+	],
+    "checkver": "github",
+    "autoupdate": {
+		"architecture": {
+			"64bit": {
+				"url": "https://github.com/kuroni/bongocat-osu/releases/download/v$version/bongocat-osu_x64.zip"
+			},
+			"32bit": {
+				"url": "https://github.com/kuroni/bongocat-osu/releases/download/v$version/bongocat-osu_x86.zip"
+			}
+		}
+	}
+}
