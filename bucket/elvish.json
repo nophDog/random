@@ -5,26 +5,25 @@
         "identifier": "BSD-2",
         "url": "https://github.com/elves/elvish/blob/master/LICENSE"
     },
-    "version": "0.13",
+    "version": "0.15.0",
     "architecture": {
         "64bit": {
-            "url": "https://dl.elv.sh/windows-amd64/elvish-v0.13.zip",
-            "hash": "8325E3F651C0A65608412EF45BCF408090340E60D419B4E1DA95294C22126EAF",
+            "url": "https://dl.elv.sh/windows-amd64/elvish-v0.15.0.zip",
+            "hash": "F61A192D1665A27D92BD9681430F7D3C51ED68223495F8A742C3D8EF059116A0",
             "autoupdate": {
                 "url": "https://dl.elv.sh/windows-amd64/elvish-v$version.zip"
             }
         },
         "32bit": {
-            "url": "https://dl.elv.sh/windows-386/elvish-v0.13.zip",
-            "hash": "D4AF9ECA864D99A1B5183413FA761CB9765185BE69ADA804550665669630259A",
+            "url": "https://dl.elv.sh/windows-386/elvish-v0.15.0.zip",
+            "hash": "7B277CD148EB99A4FB6C1849614A62E0F3B0480F30F34406CBEC3A4A2F9ADB27",
             "autoupdate": {
                 "url": "https://dl.elv.sh/windows-386/elvish-v$version.zip"
             }
         }
     },
-    "bin": [["elvish-v0.13.exe", "elvish"]],
+    "bin": [["elvish-v0.15.0.exe", "elvish"]],
     "checkver": {
         "github": "https://github.com/elves/elvish"
     }
 }
-
