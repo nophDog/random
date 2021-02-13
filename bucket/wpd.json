@@ -1,0 +1,14 @@
+{
+    "homepage": "https://wpd.app/",
+    "description": "The real privacy dashboard for Windows.",
+    "license": "Freeware",
+    "version": "1.4.1765",
+    "url": "https://wpd.app/get/latest.zip",
+    "hash": "E9701214B29B9660A4A1C579174172FCD441B073BB60CBBD1E3423E5855CFD2F",
+    "shortcuts": [
+        [
+            "WPD.exe",
+            "wpd"
+        ]
+    ]
+}
