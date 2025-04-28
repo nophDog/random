@@ -1,0 +1,15 @@
+{
+	"homepage": "https://www.cnblogs.com/damonlog/p/18582201",
+	"description": "TCP 抓包分析小工具",
+	"license": "Unknown",
+	"version": "1.0.13",
+	"url": "https://s3.just4fun.one/scoop/fatbeans_v1.0.13.zip",
+	"hash": "2C0D313475FB9BC74D8DA28787021C82CDE894CC47F9F0839CCC1B9EF5C1C85A",
+	"extract_dir": "Fatbeans",
+	"shortcuts": [
+		[
+			"Fatbeans.exe",
+			"Fatbeans"
+		]
+	]
+}
