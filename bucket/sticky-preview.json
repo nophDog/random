@@ -2,13 +2,26 @@
     "homepage": "https://www.ntwind.com/software/sticky-previews.html",
     "description": "A lightweight productivity tool that lets you create live previews of any window or a screen region of your choice",
     "license": "Unknown",
-    "version": "2.2",
-    "url": "https://www.ntwind.com/download/StickyPreviews_2.2-setup.exe#/dl.7z",
-    "hash": "D42D55610323BBD4BA973B1F2C221A2EF9D23C61D3413F6E5BD5542441F75429",
+    "version": "2.9",
+    "url": "https://www.ntwind.com/download/StickyPreviews_2.9-setup.exe#/dl.7z",
+    "hash": "7742247955E09D80A402E10C8E9185DDE692F47584B9B0CE2C5161CCA6E06E63",
+    "post_install": [
+        "Remove-Item \"$dir\\`$PLUGINSDIR\" -Force -Recurse",
+        "Remove-Item \"$dir\\`$TEMP\" -Force -Recurse",
+        "Remove-Item \"$dir\\uninst.exe\" -Force",
+        "Remove-Item \"$dir\\`$2.nsis\" -Force"
+    ],
     "shortcuts": [
         [
-            "spv64.exe",
+            "spv.exe",
             "Sticky previews"
         ]
-    ]
+    ],
+    "checkver": {
+        "url": "https://www.ntwind.com/software/sticky-previews.html",
+        "re": "StickyPreviews_(\\d\\.\\d)-setup.exe"
+    },
+    "autoupdate": {
+        "url": "https://www.ntwind.com/download/AltTabTer_$version-setup.exe#/dl.7z"
+    }
 }
