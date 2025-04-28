@@ -1,0 +1,14 @@
+{
+	"homepage": "https://ee.qqv.com.au",
+	"description": "Freeware editor and utility for Espanso",
+	"license": "Freeware",
+	"version": "1.9.9.1",
+	"url": "https://s3.just4fun.one/scoop/EspansoEdit_v1991.zip",
+	"hash": "2E9A76AE7D3C1E896BA2B59138A38FC2AAFFD0A8886741041C0FBFC6336E5F1A",
+	"shortcuts": [
+		[
+			"EspansoEdit.exe",
+			"Espanso Edit"
+		]
+	]
+}
