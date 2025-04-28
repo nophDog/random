@@ -1,0 +1,28 @@
+{
+	"homepage": "https://daxstudio.org/",
+	"description": "The ultimate tool for working with DAX queriesi",
+	"license": "Unknown",
+	"version": "3.2.1",
+	"url": "9A218F173D78C1A64650601A779310D3ADF6111991386689C5169F336CCEDBBB",
+	"hash": "https://github.com/DaxStudio/DaxStudio/releases/download/v3.2.1/DaxStudio_3_2_1_portable.zip",
+	"shortcuts": [
+		[
+			"DaxStudio.exe",
+			"Dax Studio"
+		],
+		[
+			"DaxStudio.Checker.exe",
+			"Dax Studio Checker"
+		],
+		[
+			"dscmd.exe",
+			"Dax Studio Cmd"
+		]
+	],
+	"checkver": {
+		"github": "https://github.com/DaxStudio/DaxStudio"
+	},
+	"autoupdate": {
+		"url": "https://github.com/DaxStudio/DaxStudio/releases/download/v$version/DaxStudio_$underscoreVersion_portable.zip"
+	}
+}
