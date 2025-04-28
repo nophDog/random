@@ -5,13 +5,10 @@
     "version": "6.5",
     "url": "https://www.ntwind.com/download/AltTabTer_6.5-setup.exe#/dl.7z",
     "hash": "ab315667f932e464f5987bcf74c17386a537a769b958cfccb16db5990342d97a",
-    "installer": {
-        "script": [
-            "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
-            "Remove-Item \"$dir\\`$PLUGINSDIR\" -Force -Recurse",
-            "Remove-Item \"$dir\\uninst.exe\" -Force"
-        ]
-    },
+    "post_install": [
+        "Remove-Item \"$dir\\`$PLUGINSDIR\" -Force -Recurse",
+        "Remove-Item \"$dir\\uninst.exe\" -Force"
+    ],
     "shortcuts": [
         [
             "AltTabTer.exe",
