@@ -1,0 +1,54 @@
+{
+	"homepage": "https://github.com/snltty/linker",
+	"description": ".NET8、p2p打洞(tcp+udp)，和异地组网(点对点，点对网，网对网)，和内网穿透，.NET8 NAT transfer, Virtual Private Network，P2P Tunnel",
+	"license": {
+		"identifier": "GNU General Public License v2.0",
+		"url": "https://github.com/snltty/linker/blob/master/LICENSE"
+	},
+	"version": "1.7.6",
+	"architectures": {
+		"64bit": {
+			"url": "https://github.com/snltty/linker/releases/download/v1.7.6/linker-win-x64.zip",
+			"hash": "95EDAC30112A9CC797354E2BA03BF2E7E77D1B8D5ABCD5C19F8828A0B0921BDB",
+			"extract_dir": "linker-win-x64"
+		},
+		"32bit": {
+			"url": "https://github.com/snltty/linker/releases/download/v1.7.6/linker-win-x86.zip",
+			"hash": "323B71BB2FE32B73DD122DDEFF06D4BBC8E5F555CC0D3D890D1844A665388902",
+			"extract_dir": "linker-win-x86"
+		},
+		"arm64": {
+			"url": "https://github.com/snltty/linker/releases/download/v1.7.6/linker-win-arm64.zip",
+			"hash": "731B1E633A7477850DC55C2F0AC98D7D06FAB453D0B3310BA7112E4ADF6AEA83",
+			"extract_dir": "linker-win-arm64"
+		}
+	},
+	"shortcuts": [
+		[
+			"linker.exe",
+			"linker"
+		],
+		[
+			"linker.route.win.exe",
+			"linker.route"
+		],
+		[
+			"linker.tray.win.exe",
+			"linker.tray"
+		]
+	],
+	"checkver": "github",
+	"autoupdate": {
+		"architectures": {
+			"64bit": {
+				"url": "https://github.com/snltty/linker/releases/download/v$version/linker-win-x64.zip"
+			},
+			"32bit": {
+				"url": "https://github.com/snltty/linker/releases/download/v$version/linker-win-x86.zip"
+			},
+			"arm64": {
+				"url": "https://github.com/snltty/linker/releases/download/v$version/linker-win-arm64.zip"
+			}
+		}
+	}
+}
