@@ -1,17 +1,19 @@
 {
-    "homepage": "https://www.reasyze.com/sniptool-new-powerfull-snipping-tool-for-windows",
+    "homepage": "https://www.reasyze.com/sniptool",
     "description": "A screen capture tool that lets you capture one or more selected areas on your desktop and save it with optional annotations",
     "license": "Freeware",
-    "version": "1.7",
-    "url": "https://www.reasyze.com/downloads/sniptool/v1.7/Sniptool%20v1.7.zip",
-    "hash": "E1ACA46144C8FDF2C875E9C318B0A247F87FE707362B8491561C328AC59A2F7D",
-    "extract_dir": "Sniptool v1.7",
+    "version": "2.1",
+    "url": "https://www.reasyze.com/downloads/sniptool/v2.1/Sniptool%20v2.1.zip",
+    "hash": "1FBDC99AEB2F1A2F19E63B1F78183712A9F7F7D1AD4FBDCDE90D37D2FE260112",
     "shortcuts": [
         [
             "Sniptool.exe",
             "Sniptool"
         ]
     ],
+    "checkver": {
+        "re": "Vers: (\\d\\.\\d)"
+    },
     "autoupdate": {
         "url": "https://www.reasyze.com/downloads/sniptool/v$version/Sniptool%20v$version.zip"
     }
