@@ -2,13 +2,24 @@
     "homepage": "https://www.ntwind.com/software/wincam.html",
     "description": "A powerful and extremely easy-to-use screen recorder for Windows",
     "license": "Unknown",
-    "version": "1.9",
-    "url": "https://www.ntwind.com/download/WinCam_1.9-setup.exe#/dl.7z",
-    "hash": "018813F44F20DE4E69047CBCAAE75910B221C54DDF5CE9AAC07D2900CA915D38",
+    "version": "3.9",
+    "url": "https://www.ntwind.com/download/WinCam_3.9-setup.exe#/dl.zip",
+    "hash": "6F0C27FB767329260DD0F4320852617744BE489E081EEEF31B55EF783E4FDCCF",
+    "post_install": [
+        "Remove-Item \"$dir\\`$PLUGINSDIR\" -Force -Recurse",
+        "Remove-Item \"$dir\\uninst.exe\" -Force"
+    ],
     "shortcuts": [
         [
             "WinCam.exe",
             "WinCam"
         ]
-    ]
+    ],
+    "checkver": {
+        "url": "https://www.ntwind.com/software/wincam.html",
+        "re": "WinCam_(\\d\\.\\d)-setup\\.exe"
+    },
+    "autoupdate": {
+        "url": "https://www.ntwind.com/download/AltTabTer_$version-setup.exe#/dl.7z"
+    }
 }
