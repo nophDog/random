@@ -8,8 +8,7 @@
   "post_install": [
     "Remove-Item \"$dir\\`$PLUGINSDIR\" -Force -Recurse",
     "Remove-Item \"$dir\\`$TEMP\" -Force -Recurse",
-    "Remove-Item \"$dir\\uninst.exe\" -Force",
-    "Remove-Item \"$dir\\`$2.nsis\" -Force"
+    "Remove-Item \"$dir\\uninst.exe\" -Force"
   ],
   "shortcuts": [
     [
