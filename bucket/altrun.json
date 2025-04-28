@@ -1,0 +1,21 @@
+{
+	"homepage": "https://github.com/zhugecaomao/ALTRun",
+	"description": "一款轻量、高效、功能强大的启动工具",
+	"license": {
+		"identifier": "GNU General Public License v3.0",
+		"url": "https://github.com/zhugecaomao/ALTRun/blob/main/LICENSE"
+	},
+	"version": "2025.04.01",
+	"url": "https://github.com/zhugecaomao/ALTRun/releases/download/2025.04.01/ALTRun.exe",
+	"hash": "4297C373C991BE6F893593BAAD0B7293F7C9F63FE43B504D8B93AF7BB46A6437",
+	"shortcuts": [
+		[
+			"ALTRun.exe",
+			"ALTRun"
+		]
+	],
+	"checkver": "github",
+	"autoupdate": {
+		"url": "https://github.com/zhugecaomao/ALTRun/releases/download/$version/ALTRun.exe"
+	}
+}
