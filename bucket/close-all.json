@@ -2,9 +2,13 @@
     "homepage": "https://www.ntwind.com/software/closeall.html",
     "description": "An ultimate task management tool for Windows designed specifically to quickly close multiple applications",
     "license": "Unknown",
-    "version": "4.8",
-    "url": "https://www.ntwind.com/download/CloseAll_4.8-setup.exe#/dl.7z",
-    "hash": "924ed7fd58ad55404571f33c291bbd2a8ac47f5a40bb8653cde131f9a6e0ca43",
+    "version": "5.9",
+    "url": "https://www.ntwind.com/download/CloseAll_5.9-setup.exe#/dl.7z",
+    "hash": "AE3307BE27F2D72067BB4E7BF6581DF91689EADDD850F4E7C9B38B15150EC433",
+    "post_install": [
+        "Remove-Item \"$dir\\`$PLUGINSDIR\" -Force -Recurse",
+        "Remove-Item \"$dir\\uninst.exe\" -Force"
+    ],
     "shortcuts": [
         [
             "CloseAll.exe",
