@@ -1,0 +1,22 @@
+{
+	"homepage": "https://keypressosd.com/",
+	"description": "A unique On-Screen Display for screencasts.",
+	"license": "Commercial",
+	"version": "4.36.7.1",
+	"url": "https://files.sucan.ro/marius/blog/ahk-scripts/keypress-osd-trial.zip",
+	"hash": "C016FA9C7B44563DB6EA898873844A4307ECDFE5B9A35C86841716C18B43C94B",
+	"architectures": {
+		"64bit": {
+			"extract_dir": "x64"
+		},
+		"32bit": {
+			"extract_dir": "x32"
+		}
+	},
+	"shortcuts": [
+		[
+			"keypress-osd.exe",
+			"KeyPress OSD"
+		]
+	]
+}
