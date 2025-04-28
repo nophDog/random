@@ -28,7 +28,7 @@
 			}
 		},
 		"hash": {
-			"url": "$baseUrl/checksums.txt"
+			"url": "$baseurl/checksums.txt"
 		}
 	}
 }
