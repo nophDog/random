@@ -2,21 +2,39 @@
   "homepage": "https://www.ntwind.com/software/hstart.html",
   "description": "Hstart is a must have if you use batch files on an everyday basis for backups, various file sync and copy scripts, automatic source code compilation or code signing",
   "license": "Unknown",
-  "version": "4.9",
-  "url": "https://www.ntwind.com/download/Hstart_4.9-setup.exe#/dl.7z",
-  "hash": "C0619B59DCC881965F583325409DAC7674D107FBFC0C1D0F9B60CB18EB2F8165",
+  "version": "5.1",
+  "url": "https://www.ntwind.com/download/Hstart_5.1-setup.exe#/dl.7z",
+  "hash": "B5B17DE39EE33D0FF6D2A5B6AB6E417F3BF3F513819AA9BBEA22423FBF396736",
+  "post_install": [
+    "Remove-Item \"$dir\\`$PLUGINSDIR\" -Force -Recurse",
+    "Remove-Item \"$dir\\`$TEMP\" -Force -Recurse",
+    "Remove-Item \"$dir\\uninst.exe\" -Force",
+    "Remove-Item \"$dir\\`$2.nsis\" -Force"
+  ],
   "shortcuts": [
     [
       "HstartUI.exe",
       "HstartUI"
     ]
   ],
-  "bin": [
-    [
-      "hstart64.exe",
-      "hstart"
-    ]
-  ],
+  "architecture": {
+    "32bit": {
+      "bin": [
+        [
+          "hstart.exe",
+          "hstart"
+        ]
+      ]
+    },
+    "64bit": {
+      "bin": [
+        [
+          "hstart64.exe",
+          "hstart"
+        ]
+      ]
+    }
+  },
   "checkver": {
     "url": "https://www.ntwind.com/software/hstart.html",
     "re": "Hstart_([\\d.]+)-setup.exe"
