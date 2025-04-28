@@ -16,6 +16,6 @@
     ],
     "checkver": "Erase Temp (\\d\\.\\d\\.\\d\\.\\d)",
     "autoupdate": {
-        "url": "https://www.nodesoft.com/erasetemp/download"
+        "url": "https://www.nodesoft.com/erasetemp/download#/dl.zip"
     }
 }
