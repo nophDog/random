@@ -1,0 +1,21 @@
+{
+	"homepage": "https://github.com/rylefisher/Easy-Auto-GUI-for-AHK-v2",
+	"description": "Alguimist's 'Easy AutoGUI' GUI-Designer-Builder modified for Autohotkey v2.0, using mmikeww's AHKv2 converter",
+	"license": {
+		"identifier": "Unknown",
+		"url": "https://github.com/rylefisher/Easy-Auto-GUI-for-AHK-v2/blob/main/License"
+	},
+	"version": "2",
+	"url": "https://github.com/rylefisher/Easy-Auto-GUI-for-AHK-v2/releases/download/v2/Easy_AutoGUI_Portable.zip",
+	"hash": "98AEE69881374CDAB7B1D300FDE6405F479389EFD368CB576D589C78D40F76A2",
+	"shortcuts": [
+		[
+			"Easy_AutoGUI_Portable.exe",
+			"Easy AutoGUI"
+		]
+	],
+	"checkver": "github",
+	"autoupdate": {
+		"url": "https://github.com/rylefisher/Easy-Auto-GUI-for-AHK-v2/releases/download/v$version/Easy_AutoGUI_Portable.zip"
+	}
+}
