@@ -1,28 +1,14 @@
 {
-  "homepage": "https://ironmansoftware.com/psscriptpad",
+  "homepage": "https://ironmansoftware.com",
   "description": "The tiny, little editor for PowerShell",
   "license": "Commercial",
-  "version": "Unknown",
-  "architecture": {
-    "64bit": {
-      "url": "https://psscriptpad.blob.core.windows.net/releases/PSScriptPad.x64.zip",
-      "hash": "51DF5C63C9F8B3921D0E33192CBF1C0249C44B427C5C2A296E4B673B218FF570",
-      "shortcuts": [
-        [
-          "PSScriptPad.x64.exe",
-          "PSScriptPad"
-        ]
-      ]
-    },
-    "32bit": {
-      "url": "https://psscriptpad.blob.core.windows.net/releases/PSScriptPad.x86.zip",
-      "hash": "AD9543292F62890911F746032DCECFFE7A174FD9456A45D43628E18F4F1D9D50",
-      "shortcuts": [
-        [
-          "PSScriptPad.x64.exe",
-          "PSScriptPad"
-        ]
-      ]
-    }
-  }
+  "version": "2024.7.1",
+  "url": "https://imsreleases.blob.core.windows.net/psscriptpad/PSScriptPad.zip",
+  "hash": "D3FB8FE93E1F4F80B06740268DA09813B8B1497B65AA788648FBB8E9A647A53C",
+  "shortcuts": [
+    [
+      "PSScriptPad.exe",
+      "PSScriptPad"
+    ]
+  ]
 }
