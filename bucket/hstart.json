@@ -4,7 +4,7 @@
   "license": "Unknown",
   "version": "5.1",
   "url": "https://www.ntwind.com/download/Hstart_5.1-setup.exe#/dl.7z",
-  "hash": "b5b17de39ee33d0ff6d2a5b6ab6e417f3bf3f513819aa9bbea22423fbf396736",
+  "hash": "B5B17DE39EE33D0FF6D2A5B6AB6E417F3BF3F513819AA9BBEA22423FBF396736",
   "post_install": [
     "Remove-Item \"$dir\\`$PLUGINSDIR\" -Force -Recurse",
     "Remove-Item \"$dir\\`$TEMP\" -Force -Recurse",
