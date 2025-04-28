@@ -2,7 +2,7 @@
 	"homepage": "https://github.com/snltty/linker",
 	"description": ".NET8、p2p打洞(tcp+udp)，和异地组网(点对点，点对网，网对网)，和内网穿透，.NET8 NAT transfer, Virtual Private Network，P2P Tunnel",
 	"license": {
-		"identifier": "GNU General Public License v2.0",
+		"identifier": "GNU General Public v2.0",
 		"url": "https://github.com/snltty/linker/blob/master/LICENSE"
 	},
 	"version": "1.7.6",

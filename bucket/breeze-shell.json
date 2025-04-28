@@ -2,7 +2,7 @@
 	"homepage": "https://github.com/std-microblock/breeze-shell",
 	"description": "An alternative Windows context menu, and more.",
 	"license": {
-		"identifier": "GNU Affero General Public License v3.0",
+		"identifier": "GNU Affero General Public v3.0",
 		"url": "https://github.com/std-microblock/breeze-shell/blob/master/LICENSE"
 	},
 	"version": "0.1.21",
