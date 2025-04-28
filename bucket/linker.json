@@ -6,7 +6,7 @@
 		"url": "https://github.com/snltty/linker/blob/master/LICENSE"
 	},
 	"version": "1.7.6",
-	"architectures": {
+	"architecture": {
 		"64bit": {
 			"url": "https://github.com/snltty/linker/releases/download/v1.7.6/linker-win-x64.zip",
 			"hash": "95EDAC30112A9CC797354E2BA03BF2E7E77D1B8D5ABCD5C19F8828A0B0921BDB",
@@ -39,7 +39,7 @@
 	],
 	"checkver": "github",
 	"autoupdate": {
-		"architectures": {
+		"architecture": {
 			"64bit": {
 				"url": "https://github.com/snltty/linker/releases/download/v$version/linker-win-x64.zip"
 			},
