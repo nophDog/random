@@ -4,7 +4,7 @@
     "license": "Unknown",
     "version": "6.5",
     "url": "https://www.ntwind.com/download/AltTabTer_6.5-setup.exe#/dl.7z",
-    "hash": "9E8675845CB06AB944D4F4FCE9A1732A",
+    "hash": "ab315667f932e464f5987bcf74c17386a537a769b958cfccb16db5990342d97a",
     "installer": {
         "script": [
             "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
