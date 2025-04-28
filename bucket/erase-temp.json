@@ -5,17 +5,16 @@
         "identifier": "Freeware",
         "url": "https://www.nodesoft.com/erasetemp"
     },
-    "version": "3.5.3.3",
-    "url": "https://scoop.myportable.fun/Repo/erasetemp_3.5.3.3.zip",
-    "hash": "CDD0354FF758E9D4623111629FEA4A8C6DACBDA340D08FAD0FCD5F72BC12A51B",
-    "bin": "EraseTemp.exe",
+    "version": "3.5.4.0",
+    "url": "https://www.nodesoft.com/erasetemp/download#/dl.zip",
+    "hash": "5707E46F419C02FFCB69617FD1B27712D2F5B5259194A6AE7CB08005A3DEEFD0",
     "shortcuts": [
         [
             "EraseTemp.exe",
             "EraseTemp"
         ]
     ],
-    "checkver": "Erase Temp ([\\d.]+)",
+    "checkver": "Erase Temp (\\d\\.\\d\\.\\d\\.\\d)",
     "autoupdate": {
         "url": "https://www.nodesoft.com/erasetemp/download"
     }
