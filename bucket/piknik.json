@@ -5,11 +5,11 @@
         "identifier": "ISC",
         "url": "https://github.com/jedisct1/piknik/blob/master/LICENSE"
     },
-    "version": "0.9.1",
+    "version": "0.10.2",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/jedisct1/piknik/releases/download/0.9.1/piknik-win64-0.9.1.zip",
-            "hash": "1E3F232F4035AF2846E99FB92A211EABF5F7CC5DCE131760847C36825B058D16",
+            "url": "https://github.com/jedisct1/piknik/releases/download/0.10.2/piknik-win64-0.10.2.zip",
+            "hash": "4F9C7E0AA12971D988C00BF2E6A8926C9691C467D2FD21F264446AA8822208B0",
             "bin": [
                 [
                     "win32/piknik.exe",
@@ -18,8 +18,18 @@
             ]
         },
         "32bit": {
-            "url": "https://github.com/jedisct1/piknik/releases/download/0.9.1/piknik-win32-0.9.1.zip",
-            "hash": "A47B83FB12CADD4FA89AB82CACD20C36ACF3D10BB4531C2B5D51020A3F58D9C0",
+            "url": "https://github.com/jedisct1/piknik/releases/download/0.10.2/piknik-win32-0.10.2.zip",
+            "hash": "4F840C2EF1305403AC64E6F844637265DAFBAFC721E67A4B42F44EB04DB1A754",
+            "bin": [
+                [
+                    "win32/piknik.exe",
+                    "piknik"
+                ]
+            ]
+        },
+        "arm64": {
+            "url": "https://github.com/jedisct1/piknik/releases/download/0.10.2/piknik-win64-arm64-0.10.2.zip",
+            "hash": "D549FD3CE17FCC94BF18DBCFD73D228E3E5EAB8A7D4153592E6F04118FCADAC1",
             "bin": [
                 [
                     "win64/piknik.exe",
@@ -32,22 +42,13 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/jedisct1/piknik/releases/download/$version/piknik-win64-$version.zip",
-                "bin": [
-                    [
-                        "win32/piknik.exe",
-                        "piknik"
-                    ]
-                ]
+                "url": "https://github.com/jedisct1/piknik/releases/download/$version/piknik-win64-$version.zip"
             },
             "32bit": {
-                "url": "https://github.com/jedisct1/piknik/releases/download/$version/piknik-win32-$version.zip",
-                "bin": [
-                    [
-                        "win64/piknik.exe",
-                        "piknik"
-                    ]
-                ]
+                "url": "https://github.com/jedisct1/piknik/releases/download/$version/piknik-win32-$version.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/jedisct1/piknik/releases/download/$version/piknik-win64-arm64-$version.zip"
             }
         }
     }
