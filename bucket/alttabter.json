@@ -2,9 +2,16 @@
     "homepage": "https://www.ntwind.com/software/alttabter.html",
     "description": "An elegant and powerful task management utility for Windows",
     "license": "Unknown",
-    "version": "4.8",
-    "url": "https://www.ntwind.com/download/AltTabTer_4.8-setup.exe#/dl.7z",
-    "hash": "b5ca501ca98157b48a462b6ce8abd7c350062879d3b69c7982350c31068dd986",
+    "version": "6.5",
+    "url": "https://www.ntwind.com/download/AltTabTer_6.5-setup.exe#/dl.7z",
+    "hash": "9E8675845CB06AB944D4F4FCE9A1732A",
+    "installer": {
+        "script": [
+            "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
+            "Remove-Item \"$dir\\`$PLUGINSDIR\" -Force -Recurse",
+            "Remove-Item \"$dir\\uninst.exe\" -Force"
+        ]
+    },
     "shortcuts": [
         [
             "AltTabTer.exe",
