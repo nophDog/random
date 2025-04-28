@@ -1,18 +1,24 @@
 {
     "homepage": "https://github.com/0xERR0R/blocky",
-    "description": "DNS proxy as ad-blocker for local network",
-    "license": "Apache",
-    "version": "0.9.1",
-    "url": "https://github.com/0xERR0R/blocky/releases/download/v0.9.1/blocky_v0.9.1_windows_amd64.exe",
+    "description": "Fast and lightweight DNS proxy as ad-blocker for local network with many features",
+    "license": {
+        "identifier": "Apache-2.0",
+        "url": "https://github.com/0xERR0R/blocky/blob/main/LICENSE"
+    },
+    "version": "0.25",
+    "url": "https://github.com/0xERR0R/blocky/releases/download/v0.25/blocky_v0.25_Windows_x86_64.zip",
     "hash": "4CC8DF0D51396780BB24CEC3997BC6A7B785621862586DD7269AE233ED8675FC",
     "bin": [
         [
-            "blocky_v0.9.1_windows_amd64.exe",
+            "blocky.exe",
             "blocky"
         ]
     ],
     "checkver": "github",
     "autoupdate": {
-			"url": "https://github.com/0xERR0R/blocky/releases/download/v$version/blocky_v$version_windows_amd64.exe"
+        "url": "https://github.com/0xERR0R/blocky/releases/download/v$version/blocky_v$version_windows_x86_64.zip",
+        "hash": {
+            "url": "$baseurl/blocky_checksums.txt"
+        }
     }
 }
