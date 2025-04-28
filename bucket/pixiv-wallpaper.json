@@ -5,11 +5,11 @@
         "identifier": "MIT",
         "url": "https://github.com/SingularityF/PixivWallpaper/blob/master/LICENSE.md"
     },
-    "version": "1.3.5",
-    "url": "https://github.com/SingularityF/PixivWallpaper/releases/download/1.3.5/PixivWallpaper_v1.3.5.zip",
-    "hash": "20F6C8EB67EC6F036764C6CCA5C7E0F9E86669DD2C895166BBAEF7F8EF9BBC62",
+    "version": "1.3.6",
+    "url": "https://github.com/SingularityF/PixivWallpaper/releases/download/1.3.6/PixivWallpaper_v1.3.6.zip",
+    "hash": "256B2F45D6DC60C0D8DA7DBBA53D7B9FB0CAB9861AAD7AC447143F5C3BD3421D",
     "bin": "pixivwallpaperclient.exe",
-    "extract_dir": "PixivWallpaper_v1.3.5",
+    "extract_dir": "PixivWallpaper_v$version",
     "shortcuts": [
         [
             "pixivwallpaperclient.exe",
@@ -21,4 +21,3 @@
         "url": "https://github.com/SingularityF/PixivWallpaper/releases/download/$version/PixivWallpaper_v$version.zip"
     }
 }
-
