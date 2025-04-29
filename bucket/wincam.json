@@ -3,7 +3,7 @@
     "description": "A powerful and extremely easy-to-use screen recorder for Windows",
     "license": "Unknown",
     "version": "3.9",
-    "url": "https://www.ntwind.com/download/WinCam_3.9-setup.exe#/dl.zip",
+    "url": "https://www.ntwind.com/download/WinCam_3.9-setup.exe#/dl.7z",
     "hash": "6F0C27FB767329260DD0F4320852617744BE489E081EEEF31B55EF783E4FDCCF",
     "post_install": [
         "Remove-Item \"$dir\\`$PLUGINSDIR\" -Force -Recurse",
