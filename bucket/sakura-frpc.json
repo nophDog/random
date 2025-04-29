@@ -1,0 +1,32 @@
+{
+	"homepage": "https://www.natfrp.com/",
+	"description": "一个内网穿透工具。",
+	"license": "Unknown",
+	"version": "0.51.0",
+	"architechtures": {
+		"64bit": {
+			"url": "https://nya.globalslb.net/natfrp/client/frpc/0.51.0-sakura-10/frpc_windows_amd64.exe",
+			"hash": "md5:84fc33dc6a5a8b4970171e40e303f9e5",
+			"bin": [
+				[
+					"frpc_windows_amd64.exe",
+					"frpc"
+				]
+			]
+		},
+		"32bit": {
+			"url": "https://nya.globalslb.net/natfrp/client/frpc/0.51.0-sakura-10/frpc_windows_386.exe",
+			"hash": "md5:52accb09129336897596ab7aeca49664",
+			"bin": [
+				[
+					"frpc_windows_386.exe",
+					"frpc"
+				]
+			]
+		}
+	},
+	"checkver": {
+		"url": "https://www.natfrp.com/tunnel/download",
+		"regex": "v(\\.+)-sakura-10"
+	}
+}
