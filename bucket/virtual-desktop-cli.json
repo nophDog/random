@@ -1,0 +1,18 @@
+{
+	"homepage": "https://github.com/MScholtes/VirtualDesktop",
+	"description": "C# command line tool to manage virtual desktops in Windows 10",
+	"license": {
+		"identifier": "MIT",
+		"url": "https://github.com/MScholtes/VirtualDesktop/blob/master/LICENSE"
+	},
+	"version": "1.20",
+	"url": "https://github.com/MScholtes/VirtualDesktop/releases/download/V1.20/VirtualDesktop11-24H2.exe",
+	"hash": "F3799B4A542BAD7F0F2267E224BF6885F0599E444EF58394D449FD30269E3014",
+	"bin": [
+		["VirtualDesktop11-24H2.exe", "vd"]
+	],
+	"checkver": "github",
+	"autoupdate": {
+		"url": "https://github.com/MScholtes/VirtualDesktop/releases/download/V$version/VirtualDesktop11-24H2.exe"
+	}
+}
