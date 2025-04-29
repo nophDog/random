@@ -1,0 +1,21 @@
+{
+	"homepage": "https://github.com/xenon2333/QuickViewPic",
+	"description": "A small tool to view images quickly.",
+	"license": {
+		"identifier": "GNU General Public v2.0",
+		"url": "https://github.com/xenon2333/QuickViewPic/blob/main/LICENSE"
+	},
+	"version": "0.5.0",
+	"url": "https://github.com/xenon2333/QuickViewPic/releases/download/v0.5.0/QuickViewPic.exe",
+	"hash": "7C7B40C116168AD553C2FBFAFBC65065650A7A153A69051171AF637E0BBEA25E",
+	"shortcuts": [
+		[
+			"QuickViewPic.exe",
+			"QuickViewPic"
+		]
+	],
+	"checkver": "github",
+	"autoupdate": {
+		"url": "https://github.com/xenon2333/QuickViewPic/releases/download/v$version/QuickViewPic.exe"
+	}
+}
