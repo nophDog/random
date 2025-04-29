@@ -1,0 +1,14 @@
+{
+	"homepage": "https://sites.google.com/site/llemarie/ledimmer",
+	"description": "A small Windows 2000/XP/Vista application that dims the screen apart from the active window.",
+	"license": "Unknown",
+	"version": "1.0.0.4",
+	"url": "https://s3.just4fun.one/scoop/ledimmer_v1.0.0.4.zip",
+	"hash": "57175311A5E9E8948E4D2AD2A345A66BD08E7CB07F183A39ABC551FB08CCF65D",
+	"shortcuts": [
+		[
+			"LeDimmer.exe",
+			"LeDimmer"
+		]
+	]
+}
