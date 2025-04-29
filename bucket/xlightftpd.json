@@ -19,7 +19,10 @@
 			"Xlight FTP Server"
 		]
 	],
-	"checkver": "Xlight FTP Server (\\.+) download",
+	"checkver": {
+		"url": "https://www.xlightftpd.com/download.htm",
+		"regex": "Xlight FTP Server (\\.+) download"
+	},
 	"autoupdate": {
 		"architecture": {
 			"64bit": {
