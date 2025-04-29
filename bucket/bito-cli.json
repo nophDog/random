@@ -1,0 +1,16 @@
+{
+	"homepage": "https://github.com/gitbito/CLI",
+	"description": "Bito CLI (Command Line Interface) provides a command line interface to the Bito AI chat functionality.",
+	"license": {
+		"identifier": "Proprietary",
+		"url": "https://github.com/gitbito/CLI/blob/main/LICENSE.md"
+	},
+	"version": "5.3",
+	"url": "https://github.com/gitbito/CLI/raw/refs/heads/main/version-5.3/bito.exe",
+	"hash": "2F0B74F2A8A8DE636F04ED7EEC73EDE80550B5E8078657E555F996940100CD19",
+	"bin": "bito.exe",
+	"checkver": "github",
+	"autoupdate": {
+		"url": "https://github.com/gitbito/CLI/raw/refs/heads/main/version-$version/bito.exe"
+	}
+}
