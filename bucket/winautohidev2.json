@@ -1,0 +1,18 @@
+{
+	"homepage": "https://github.com/windwhim/winautohidev2",
+	"description": "window side over for windows",
+	"license": "Unknown",
+	"version": "2.1",
+	"url": "https://github.com/windwhim/winautohidev2/releases/download/2.1/winautohidev2_2.1.exe",
+	"hash": "DFADA3F3F55D3532E90748345B7E0CE0EAEB9B6D57BF5B32B9F02B0D9878F54C",
+	"shortcuts": [
+		[
+			"winautohidev2_2.1.exe",
+			"WinAutoHideV2"
+		]
+	],
+	"checkver": "github",
+	"autoupdate": {
+		"url": "https://github.com/windwhim/winautohidev2/releases/download/$version/winautohidev2_$version.exe"
+	}
+}
