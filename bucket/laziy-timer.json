@@ -11,5 +11,6 @@
 			"laziy.exe",
 			"Laziy Timer"
 		]
-	]
+	],
+	"persist": "data"
 }
