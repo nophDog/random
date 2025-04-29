@@ -5,11 +5,37 @@
 	"version": "5.41",
 	"url": "http://www.joejoesoft.com/cms/file.php?f=userupload%2f8%2ffiles%2facv541.zip#/dl.zip",
 	"hash": "70BA1A9A79EE4A18A94737EFC2742D701FFBF433680C56D53A00CB1E0FFB6D80",
+	"pre_install": [
+		"if (!(Test-Path \"$persist_dir\")) {",
+		"New-Item \"$dir\\clipdatabase\" -ItemType Directory | Out-Null",
+		"New-Item \"$dir\\arsclip.ini\" -ItemType File | Out-Null",
+		"New-Item \"$dir\\disabled.ini\" -ItemType File | Out-Null",
+		"New-Item \"$dir\\exepaste.ini\" -ItemType File | Out-Null",
+		"New-Item \"$dir\\exepigs.ini\" -ItemType File | Out-Null",
+		"New-Item \"$dir\\explorer.ini\" -ItemType File | Out-Null",
+		"New-Item \"$dir\\noright.ini\" -ItemType File | Out-Null",
+		"New-Item \"$dir\\programignore.ini\" -ItemType File | Out-Null",
+		"New-Item \"$dir\\programmacro.ini\" -ItemType File | Out-Null",
+		"New-Item \"$dir\\scripts.txt\" -ItemType File | Out-Null",
+		"}"
+	],
 	"shortcuts": [
 		[
 			"ArsClip.exe",
 			"ArsClip"
 		]
+	],
+	"persist": [
+		"clipdatabase",
+		"arsclip.ini",
+		"disabled.ini",
+		"exepaste.ini",
+		"exepigs.ini",
+		"explorer.ini",
+		"noright.ini",
+		"programignore.ini",
+		"programmacro.ini",
+		"scripts.txt"
 	],
 	"checkver": "Changes in v(\\d\\.\\d+)",
 	"autoupdate": {
