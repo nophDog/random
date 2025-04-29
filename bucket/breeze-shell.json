@@ -7,7 +7,7 @@
 	},
 	"version": "0.1.22",
 	"url": "https://github.com/std-microblock/breeze-shell/releases/download/0.1.22/windows-build.zip",
-	"hash": "FB729D02E2B363DA5328ADF1F670C62E0745558B4687CA7642223D64136121AF",
+	"hash": "f9d071b2e3aa95398df75aab3543d603daaad3eb9587cd02a3e541124c2eac38",
 	"extract_dir": "x64/releasedbg",
 	"shortcuts": [
 		[
