@@ -14,9 +14,7 @@
 			"InputTip"
 		]
 	],
-	"persist": [
-		"InputTip.ini"
-	],
+	"persist": "InputTip.ini",
 	"checkver": "github",
 	"autoupdate": {
 		"url": "https://github.com/abgox/InputTip/releases/download/v$version/InputTip.exe"
