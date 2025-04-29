@@ -1,0 +1,33 @@
+{
+	"homepage": "https://www.xlightftpd.com/index.htm",
+	"description": "Xlight is a Windows FTP and SFTP server to make file transfer secure and easy to use.",
+	"license": "Unknown",
+	"version": "3.9.4.5",
+	"architecture": {
+		"64bit": {
+			"url": "https://www.xlightftpd.com/download/xlight-x64.zip",
+			"hash": "CFBBFFCD14472446E1B7B3EEE9E69909D6BC2A3152F733406F13E62815BC12BB"
+		},
+		"32bit": {
+			"url": "https://www.xlightftpd.com/download/xlight.zip",
+			"hash": "1338121D4A465167533C70ED4D0326C4BCF9D3FD3CA1EEE5C0C4DE8E9DFF1193"
+		}
+	},
+	"shortcuts": [
+		[
+			"xlight.exe",
+			"Xlight FTP Server"
+		]
+	],
+	"checkver": "Xlight FTP Server (\\.+) download",
+	"autoupdate": {
+		"architecture": {
+			"64bit": {
+				"url": "https://www.xlightftpd.com/download/xlight-x64.zip"
+			},
+			"32bit": {
+				"url": "https://www.xlightftpd.com/download/xlight.zip"
+			}
+		}
+	}
+}
