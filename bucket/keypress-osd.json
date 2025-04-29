@@ -3,7 +3,7 @@
 	"description": "A unique On-Screen Display for screencasts.",
 	"license": "Commercial",
 	"version": "4.36.7.1",
-	"url": "https://files.sucan.ro/marius/blog/ahk-scripts/keypress-osd-trial.zip",
+	"url": "https://files.sucan.ro/marius/blog/ahk-scripts/keypress-osd-compiled.zip",
 	"hash": "b936ea29af094cd8ff86eb67240a2253bb06000fa1464bf1735f04eef386f7d6",
 	"architectures": {
 		"64bit": {
