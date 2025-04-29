@@ -8,6 +8,7 @@
 	"version": "2.37.3",
 	"url": "https://github.com/abgox/InputTip/releases/download/v2.37.3/InputTip.exe",
 	"hash": "73B94B03866FC3E1D1E19A51776EB2CF5374DB08E66691C124BFD32FF3652C7B",
+	"pre_install": "if (!(Test-Path \"$persist_dir\\InputTip.ini\")) { New-Item \"$dir\\InputTip.ini -ItemType File\" | Out-Null }",
 	"shortcuts": [
 		[
 			"InputTip.exe",
