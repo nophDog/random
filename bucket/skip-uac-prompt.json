@@ -1,0 +1,31 @@
+{
+	"homepage": "https://www.sordum.org/16219/skip-uac-prompt-v1-2/",
+	"description": "Allow you to bypass UAC Prompt and run programs without seeing the UAC Prompt ",
+	"license": "Unknown",
+	"version": "1.2",
+	"url": "https://www.sordum.org/files/download/skip-uac-prompt/SkipUAC.zip",
+	"hash": "773837F0EE489C339F59AE63DDB1551E72792F26C2128F3F72B0527300F88C4E",
+	"extract_dir": "SkipUAC",
+	"architecture": {
+		"32bit": {
+			"shortcuts": [
+				[
+					"SkipUAC.exe",
+					"SkipUAC"
+				]
+			]
+		},
+		"64bit": {
+			"shortcuts": [
+				[
+					"SkipUAC_x64.exe",
+					"SkipUAC"
+				]
+			]
+		}
+	},
+	"checkver": "Skip UAC Prompt v(\\.+)",
+	"autoupdate": {
+		"url": "https://www.sordum.org/files/download/skip-uac-prompt/SkipUAC.zip"
+	}
+}
