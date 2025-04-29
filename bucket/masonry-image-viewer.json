@@ -1,0 +1,17 @@
+{
+	"homepage": "https://github.com/wlm3201/Masonry_Image_Viewer",
+	"description": "Masonry/Waterfall Image Viewer",
+	"license": {
+		"identifier": "MIT",
+		"url": "https://github.com/wlm3201/Masonry_Image_Viewer/blob/main/LICENSE"
+	},
+	"version": "1.0",
+	"url": "https://github.com/wlm3201/Masonry_Image_Viewer/releases/download/release/index.html",
+	"hash": "7C385DD3D6BCB62981F0E434A44130FDE8CF9D0CC6FA2A6A4F01D0DD8EFB5928",
+	"shortcuts": [
+		[
+			"index.html",
+			"Masonry Image Viewer"
+		]
+	]
+}
