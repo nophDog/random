@@ -5,7 +5,7 @@
 	"version": "0.4.0",
 	"url": "https://s3.just4fun.one/scoop/boky_v0.4.0.zip",
 	"hash": "30FA5C662DEC3D1667E45FB5095AB8BDBF3E3C499F1E67A5711186D5B1720D37",
-	"extract_dir": "laziy-v$version",
+	"extract_dir": "laziy-v0.4.0",
 	"shortcuts": [
 		[
 			"laziy.exe",
