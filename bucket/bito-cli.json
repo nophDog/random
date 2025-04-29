@@ -7,7 +7,7 @@
 	},
 	"version": "5.3",
 	"url": "https://github.com/gitbito/CLI/raw/refs/heads/main/version-5.3/bito.exe",
-	"hash": "2F0B74F2A8A8DE636F04ED7EEC73EDE80550B5E8078657E555F996940100CD19",
+	"hash": "24b47ed143ec10b678879b5cc5b6092d3cde41f6219a86ac8492dfaf98eddec2",
 	"bin": "bito.exe",
 	"checkver": "github",
 	"autoupdate": {
