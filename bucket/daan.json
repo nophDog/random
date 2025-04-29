@@ -1,0 +1,25 @@
+{
+	"homepage": "https://github.com/pluveto/daan",
+	"description": "Lightweight LLM Client with MCP & Characters",
+	"license": {
+		"identifier": "GNU Affero General Public v3.0",
+		"url": "https://github.com/pluveto/daan/blob/main/LICENSE"
+	},
+	"version": "0.4.1-beta.3",
+	"url": "https://github.com/pluveto/daan/releases/download/v0.4.1-beta.3/daan_0.4.1-beta.3_x64-setup.exe#/dl.zip",
+	"hash": "D6C37C70809EA84CDF9DC37E7303C4A6DA741FB8F5F6F0C5FDE107C0CB1AFCED",
+	"post_install" : [
+        "Remove-Item \"$dir\\`$PLUGINSDIR\" -Force -Recurse",
+        "Remove-Item \"$dir\\uninstall.exe\" -Force"
+	],
+	"shortcuts": [
+		[
+			"app.exe",
+			"Daan"
+		]
+	],
+	"checkver": "github",
+	"autoupdate": {
+		"url": "https://github.com/pluveto/daan/releases/download/v$version/daan_$version_x64-setup.exe"
+	}
+}
