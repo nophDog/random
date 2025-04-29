@@ -4,7 +4,7 @@
 	"license": "Commercial",
 	"version": "4.36.7.1",
 	"url": "https://files.sucan.ro/marius/blog/ahk-scripts/keypress-osd-compiled.zip",
-	"hash": "b936ea29af094cd8ff86eb67240a2253bb06000fa1464bf1735f04eef386f7d6",
+	"hash": "C016FA9C7B44563DB6EA898873844A4307ECDFE5B9A35C86841716C18B43C94B",
 	"architectures": {
 		"64bit": {
 			"extract_dir": "x64"
