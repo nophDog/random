@@ -7,16 +7,22 @@
 	"hash": "C016FA9C7B44563DB6EA898873844A4307ECDFE5B9A35C86841716C18B43C94B",
 	"architectures": {
 		"64bit": {
-			"extract_dir": "x64"
+			"extract_dir": "x64",
+			"shortcuts": [
+				[
+					"keypress-osd.exe",
+					"KeyPress OSD"
+				]
+			]
 		},
 		"32bit": {
-			"extract_dir": "x32"
+			"extract_dir": "x32",
+			"shortcuts": [
+				[
+					"keypress-osd.exe",
+					"KeyPress OSD"
+				]
+			]
 		}
-	},
-	"shortcuts": [
-		[
-			"keypress-osd.exe",
-			"KeyPress OSD"
-		]
-	]
+	}
 }
