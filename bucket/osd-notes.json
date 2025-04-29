@@ -5,7 +5,7 @@
     "version": "1.4",
     "url": "https://sourceforge.net/projects/osd-note/files/latest/download#/dl.zip",
     "hash": "5F41961244E9C3136F47940AF6476EEE75936DAD0546D196AD83187BCDAD1D37",
-	"extract_dir": "OSD_note_$underscoreVersion",
+	"extract_dir": "OSD_note_1_4",
     "shortcuts": [
         [
             "OSD_note.exe",
