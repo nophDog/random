@@ -5,9 +5,9 @@
 		"identifier": "MIT",
 		"url": "https://github.com/abgox/InputTip/blob/main/LICENSE"
 	},
-	"version": "2.37.4",
-	"url": "https://github.com/abgox/InputTip/releases/download/v2.37.4/InputTip.exe",
-	"hash": "2AB28CA3FA44B7A389970BCF3F3D874B3F1FFB74F315F13F041601AEAFA00BBD",
+	"version": "2.37.5",
+	"url": "https://github.com/abgox/InputTip/releases/download/v2.37.5/InputTip.exe",
+	"hash": "5092112328F95B74483EFFA585B174C4B285120450F32F2489B65A6B02D167C3",
 	"pre_install": "if (!(Test-Path \"$persist_dir\\InputTip.ini\")) { New-Item \"$dir\\InputTip.ini\" -ItemType File | Out-Null }",
 	"shortcuts": [
 		[
