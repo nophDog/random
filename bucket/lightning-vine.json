@@ -2,10 +2,10 @@
 	"homepage": "https://sdt.zishu.life",
 	"description": "方便好用的文件传输助手",
 	"license": "Unknown",
-	"version": "2.9.1",
-	"url": "https://s3.just4fun.one/scoop/lightning-vine_v2.9.1.zip",
-	"hash": "4D9D25708E5BC577A1D93DCCAB12358B04887E55F3B327DDF58C3E70BB24FEFF",
-	"extract_dir": "sdt-2.9.1-windows",
+	"version": "2.9.5",
+	"url": "https://s3.just4fun.one/scoop/lightning-vine_v2.9.5.zip",
+	"hash": "346F1C68C38BB85562748BBFA154FF358446C430F6A457ACD6820CA1E5686FDC",
+	"extract_dir": "sdt-2.9.5-windows",
 	"shortcuts": [
 		[
 			"lightningvine_app.exe",
