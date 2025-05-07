@@ -1,0 +1,22 @@
+{
+	"homepage": "https://github.com/agent-kilo/jwno",
+	"description": "A tiling window manager for Windows 10/11, built with Janet and ❤️.",
+	"license": {
+		"identifier": "MIT",
+		"url": "https://github.com/agent-kilo/jwno/blob/master/LICENSE"
+	},
+	"version": "0.9.13",
+	"url": "https://github.com/agent-kilo/jwno/releases/download/v0.9.13/jwno.exe",
+	"hash": "EBB44800AF58E09D9A67013A9DC02564011D51A2A250ABFBBDAFF420CFCC23EF",
+	"shortcuts": [
+		[
+			"jwno.exe",
+			"jwno"
+		]
+	],
+	"checkver": "github",
+	"autoupdate": {
+		"url": "https://github.com/agent-kilo/jwno/releases/download/v$version/jwno.exe",
+		"hash": "$baseurl/jwno.exe.sha256"
+	}
+}
