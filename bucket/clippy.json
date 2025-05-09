@@ -1,0 +1,18 @@
+{
+	"homepage": "https://github.com/felixrieseberg/clippy",
+	"description": "📎 Clippy, now with some AI",
+	"license": "Unknown",
+	"version": "0.4.3",
+	"url": "https://github.com/felixrieseberg/clippy/releases/download/v0.4.3/Clippy-win32-x64-0.4.3.zip",
+	"hash": "4EE0191E0A9FA71FB81E552FD42C0522B372BF2A625A2E68CF5F90C9F46D2A03",
+	"shortcuts": [
+		[
+			"Clippy.exe",
+			"Clippy"
+		]
+	],
+	"checkver": "github",
+	"autoupdate": {
+		"url": "https://github.com/felixrieseberg/clippy/releases/download/v$version/Clippy-win32-x64-$version.zip"
+	}
+}
