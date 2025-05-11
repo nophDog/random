@@ -1,0 +1,14 @@
+{
+	"homepage": "https://abc100.net/835/",
+	"description": "剪贴板管理工具",
+	"license": "Unknown",
+	"version": "1.1.2",
+	"url": "https://s3.just4fun.one/scoop/zPaste_v1.1.2.zip",
+	"hash": "DFE68361445D45B375BFFACB3897F6D6F7AE6035E5F1AC042071223C78BFA8CA",
+	"shortcuts": [
+		[
+			"zPaste.exe",
+			"zPaste"
+		]
+	]
+}
