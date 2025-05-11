@@ -1,0 +1,14 @@
+{
+	"homepage": "https://abc100.net/854/",
+	"description": "批量改名工具",
+	"license": "Unknown",
+	"version": "1.4",
+	"url": "https://s3.just4fun.one/scoop/zRenamer_v1.4.zip",
+	"hash": "E49EBB661E6E703A18F0E1127F7344083975BD650755282635878676E534F95B",
+	"shortcuts": [
+		[
+			"zRenamer.exe",
+			"zRenamer"
+		]
+	]
+}
