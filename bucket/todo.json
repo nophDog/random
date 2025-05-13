@@ -1,0 +1,21 @@
+{
+	"homepage": "https://github.com/Efeckc17/simple-todo-c",
+	"description": "A lightweight, native Windows Todo application built with pure C and the Win32 API.",
+	"license": {
+		"identifier": "MIT",
+		"url": "https://github.com/Efeckc17/simple-todo-c/blob/main/LICENSE"
+	},
+	"version": "0.4",
+	"url": "https://github.com/Efeckc17/simple-todo-c/releases/download/v0.4/todo.exe",
+	"hash": "BE7629960111320DBF957D667B56EF62DF2A0FE37883D2AED0DF996BB55DF58F",
+	"shortcuts": [
+		[
+			"todo.exe",
+			"Todo"
+		]
+	],
+	"checkver": "github",
+	"autoupdate": {
+		"url": "https://github.com/Efeckc17/simple-todo-c/releases/download/v$version/todo.exe"
+	}
+}
