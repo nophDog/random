@@ -5,9 +5,9 @@
 		"identifier": "MIT",
 		"url": "https://github.com/Efeckc17/simple-todo-c/blob/main/LICENSE"
 	},
-	"version": "0.4",
-	"url": "https://github.com/Efeckc17/simple-todo-c/releases/download/v0.4/todo.exe",
-	"hash": "BE7629960111320DBF957D667B56EF62DF2A0FE37883D2AED0DF996BB55DF58F",
+	"version": "0.5",
+	"url": "https://github.com/Efeckc17/simple-todo-c/releases/download/v0.5/todo.exe",
+	"hash": "BE031EBE33DA3304BAC3441CB14705562F7C512B09DEC5CC03BF141B11F46566",
 	"shortcuts": [
 		[
 			"todo.exe",
