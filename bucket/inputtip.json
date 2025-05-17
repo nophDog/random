@@ -16,7 +16,9 @@
 		]
 	],
 	"persist": "InputTip.ini",
-	"checkver": "github",
+	"checkver": {
+		"github": "https://github.com/abgox/InputTip"
+	},
 	"autoupdate": {
 		"url": "https://github.com/abgox/InputTip/releases/download/v$version/InputTip.exe"
 	}

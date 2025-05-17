@@ -1,9 +1,12 @@
 {
 	"homepage": "https://ramensoftware.com/uwpspy",
 	"description": "An inspection tool for UWP and WinUI 3 applications that enables to view and manipulate UI elements and their properties in real time.",
-	"license": "Unknown",
+	"license": {
+		"identifier": "GNU General Public License v3.0",
+		"url": "https://github.com/m417z/UWPSpy/blob/main/LICENSE"
+	},
 	"version": "1.4",
-	"url": "https://ramensoftware.com/downloads/UWPSpy.zip",
+	"url": "https://github.com/m417z/UWPSpy/releases/download/v1.4/UWPSpy.zip",
 	"hash": "A57BB25BF852020A863CC52B34A0CA72063D4540876C0673B6667F06727F3C27",
 	"architecture": {
 		"64bit": {
@@ -31,5 +34,11 @@
 				]
 			]
 		}
+	},
+	"checkver": {
+		"github": "https://github.com/m417z/UWPSpy"
+	},
+	"autoupdate": {
+		"url": "https://github.com/m417z/UWPSpy/releases/download/v$version/UWPSpy.zip"
 	}
 }
