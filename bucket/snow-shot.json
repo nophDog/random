@@ -1,0 +1,21 @@
+{
+	"homepage": "https://github.com/mg-chao/snow-shot",
+	"description": "以简洁优雅作为理念设计的工具软件",
+	"license": {
+		"identifier": "Apache 2.0",
+		"url": "https://github.com/mg-chao/snow-shot/blob/main/LICENSE-NonCommercial"
+	},
+	"version": "0.1.1_beta_20250516_03",
+	"url": "https://github.com/mg-chao/snow-shot/releases/download/v0.1.1_beta_20250516_03/Snow.Shot_0.1.1_x64-Portable.zip",
+	"hash": "5419D507BF86A96FC2FBF54178ECEDDE023F09CC429D8894A4388A0976C3E4B4",
+	"shortcuts": [
+		[
+			"app.exe",
+			"Snow Shot"
+		]
+	],
+	"checkver": "github",
+	"autoupdate": {
+		"url": "https://github.com/mg-chao/snow-shot/releases/download/v$version/Snow.Shot_$matchHead_x64-Portable.zip"
+	}
+}
