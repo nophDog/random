@@ -5,17 +5,34 @@
 		"identifier": "MIT",
 		"url": "https://github.com/Efeckc17/simple-todo-c/blob/main/LICENSE"
 	},
-	"version": "0.6",
-	"url": "https://github.com/Efeckc17/simple-todo-c/releases/download/v0.6/todo.exe",
-	"hash": "738CFC407B3CB210DCE3C5C5AA3BDBF8399D186916A719AAF449CA5AA86BAF6F",
-	"shortcuts": [
-		[
-			"todo.exe",
-			"Todo"
-		]
-	],
+	"version": "0.7",
+	"architecture": {
+		"64bit": {
+			"url": "https://github.com/Efeckc17/simple-todo-c/releases/download/v0.7/todo.exe",
+			"hash": "5368D7C0D6D58CB5D77091AA3D63D2200B9C91B579AFDEE068ABD340E1FBD76C",
+			"shortcuts": [
+				"todo.exe",
+				"Todo"
+			]
+		},
+		"32bit": {
+			"url": "https://github.com/Efeckc17/simple-todo-c/releases/download/v0.7/todo32.exe",
+			"hash": "0CE0E5F7455D28C3BDC843E338D4D7B4F04C9C61C91318FB6309D742A6BC1319",
+			"shortcuts": [
+				"todo32.exe",
+				"Todo"
+			]
+		}
+	},
 	"checkver": "github",
 	"autoupdate": {
-		"url": "https://github.com/Efeckc17/simple-todo-c/releases/download/v$version/todo.exe"
+		"architecture": {
+			"64bit": {
+				"url": "https://github.com/Efeckc17/simple-todo-c/releases/download/v$version/todo.exe"
+			},
+			"32bit": {
+				"url": "https://github.com/Efeckc17/simple-todo-c/releases/download/v$version/todo32.exe"
+			}
+		}
 	}
 }
