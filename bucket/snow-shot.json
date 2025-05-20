@@ -8,6 +8,10 @@
 	"version": "1.1.2_beta_20250520",
 	"url": "https://github.com/mg-chao/snow-shot/releases/download/v1.1.2_beta_20250520/Snow.Shot_0.1.1_x64-setup.exe",
 	"hash": "3678A8B442933E811F64D518285959FAD57AD5FD032BBF3F0A5C775C0BA19698",
+	"post_install": [
+		"Remove-Item \"$dir\\`$PLUGINSDIR\" -Force -Recurse",
+		"Remove-Item \"$dir\\uninstall.exe\" -Force"
+	],
 	"shortcuts": [
 		[
 			"app.exe",
