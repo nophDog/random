@@ -11,16 +11,20 @@
 			"url": "https://github.com/Efeckc17/simple-todo-c/releases/download/v0.7/todo.exe",
 			"hash": "5368D7C0D6D58CB5D77091AA3D63D2200B9C91B579AFDEE068ABD340E1FBD76C",
 			"shortcuts": [
-				"todo.exe",
-				"Todo"
+				[
+					"todo.exe",
+					"Todo"
+				]
 			]
 		},
 		"32bit": {
 			"url": "https://github.com/Efeckc17/simple-todo-c/releases/download/v0.7/todo32.exe",
 			"hash": "0CE0E5F7455D28C3BDC843E338D4D7B4F04C9C61C91318FB6309D742A6BC1319",
 			"shortcuts": [
-				"todo32.exe",
-				"Todo"
+				[
+					"todo32.exe",
+					"Todo"
+				]
 			]
 		}
 	},
