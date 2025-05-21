@@ -11,7 +11,7 @@
 	"installer": {
 		"script": [
 			"Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
-			"Get-ChildItem -Path \"$dir\\`$PLUGINSDIR\" -Filter \"*.dll\" -File | ForEach-Object { Move-Item -Path $_.FullName -Destination \"$dir\") }",
+			"Get-ChildItem -Path \"$dir\\`$PLUGINSDIR\" -Filter \"*.dll\" -File | ForEach-Object { Move-Item -Path $_.FullName -Destination \"$dir\" }",
 			"Remove-Item \"$dir\\`$R0\" -Force -Recurse"
 		]
 	},
