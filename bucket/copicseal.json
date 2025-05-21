@@ -1,0 +1,28 @@
+{
+	"homepage": "https://github.com/copicseal/copicseal",
+	"description": "Copicseal 是一个图片加水印工具，支持读取 EXIF 信息，用户可自定义水印样式和位置，快速为照片添加快门、ISO 等相机参数。",
+	"license": {
+		"identifier": "GNU General Public License v3.0",
+		"url": "https://github.com/copicseal/copicseal/blob/main/LICENSE"
+	},
+	"version": "v0.1.1",
+	"url": "https://github.com/copicseal/copicseal/releases/download/v0.1.1/copicseal-0.1.1-setup.exe#dl.7z",
+	"hash": "D3E78BDF16140FBBE8DD896478A253E2649945BD263F8F164CDBC121AE4E962E",
+	"installer": {
+		"script": [
+			"Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
+			"Get-ChildItem -Path \"$dir\\`$PLUGINSDIR\" -Filter \"*.dll\" -File | ForEach-Object { Move-Item -Path $_.FullName -Destination \"$dir\") }",
+			"Remove-Item \"$dir\\`$R0\" -Force -Recurse"
+		]
+	},
+	"shortcuts": [
+		[
+			"copicseal.exe",
+			"Copicseal"
+		]
+	],
+	"checkver": "github",
+	"autoupdate": {
+		"url": "https://github.com/zhugecaomao/ALTRun/releases/download/$version/ALTRun.exe"
+	}
+}
