@@ -1,0 +1,15 @@
+{
+	"homepage": "https://www.bilibili.com/video/BV1UkQyYCERL",
+	"description": "更好看、实用的 Windows 11 右键菜单",
+	"license": "Unknown",
+	"version": "0.5.0",
+	"url": "https://s3.just4fun.one/scoop/FluentContextMenu_v0.5.0_beta.7z",
+	"hash": "02AC4FCEC7B2B0D47891F6F0E5BE4C5BE3FC0E0B1434C4FF14C914DF607D235B",
+	"extract_dir": "FluentContextMenu",
+	"shortcuts": [
+		[
+			"FluentCtxMenuLoader.exe",
+			"Fluent Context Menu"
+		]
+	]
+}
