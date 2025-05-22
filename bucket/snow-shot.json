@@ -5,9 +5,9 @@
 		"identifier": "Apache 2.0",
 		"url": "https://github.com/mg-chao/snow-shot/blob/main/LICENSE-NonCommercial"
 	},
-	"version": "0.1.2",
-	"url": "https://github.com/mg-chao/snow-shot/releases/download/v0.1.2_beta_20250522/Snow.Shot_0.1.1_x64-setup.exe#dl.7z",
-	"hash": "572E2E8C6BDF68D22DEC77567CC8667A157555606EDB72FE8A9C2A720A210507",
+	"version": "0.1.3",
+	"url": "https://github.com/mg-chao/snow-shot/releases/download/v0.1.3_beta_20250522_03/Snow.Shot_0.1.3_x64-setup.exe#dl.7z",
+	"hash": "8D33D571D44699FBA4736D3D84BA8D89D31BBE0EC3141C28138B7973E231DD8B",
 	"post_install": [
 		"Remove-Item \"$dir\\`$PLUGINSDIR\" -Force -Recurse",
 		"Remove-Item \"$dir\\uninstall.exe\" -Force"
