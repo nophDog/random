@@ -6,8 +6,8 @@
 		"url": "https://github.com/mg-chao/snow-shot/blob/main/LICENSE-NonCommercial"
 	},
 	"version": "0.1.3",
-	"url": "https://github.com/mg-chao/snow-shot/releases/download/v0.1.3_beta_20250529/Snow.Shot_0.1.3_x64-setup.exe#dl.7z",
-	"hash": "DDE1B54ED4D7E795863206D54DB837781783D45FA8601F4650788041691D98A5",
+	"url": "https://github.com/mg-chao/snow-shot/releases/download/v0.1.3_beta_20250530/Snow.Shot_0.1.3_x64-setup.exe#dl.7z",
+	"hash": "847BB0F01CD7179EA883F9CE7BCB2CB56A4463DF7F651F5FE52FF20B4DF83355",
 	"post_install": [
 		"Remove-Item \"$dir\\`$PLUGINSDIR\" -Force -Recurse",
 		"Remove-Item \"$dir\\uninstall.exe\" -Force"
