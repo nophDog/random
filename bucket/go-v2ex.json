@@ -9,8 +9,10 @@
 	"url": "https://github.com/seth-shi/go-v2ex/releases/download/v1.0.3/go-v2ex-v1.0.3-windows-amd64.zip",
 	"hash": "C514601A0D43EFDF23857B906238033D86B2E25164658F36B98B4FF3CB09B9CE",
 	"bin": [
-		"go-v2ex.exe",
-		"v2ex"
+		[
+			"go-v2ex.exe",
+			"v2ex"
+		]
 	],
 	"checkver": "github",
 	"autoupdate": {
