@@ -5,21 +5,21 @@
 		"identifier": "GNU General Public v2.0",
 		"url": "https://github.com/snltty/linker/blob/master/LICENSE"
 	},
-	"version": "1.8.0",
+	"version": "1.8.2",
 	"architecture": {
 		"64bit": {
-			"url": "https://github.com/snltty/linker/releases/download/v1.8.0/linker-win-x64.zip",
-			"hash": "FF0205A9F5C6F4AE80694428407B7CEBF53EE89BA014A9EFEFDB86261441F2DD",
+			"url": "https://github.com/snltty/linker/releases/download/v1.8.2/linker-win-x64.zip",
+			"hash": "FB58FA56E172DD81260BA1088576FAAE46253AB09005582EA97D132D8FF61C16",
 			"extract_dir": "linker-win-x64"
 		},
 		"32bit": {
-			"url": "https://github.com/snltty/linker/releases/download/v1.8.0/linker-win-x86.zip",
-			"hash": "3BBD885BA0A78C67C7E41BE2F9E87844A0694005D61C85750A47465D0B875119",
+			"url": "https://github.com/snltty/linker/releases/download/v1.8.2/linker-win-x86.zip",
+			"hash": "229E616B149CD1D570B4931226ED263177FC37C75FD1BD01F964A7EA154D6C5B",
 			"extract_dir": "linker-win-x86"
 		},
 		"arm64": {
-			"url": "https://github.com/snltty/linker/releases/download/v1.8.0/linker-win-arm64.zip",
-			"hash": "C51A8FEF79475669CBB49D63822090B0BDB80FD8601280B1B619FE94EEBB90AA",
+			"url": "https://github.com/snltty/linker/releases/download/v1.8.2/linker-win-arm64.zip",
+			"hash": "79D3B17839ECFBE77A2BCA27BBF0B9A6FD8C52B89C8133E6BCDD3723B85D220D",
 			"extract_dir": "linker-win-arm64"
 		}
 	},
