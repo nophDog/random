@@ -5,9 +5,9 @@
 		"identifier": "MIT",
 		"url": "https://github.com/seth-shi/go-v2ex/blob/main/LICENSE"
 	},
-	"version": "1.0.8",
-	"url": "https://github.com/seth-shi/go-v2ex/releases/download/v1.0.8/go-v2ex-windows-amd64.zip",
-	"hash": "f33dd51d79e432c7bae23b8958e269af919b93653ebf4dd8cd82ff54c80e42ff",
+	"version": "1.1.0",
+	"url": "https://github.com/seth-shi/go-v2ex/releases/download/v1.1.0/go-v2ex-windows-amd64.zip",
+	"hash": "0d1f3f2d0947393361fe3505b3ffd2ff502e7028156eb0c8e7c1502cc59a5ef3",
 	"bin": [
 		[
 			"go-v2ex.exe",
