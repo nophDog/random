@@ -19,7 +19,7 @@
 	"shortcuts": [
 		[
 			"voidImageViewer.exe",
-			"VoidImageViewer"
+			"Void Image Viewer"
 		]
 	],
 	"checkver": "github",
