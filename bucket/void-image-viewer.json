@@ -1,0 +1,36 @@
+{
+	"homepage": "https://github.com/voidtools/voidImageViewer",
+	"description": "Lightweight image viewer for Windows with animated GIF/WEBP support",
+	"license": {
+		"identifier": "Freeware",
+		"url": "https://github.com/voidtools/voidImageViewer/blob/master/LICENSE"
+	},
+	"version": "1.0.0.9",
+	"architecture": {
+		"64bit": {
+			"url": "https://github.com/voidtools/voidImageViewer/releases/download/1.0.0.9/voidImageViewer-1.0.0.9.x64.en-US.zip",
+			"hash": "A9FCC1E628F4F69FF9E7832C51A29B83B871F7A400A2B2188608FB3380455B8A"
+		},
+		"32bit": {
+			"url": "https://github.com/voidtools/voidImageViewer/releases/download/1.0.0.9/voidImageViewer-1.0.0.9.x86.en-US.zip",
+			"hash": "6FBEF28CDC5A37FA5432FDBD532F224CFF38A30689D45786E44BD8E52B101BBA"
+		}
+	},
+	"shortcuts": [
+		[
+			"voidImageViewer.exe",
+			"VoidImageViewer"
+		]
+	],
+	"checkver": "github",
+	"autoupdate": {
+		"architecture": {
+			"64bit": {
+				"url": "https://github.com/voidtools/voidImageViewer/releases/download/$version/voidImageViewer-$version.x64.en-US.zip"
+			},
+			"32bit": {
+				"url": "https://github.com/voidtools/voidImageViewer/releases/download/$version/voidImageViewer-$version.x86.en-US.zip"
+			}
+		}
+	}
+}
