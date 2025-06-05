@@ -9,17 +9,17 @@
 	"architecture": {
 		"64bit": {
 			"url": "https://github.com/snltty/linker/releases/download/v1.8.2/linker-win-x64.zip",
-			"hash": "1a93d9904ad49aa094ac8ecfb1cf9fd73a35ac786694e9558f3bbc3e93aecd39",
+			"hash": "bce24f0fd9551513d29a7c732201643f9120a327b633c4ad4ecd0698272d1f3c",
 			"extract_dir": "linker-win-x64"
 		},
 		"32bit": {
 			"url": "https://github.com/snltty/linker/releases/download/v1.8.2/linker-win-x86.zip",
-			"hash": "5f0817a66660944a3f2c50de0ef302a28d6ce4d6bc5ea4c2d3052daccec02467",
+			"hash": "da5496567ce4e634ae736d5430cfd2674093ba7df76aa90407aea95fd2e1d8c8",
 			"extract_dir": "linker-win-x86"
 		},
 		"arm64": {
 			"url": "https://github.com/snltty/linker/releases/download/v1.8.2/linker-win-arm64.zip",
-			"hash": "d48ae0b261a76b54c6c0fdd5cbfe9cd18557a86d0bb95a4681408c3126919c36",
+			"hash": "3e1d81a2e1020e4d9d4701dfb43b84fbc3c897914fd8267454908dcfd7fe8acd",
 			"extract_dir": "linker-win-arm64"
 		}
 	},
