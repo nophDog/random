@@ -8,18 +8,18 @@
 	"version": "1.8.3",
 	"architecture": {
 		"64bit": {
-			"url": "https://github.com/snltty/linker/releases/download/v1.8.3/linker-win-x64.zip",
-			"hash": "cc267d21f66f7bf9cded84bb70aec921451d18b8ba7c3252cad850df8852127a",
+			"url": "https://github.com/snltty/linker/releases/download/v1.8.3/linker-linux-x64.zip",
+			"hash": "164c71b638a498ebfcfaa3f995c5a288c6c50fa65d328257a7af8936506570c6",
 			"extract_dir": "linker-win-x64"
 		},
 		"32bit": {
 			"url": "https://github.com/snltty/linker/releases/download/v1.8.3/linker-win-x86.zip",
-			"hash": "af7b65cc67ef76e8efc9575a2430f60a68a019b65612562de3d33662991ff2a5",
+			"hash": "34c0119874200b4151409027a0feb5ede68b306d508e70ba5217dd08a6f8bea4",
 			"extract_dir": "linker-win-x86"
 		},
 		"arm64": {
 			"url": "https://github.com/snltty/linker/releases/download/v1.8.3/linker-win-arm64.zip",
-			"hash": "6e07e7b20b1bd2ffaea2bf07094ba06d985319a1c3438ac63ba2ffa90158f5d8",
+			"hash": "5e3382bd9336d1a1eb0052e56cefc0f75eeee7b0e33ea55dda0e797e6942fd95",
 			"extract_dir": "linker-win-arm64"
 		}
 	},
