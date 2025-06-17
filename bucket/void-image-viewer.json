@@ -5,15 +5,15 @@
 		"identifier": "Freeware",
 		"url": "https://github.com/voidtools/voidImageViewer/blob/master/LICENSE"
 	},
-	"version": "1.0.0.9",
+	"version": "1.0.0.10",
 	"architecture": {
 		"64bit": {
-			"url": "https://github.com/voidtools/voidImageViewer/releases/download/1.0.0.9/voidImageViewer-1.0.0.9.x64.en-US.zip",
-			"hash": "A9FCC1E628F4F69FF9E7832C51A29B83B871F7A400A2B2188608FB3380455B8A"
+			"url": "https://github.com/voidtools/voidImageViewer/releases/download/1.0.0.10/voidImageViewer-1.0.0.9.x64.en-US.zip",
+			"hash": "7492e1784945ad099321d5e77c22d9ef3a1561f514cdfec26d77b80dda588d3f"
 		},
 		"32bit": {
-			"url": "https://github.com/voidtools/voidImageViewer/releases/download/1.0.0.9/voidImageViewer-1.0.0.9.x86.en-US.zip",
-			"hash": "6FBEF28CDC5A37FA5432FDBD532F224CFF38A30689D45786E44BD8E52B101BBA"
+			"url": "https://github.com/voidtools/voidImageViewer/releases/download/1.0.0.10/voidImageViewer-1.0.0.9.x86.en-US.zip",
+			"hash": "4bccbb1f21e33d55b176b3c39e9266ecbab72f5acc93ab6c0af24ceb3f177e09"
 		}
 	},
 	"shortcuts": [
