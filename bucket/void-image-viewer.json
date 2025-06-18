@@ -8,11 +8,11 @@
 	"version": "1.0.0.10",
 	"architecture": {
 		"64bit": {
-			"url": "https://github.com/voidtools/voidImageViewer/releases/download/1.0.0.10/voidImageViewer-1.0.0.9.x64.en-US.zip",
+			"url": "https://github.com/voidtools/voidImageViewer/releases/download/1.0.0.10/voidImageViewer-1.0.0.10.x64.en-US.zip",
 			"hash": "7492e1784945ad099321d5e77c22d9ef3a1561f514cdfec26d77b80dda588d3f"
 		},
 		"32bit": {
-			"url": "https://github.com/voidtools/voidImageViewer/releases/download/1.0.0.10/voidImageViewer-1.0.0.9.x86.en-US.zip",
+			"url": "https://github.com/voidtools/voidImageViewer/releases/download/1.0.0.10/voidImageViewer-1.0.0.10.x86.en-US.zip",
 			"hash": "4bccbb1f21e33d55b176b3c39e9266ecbab72f5acc93ab6c0af24ceb3f177e09"
 		}
 	},
