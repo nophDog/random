@@ -5,9 +5,9 @@
 		"identifier": "GNU Affero General Public v3.0",
 		"url": "https://github.com/std-microblock/breeze-shell/blob/master/LICENSE"
 	},
-	"version": "0.1.26",
-	"url": "https://github.com/std-microblock/breeze-shell/releases/download/0.1.26/windows-build.zip",
-	"hash": "cfe0559f808ccee3de62fa9e7d50ecd18008fd6563354e0fc320fb725b656bca",
+	"version": "0.1.27",
+	"url": "https://github.com/std-microblock/breeze-shell/releases/download/0.1.27/windows-build.zip",
+	"hash": "sha256:6cde32d8db724ef77706dee6589423157d6c0cc72c10be246d28c44c1682e5e1",
 	"extract_dir": "x64/releasedbg",
 	"shortcuts": [
 		[
